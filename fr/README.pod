@@ -14,13 +14,13 @@ Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacre
 Pour gagner du temps, nous demandons aux participants d'avoir rakudo Star de
 Mai ou Juin installé sur leur laptop. Pour ce faire, il pourront trouver de l'aide sur les canaux
 IRC #perl6 de irc.freenode.org et #perlfr de irc.perl.org. Le premier est anglophone et
-le second francophone. Certains TPs pourront utiliser des fonctionalités avancées de HtML 5,
+le second francophone. Certains TPs pourront utiliser des fonctionalités avancées de HTML 5,
 donc avoir une version récente du butineur chrome est souhaitable.
 
 Des dévelopeurs Perl 6 et des utilisateurs avancés seront présents pour vous aider.
 Parmi ces gens là, se trouvent des gens qui utilisent rakudo sur linux, macosx et windows,
 donc vous pourrez probablement trouver de l'aide quelque soit le système d'exploitation
-que vous utilisez.
+que vous utilisez s'il n'est pas trop exotique.
 
 Ils vous proposeront des TPs simples et de découvrir différents aspects de Perl6 dont nous
 mettrons progressivement en ligne les tutoriels puis les exercies au fur et à mesure de leur rédaction. Le présent document est accessible à L<https://github.com/perl6/course/blob/master/fr/p6-sh.pod>.
@@ -28,7 +28,7 @@ mettrons progressivement en ligne les tutoriels puis les exercies au fur et à m
 
 Note : rakudo et niecza sont deux implémentations de Perl 6 suffisament avancées pour être
 utilisables par des adopteurs précoces. Nous avons choisi rakudo parce que l'implémenteur
-de Niecza, résidant outre atlantique ne viendra probablement pas à fpw
+de Niecza, résidant outre atlantique ne viendra probablement pas à fpw.
 
 =head1 Matériel pédagogique sur github
 
@@ -43,19 +43,19 @@ un hacker seul devant son ordi.
 Le TP "Initiation à Perl 6 via son shell" est un prérequis pour tous les autres TP.
 
 Il est probable que les documents seront convertis en Pod Perl 6; auquel cas, il faudra
-intégrer leur rendu au site FPW car je ne pense pas que github sache faire le randu.
+intégrer leur rendu au site FPW car je ne pense pas que github sache faire le rendu.
 
 Liste des S<TP :>
 
 =over
 
-=item L<Initiation à Perl 6 via son shell|perl6-sh.pod>
+=item L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/tree/master/fr/perl6-sh.pod>
 
-=item L<Interfaçe de rakudo avec du code externe|interface.pod>
+=item L<Interfaçe de rakudo avec du code externe|https://github.com/perl6/course/tree/master/fr/interface.pod>
 
-=item L<|cult.pod>
+=item L<La culture et les ressources Perl 6|https://github.com/perl6/course/tree/master/fr/cult.pod>
 
-=item L<L'objet en Perl 6|obj.pod>
+=item L<L'objet en Perl 6|https://github.com/perl6/course/tree/master/fr/obj.pod>
 
 
 =back
