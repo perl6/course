@@ -1,3 +1,9 @@
+=encoding utf8
+
+=head TITLE
+
+rough DRAFT:  initiation à Perl 6 via son shell
+
 Note: c'est une ébauche
 ... est utilisé pour dénoter les parties manquantes ou à élaborer
 
