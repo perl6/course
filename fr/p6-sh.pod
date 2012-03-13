@@ -1,6 +1,6 @@
 =encoding utf8
 
-=head TITLE
+=head1 TITLE
 
 rough DRAFT:  initiation à Perl 6 via son shell
 
@@ -80,23 +80,23 @@ méthode.
 Nous allons beaucoup utiliser les méthodes C<.WHAT>, C<.Str>, C<.perl>, C<.gist> pour savoir à quel types d'objets nous
 avons affaire et pour avoir une représentation imprimée :
 
-> 'a'.Str
-'a'.Str
-a
-> 'a'.gist
-'a'.gist
-a
-> 'a'.perl
-'a'.perl
-"a"
-> 
+  > 'a'.Str
+  'a'.Str
+  a
+  > 'a'.gist
+  'a'.gist
+  a
+  > 'a'.perl
+  'a'.perl
+  "a"
+  > 
 
 J'ai fait un petit mensonge C<.WHAT> n'est pas vraiment une méthode mais une macro mais la différence nous importe
 peu pour le moment. 
 
 
-Nous avons dis que C<.WHAT> retourne le type d'une objet. Mais quel est le type d'un type?
-
+Nous avons dit que C<.WHAT> retourne le type d'une objet. Mais quel est le type d'un type?
+C'est le type lui-même, c'est un objet indéfini et ne peut être casté en une chaîne.
 
   > 1.WHAT.WHAT
   1.WHAT.WHAT
@@ -104,7 +104,6 @@ Nous avons dis que C<.WHAT> retourne le type d'une objet. Mais quel est le type 
   > 1.WHAT.WHAT.Str
   1.WHAT.WHAT.Str
   use of uninitialized value of type Int in string context
-
   > 1.WHAT.WHAT.gist
   1.WHAT.WHAT.gist
   Int()
@@ -113,6 +112,13 @@ Nous avons dis que C<.WHAT> retourne le type d'une objet. Mais quel est le type 
   Int
   > say "undefined" unless 1.WHAT.defined
   undefined
+  > 1.WHAT === 1.WHAT.WHAT
+  1.WHAT === 1.WHAT.WHAT
+  True
+  > 1.WHAT == 1.WHAT.WHAT
+  1.WHAT == 1.WHAT.WHAT
+  Parameter '' requires an instance, but a type object was passed
+
 
 ...
 
