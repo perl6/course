@@ -3,7 +3,7 @@
 =head1 présententation de l'atelier Perl 6
 
 Une salle sera consacrée pendant les deux jours pour un atelier "libre service" Perl 6. 
-Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin
+Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin.
 
 La liste des présentations Perl : L<http://journeesperl.fr/fpw2012/talks/tag/perl6>
 Note: couramment accessible aux seuls administrateurs
@@ -22,8 +22,8 @@ Parmi ces gens là, se trouvent des gens qui utilisent rakudo sur linux, macosx 
 donc vous pourrez probablement trouver de l'aide quelque soit le système d'exploitation
 que vous utilisez s'il n'est pas trop exotique.
 
-Ils vous proposeront des TPs simples et de découvrir différents aspects de Perl6 dont nous
-mettrons progressivement en ligne les tutoriels puis les exercies au fur et à mesure de leur rédaction. Le présent document est accessible à L<https://github.com/perl6/course/blob/master/fr/p6-sh.pod>.
+Ils vous proposeront des TPs simples pour découvrir différents aspects de Perl6. Nous
+mettrons progressivement en ligne les tutoriels, puis les exercies au fur et à mesure de leur rédaction. Le présent document est accessible à L<https://github.com/perl6/course/blob/master/fr/p6-sh.pod>.
 
 
 Note : rakudo et niecza sont deux implémentations de Perl 6 suffisament avancées pour être
@@ -49,13 +49,13 @@ Liste des S<TP :>
 
 =over
 
-=item L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/tree/master/fr/perl6-sh.pod>
+=item L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/blob/master/fr/fr/perl6-sh.pod>
 
-=item L<Interfaçe de rakudo avec du code externe|https://github.com/perl6/course/tree/master/fr/interface.pod>
+=item L<Interfaçe de rakudo avec du code externe|https://github.com/perl6/course/blob/master/fr/fr/interface.pod>
 
-=item L<La culture et les ressources Perl 6|https://github.com/perl6/course/tree/master/fr/cult.pod>
+=item L<La culture et les ressources Perl 6|https://github.com/perl6/course/blob/master/fr/fr/cult.pod>
 
-=item L<L'objet en Perl 6|https://github.com/perl6/course/tree/master/fr/obj.pod>
+=item L<L'objet en Perl 6|https://github.com/perl6/course/blob/master/fr/fr/obj.pod>
 
 
 =back
