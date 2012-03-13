@@ -1,0 +1,204 @@
+Note: c'est une ébauche
+... est utilisé pour dénoter les parties manquantes ou à élaborer
+
+=head1 initiation à Perl 6 via son shell
+
+Dans le cadre de ce TP, nous allons apprendre à manier le shell Perl 6 pour découvrir
+le langage via ses facilités d'introspection. Nous supposons que vous êtes familier
+avec le langage Perl 5 car nous soulignerons les similarités et les différences entre
+les deux langages.
+
+Nous supposons que vous avez compilé et installé rakudo, ainsi que ack, un utilitaire perl5; 
+votre interpréteur perl est 5.x avec x >= 10.
+votre répertoire courant est celui des sources rakudo après compilation.
+
+Dans les morceaux de sessions de cet article, le dollar et le caractère
+supérieur représent respectivement le prompt du shell unix et celui
+de l'interpréteur rakudo. Occasionnellement, nous utiliserons le déboggeur perl5 comme un shell :
+
+  $ perl -dE 0
+  DB<1> say 'foo' # soyons fou
+  
+Note: le  ':5.10' impliqué par -E est perdu.
+Utiliser plutôt le Devel::??? de acme qui est plus similaire dans son comportement au shell Perl 6
+
+Une courte session  Perl6
+
+  $ perl6 --version
+  This is perl6 version 2012.02-173-gb13c517 built on parrot 4.1.0 revision RELEASE_4_1_0-35-g47bfa1f
+  $ perl6
+  > say 'a' ~ 'b' # une ligne de code Perl6
+  ab
+  > exit
+  $
+  
+On voit les numéros abrégés  de commit des dépots C<rakudo> et C<parrot>. C<nqp> est curieusement omis.
+Notre curiosité insatiable nous amène à chercher quel est le code qui affiche la version de S<Perl 6>.
+  
+  $ ack --nocolor --nogroup  -i -- 'this is' | grep -w version
+  ...
+  nqp/src/HLL/Compiler.pm:508:        nqp::say("This is $!language version $version built on parrot $parver revision $parrev");
+  ...
+  
+ En ouvrant ce fichier à la ligne indiqué on trouve : 
+ 
+  method version() {
+      my $version := %!config<version>;
+      my $parver  := %parrot_config<VERSION>;
+      my $parrev  := %parrot_config<git_describe> // '(unknown)';
+      nqp::say("This is $!language version $version built on parrot $parver revision $parrev");
+      pir::exit__vi(0);
+  }
+  
+C'est du code Perl 6. Il semble à la fois familier et différent.
+Ce code est familier en ce sens que les variables ont des sigils, qu'il y a des espaces de noms, qu'il y a interpolation
+de variables dans une chaîne doublement quotée. Nous reviendrons sur cette section de code plus tard.
+Ce code est différent car S<Perl 6>, tout au moins dans son mode par défaut, n'est pas une extension de Perl 5.
+
+  
+  $ perl6  # on omettra par la suite cette ligne de lancement d'une session Perl 6
+  >  'a' ~ 'b'
+  ab
+  > 'a'.WHAT
+  Str()
+  
+On voit que pour chaque ligne évaluée, le shell affiche sa valeur. En fait, le shell affiche la valeur de la dernière expression
+de la chaîne évaluée. On constate au passage deux nouveautés syntaxiques : la première est la raison de la seconde.
+L'opétateur d'appel de méthode n'est plus C<< -> >> mais C<.> (un point) donc le point n'est plus disponible comme
+opérateur de concaténation. Le C<.WHAT> est une méthode, qui, appliquée à un objet, retourne le type de l'objet.
+Notez la convention du pseudo sigil point pour dénoter le nom d'une
+méthode.
+
+
+
+Nous allons beaucoup utiliser les méthodes C<.WHAT>, C<.Str>, C<.perl>, C<.gist> pour savoir à quel types d'objets nous
+avons affaire et pour avoir une représentation imprimée :
+
+> 'a'.Str
+'a'.Str
+a
+> 'a'.gist
+'a'.gist
+a
+> 'a'.perl
+'a'.perl
+"a"
+> 
+
+J'ai fait un petit mensonge C<.WHAT> n'est pas vraiment une méthode mais une macro mais la différence nous importe
+peu pour le moment. 
+
+
+Nous avons dis que C<.WHAT> retourne le type d'une objet. Mais quel est le type d'un type?
+
+
+  > 1.WHAT.WHAT
+  1.WHAT.WHAT
+  Int()
+  > 1.WHAT.WHAT.Str
+  1.WHAT.WHAT.Str
+  use of uninitialized value of type Int in string context
+
+  > 1.WHAT.WHAT.gist
+  1.WHAT.WHAT.gist
+  Int()
+  > 1.WHAT.WHAT.perl
+  1.WHAT.WHAT.perl
+  Int
+  > say "undefined" unless 1.WHAT.defined
+  undefined
+
+...
+
+Ces méthodes existent aussi sous forme de fonctions.
+
+  
+...
+
+Notons que S<Perl 6> se comporte comme le mode C<strict> de Perl 5. Il
+n'y a pas de chaîne S<nue :> C<aaa> n'est pas interprété comme la
+chaîne C<"aaa"> quand la fonction C<&aaa> n'est pas définie.
+
+  > aaa
+  aaa
+  CHECK FAILED:
+  Undefined routine '&aaa' called (line 1)
+  > $a = 1
+  $a = 1
+  Variable $a is not declared
+
+  
+
+
+Pour vous mettre en appétit, commençons par un unligne dont le décorticage nous
+servira de prétexte à un début d'exploration du langage.
+
+  say "$_: { perl WHAT try  eval $_ }"  for < [] {} () \() :() [] !@@% >
+  
+Note: BUG perl as a function is missing
+
+Cet uniligne affiche.
+
+  [] : Array
+  {} : Hash
+  ()  : Parcel
+  \() : Capture
+  :() : Signature
+  !@@%: X::Syntax::SigilWithoutName
+
+
+On voit que le script interprète des chaînes de caractères et affiche le type de la valeur générée
+sauf dans le dernier cas où il semble qu'un type d'erreur s'affiche. Notons que C<[]> et C<{}> nous sont
+familiers. En Perl 5, c'est la manière de créer respectivement un tableau et un hash.
+
+  $ perl -E 'say ref([]) . " " . ref {}'
+  ARRAY HASH
+
+En Perl6, C<[]> et C<{}> sont des composers. C'est du sucre syntaxique pour éviter d'appeler le constructeur
+pour un type d'objet donné.
+
+=head2 Quelques mot sur les rôles
+
+La programmation objet classique (OOC) a tendance à abuser du mécanisme de dérivation
+de classe. Elle a ensuite introduit la notion de classe abstraite dont
+certaines méthodes ne sont pas définies. Une classe abstraite n'est
+pas instantiable. Finalement une classe abstraite dont aucune méthode
+n'est définie est appelée une interface.
+
+Ces subtilités ont été introduites car le mot classe recouvre en fait
+deux notions bien différentes. La première est celle d'unité
+d'instanciation d'objet et la seconde d'unité de composition de code.
+
+  > my Numeric $n = 1; say $n.WHAT
+  > Int()
+  >
+
+	
+
+=head2 Les types Parcel, Capture et Signature
+
+
+En voit que beaucoup de choses sont familières au programmeurs Perl5 avec quelque variantes.
+Le C<< <I<...>> >> est l'équivalent Perl 6 de C<qw( I<...> )>
+  
+
+...
+
+Nous allons découvrir un peu de syntaxe pour exprimer des valeurs natives et des objets.
+
+Perl6 offre des valeurs natives qui peuvent être stockée dans des registres réels ou virtuels (Parrot).
+Ces valeurs peuvent être exprimées par des litéraux. Un litéral est une unité atomique syntaxique (ou token)
+qui exprime une telle valeur. Beaucoup d'entre elles sont familières à des programmeurs C ou Perl.
+C<1.0>, C<1>, C<'toto'> expriment respectivement un réel, entier ou chaînes dont les noms de type sont
+respectivement C<num>, C<int>, C<str>. La première lettre d'un type natif est minuscule. celle des
+autres types est majuscule, pour autant qu'on reste dans l'alphabet latin, ce qui est le cas de ce tutoriel
+où nous ne parlerons pas d'Unicode.
+
+On peut utiliser ces valeurs natives comme des objet.
+
+...
+
+
+Note: Discuter du modèle métaobjet via .HOW
+       Couvrir  : Native types, The Mu type, Undefined types, Immutable types, Mutable types, Of types, Container types, 
+       Hierarchical types, Polymorphic types, Parameter types, Generic types, The Cool class (and package)
