@@ -3,11 +3,10 @@
 =head1 présententation de l'atelier Perl 6
 
 Une salle sera consacrée pendant les deux jours pour un atelier "libre service" Perl 6. 
-Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum
-et d'assister préalablement à la piste Perl 6
-Cette piste ayant lieu vendredi matin
+Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin
 
-http://journeesperl.fr/fpw2012/talks/tag/perl6
+La liste des présentations Perl : L<http://journeesperl.fr/fpw2012/talks/tag/perl6>
+Note: couramment accessible aux seuls administrateurs
 
 Cet atelier utilisera rakudo comme interpréteur.
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum.
@@ -18,9 +17,8 @@ IRC #perl6 de irc.freenode.org et #perlfr de irc.perl.org. Le premier est anglop
 le second francophone. Certains TPs pourront utiliser des fonctionalités avancées de HtML 5,
 donc avoir une version récente du butineur chrome est souhaitable.
 
-
 Des dévelopeurs Perl 6 et des utilisateurs avancés seront présents pour vous aider.
-Parmi ces gens là, se trouve des gens qui utilisent rakudo sur linux, macosx et windows,
+Parmi ces gens là, se trouvent des gens qui utilisent rakudo sur linux, macosx et windows,
 donc vous pourrez probablement trouver de l'aide quelque soit le système d'exploitation
 que vous utilisez.
 
@@ -51,13 +49,13 @@ Liste des S<TP :>
 
 =over
 
-=item Initiation à Perl 6 via son shell
+=item L<Initiation à Perl 6 via son shell|perl6-sh.pod>
 
-=item Intégration de nouveaux types à rakudo
+=item L<Interfaçe de rakudo avec du code externe|interface.pod>
 
-=item La culture et les ressources Perl 6
+=item L<La culture et les ressources Perl 6|cult.pod>
 
-=item L'objet en Perl 6
+=item L<L'objet en Perl 6|obj.pod>
 
 
 =back
