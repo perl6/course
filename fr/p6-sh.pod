@@ -9,10 +9,15 @@ Note: c'est une ébauche
 
 =head1 initiation à Perl 6 via son shell
 
+La maîtrise de ce tutoriel et du TP correspondants sont un prérequis indispensable pour
+pouvoir suivre le reste de cet atelier.
+Ce texte comprend des liens vers les synopsis qui sont la spécification du langage Perl6.
+Il n'est pas conseillé de les suivre à la première lecture.
+
 Dans le cadre de ce TP, nous allons apprendre à manier le shell Perl 6 pour découvrir
 le langage via ses facilités d'introspection. Nous supposons que vous êtes familier
 avec le langage Perl 5 car nous soulignerons les similarités et les différences entre
-les deux langages.
+les deux langages. Nous glissons quelquefois sur quelques subtilités pour obtenir une présentations plus linéaire, et faisons délibéremment quelques approximations pour que ce texte garde un caractère pédagogique.
 
 Nous supposons que vous avez compilé et installé rakudo, ainsi que ack, un utilitaire perl5; 
 votre interpréteur perl est 5.x avec x >= 10.
@@ -58,8 +63,8 @@ Notre curiosité insatiable nous amène à chercher quel est le code qui affiche
   
 C'est du code Perl 6. Il semble à la fois familier et différent.
 Ce code est familier en ce sens que les variables ont des sigils, qu'il y a des espaces de noms, qu'il y a interpolation
-de variables dans une chaîne doublement quotée. Nous reviendrons sur cette section de code plus tard.
-Ce code est différent car S<Perl 6>, tout au moins dans son mode par défaut, n'est pas une extension de Perl 5.
+de variables dans une chaîne doublement quotée. 
+Ce code est différent car S<Perl 6>, tout au moins dans son mode par défaut, n'est pas une extension de Perl 5. Nous reviendrons sur cette section de code plus tard.
 
   
   $ perl6  # on omettra par la suite cette ligne de lancement d'une session Perl 6
@@ -97,6 +102,7 @@ peu pour le moment.
 
 Nous avons dit que C<.WHAT> retourne le type d'une objet. Mais quel est le type d'un type?
 C'est le type lui-même, c'est un objet indéfini et ne peut être casté en une chaîne.
+Nous utilisons deux opétareurs infix, C<===> et C<==>.
 
   > 1.WHAT.WHAT
   1.WHAT.WHAT
