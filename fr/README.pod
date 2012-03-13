@@ -53,7 +53,7 @@ Liste des S<TP :>
 
 =item L<Interfaçe de rakudo avec du code externe|interface.pod>
 
-=item L<La culture et les ressources Perl 6|cult.pod>
+=item L<|cult.pod>
 
 =item L<L'objet en Perl 6|obj.pod>
 
