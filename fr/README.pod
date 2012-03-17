@@ -1,6 +1,6 @@
 =encoding utf8
 
-=head1 présententation de l'atelier Perl 6
+=head1 présentation de l'atelier Perl 6
 
 Une salle sera consacrée pendant les deux jours pour un atelier "libre service" Perl 6. 
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin.
@@ -18,6 +18,10 @@ le second francophone. Certains TPs pourront utiliser des fonctionalités avanc�
 donc avoir une version récente du butineur chrome est souhaitable.
 
 Des dévelopeurs Perl 6 et des utilisateurs avancés seront présents pour vous aider.
+Parmi eux, trois des quatres principaux contributeurs du projet rakudo :
+L<jonathan Worthington|http://journeesperl.fr/fpw2012/user/1174>,
+L<Carl Mäsak|http://journeesperl.fr/fpw2012/user/630> and Moritz Lenz.
+
 Parmi ces gens là, se trouvent des gens qui utilisent rakudo sur linux, macosx et windows,
 donc vous pourrez probablement trouver de l'aide quelque soit le système d'exploitation
 que vous utilisez s'il n'est pas trop exotique.

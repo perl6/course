@@ -9,23 +9,38 @@ Note: c'est une ébauche
 
 =head1 initiation à Perl 6 via son shell
 
-La maîtrise de ce tutoriel et du TP correspondants sont un prérequis indispensable pour
-pouvoir suivre le reste de cet atelier.
-Ce texte comprend des liens vers les synopsis qui sont la spécification du langage Perl6.
-Il n'est pas conseillé de les suivre à la première lecture.
+La maîtrise de ce tutoriel et du TP correspondants sont un prérequis
+indispensable pour pouvoir suivre le reste de cet atelier.  Ce texte
+comprend des liens vers les synopsis qui sont la spécification du
+langage Perl6.  Il n'est pas conseillé de les suivre à la première
+lecture.
 
-Dans le cadre de ce TP, nous allons apprendre à manier le shell Perl 6 pour découvrir
-le langage via ses facilités d'introspection. Nous supposons que vous êtes familier
-avec le langage Perl 5 car nous soulignerons les similarités et les différences entre
-les deux langages. Nous glissons quelquefois sur quelques subtilités pour obtenir une présentations plus linéaire, et faisons délibéremment quelques approximations pour que ce texte garde un caractère pédagogique.
+Dans le cadre de ce TP, nous allons apprendre à manier le shell Perl 6
+pour découvrir le langage via ses facilités d'introspection. Nous
+supposons que vous êtes familier avec le langage Perl 5 car nous
+soulignerons les similarités et les différences entre les deux
+langages. Nous glissons quelquefois sur quelques subtilités pour
+obtenir une présentations plus linéaire, et faisons délibéremment
+quelques approximations pour que ce texte garde un caractère
+pédagogique. Finalement, nous gardons souvent le vocabulaire anglais
+des synopsis puisque l'essentiel du matériel Perl 6 est en
+anglais. Autant se familiariser de suite. Quelquefois, nous revenenous
+au français avec l'original entre parenthèses lorsque un nom ne se
+"verbe" pas élégamment. :)
 
-Nous supposons que vous avez compilé et installé rakudo, ainsi que ack, un utilitaire perl5; 
-votre interpréteur perl est 5.x avec x >= 10.
-votre répertoire courant est celui des sources rakudo après compilation.
+Lorsque nous renvoyons au wikipedia, c'est vers l'article français ou,
+en son absence l'article anglophone. L'article anglophone est généralement
+plus complet ou de meilleur qualité
 
-Dans les morceaux de sessions de cet article, le dollar et le caractère
-supérieur représent respectivement le prompt du shell unix et celui
-de l'interpréteur rakudo. Occasionnellement, nous utiliserons le déboggeur perl5 comme un shell :
+Nous supposons que vous avez compilé et installé rakudo, ainsi que
+ack, un utilitaire perl5; votre interpréteur perl est 5.x avec x >=
+10.  votre répertoire courant est celui des sources rakudo après
+compilation.
+
+Dans les morceaux de sessions de cet article, le dollar et le
+caractère supérieur représent respectivement le prompt du shell unix
+et celui de l'interpréteur rakudo. Occasionnellement, nous utiliserons
+le déboggeur perl5 comme un shell :
 
   $ perl -dE 0
   DB<1> say 'foo' # soyons fou
@@ -43,8 +58,12 @@ Une courte session  Perl6
   > exit
   $
   
-On voit les numéros abrégés  de commit des dépots C<rakudo> et C<parrot>. C<nqp> est curieusement omis.
-Notre curiosité insatiable nous amène à chercher quel est le code qui affiche la version de S<Perl 6>.
+
+On voit les numéros abrégés de commit des dépots C<rakudo> et
+C<parrot>. C<nqp> est curieusement omis.  Notre curiosité insatiable
+nous amène à chercher quel est le code qui affiche la version de
+S<Perl 6>.
+
   
   $ ack --nocolor --nogroup  -i -- 'this is' | grep -w version
   ...
@@ -61,7 +80,8 @@ Notre curiosité insatiable nous amène à chercher quel est le code qui affiche
       pir::exit__vi(0);
   }
   
-C'est du code Perl 6. Il semble à la fois familier et différent.
+
+C'est du code Perl 6. Il semble à la fois familier et différent
 Ce code est familier en ce sens que les variables ont des sigils, qu'il y a des espaces de noms, qu'il y a interpolation
 de variables dans une chaîne doublement quotée. 
 Ce code est différent car S<Perl 6>, tout au moins dans son mode par défaut, n'est pas une extension de Perl 5. Nous reviendrons sur cette section de code plus tard.
@@ -72,17 +92,27 @@ Ce code est différent car S<Perl 6>, tout au moins dans son mode par défaut, n
   ab
   > 'a'.WHAT
   Str()
+
   
-On voit que pour chaque ligne évaluée, le shell affiche sa valeur. En fait, le shell affiche la valeur de la dernière expression
-de la chaîne évaluée. On constate au passage deux nouveautés syntaxiques : la première est la raison de la seconde.
-L'opétateur d'appel de méthode n'est plus C<< -> >> mais C<.> (un point) donc le point n'est plus disponible comme
-opérateur de concaténation. Le C<.WHAT> est une méthode, qui, appliquée à un objet, retourne le type de l'objet.
+On voit que pour chaque ligne évaluée, le shell affiche sa valeur. En
+fait, le shell affiche la valeur de la dernière expression de la
+chaîne évaluée. On constate au passage deux nouveautés syntaxiques :
+la première est la raison de la seconde.  L'opétateur d'appel de
+méthode n'est plus C<< -> >> mais C<.> (un point) donc le point n'est
+plus disponible comme opérateur de concaténation. Le C<.WHAT> est une
+méthode, qui, appliquée à un objet, retourne le type de l'objet.
 Notez la convention du pseudo sigil point pour dénoter le nom d'une
 méthode.
 
+Perl 6 est un langage réflexif. Pour la déinition de ce concept, je
+vous renvoie au wikipedia.  Cela signifie notamment que tous les types
+nécessaire à la compilation d'un programme son accessible du programme
+lui-même.
 
 
-Nous allons beaucoup utiliser les méthodes C<.WHAT>, C<.Str>, C<.perl>, C<.gist> pour savoir à quel types d'objets nous
+
+
+Nous allons beaucoup utiliser les méthodes C<.WHAT>, C<.WHO>, C<.Str>, C<.perl>, C<.gist> pour savoir à quel types d'objets nous
 avons affaire et pour avoir une représentation imprimée :
 
   > 'a'.Str
@@ -102,28 +132,110 @@ peu pour le moment.
 
 Nous avons dit que C<.WHAT> retourne le type d'une objet. Mais quel est le type d'un type?
 C'est le type lui-même, c'est un objet indéfini et ne peut être casté en une chaîne.
-Nous utilisons deux opétareurs infix, C<===> et C<==>.
 
+> 1.WHAT
+  Int()
   > 1.WHAT.WHAT
-  1.WHAT.WHAT
   Int()
   > 1.WHAT.WHAT.Str
-  1.WHAT.WHAT.Str
   use of uninitialized value of type Int in string context
   > 1.WHAT.WHAT.gist
-  1.WHAT.WHAT.gist
   Int()
   > 1.WHAT.WHAT.perl
-  1.WHAT.WHAT.perl
   Int
   > say "undefined" unless 1.WHAT.defined
   undefined
+
+
+Nous utilisons deux opérateurs infix, C<===> et C<==>. L'opérateur
+C<===> est un test d'identité alors que C<==> est un test d'égalité.
+Nous voyons que l'opérateur C<===> n'accepte pas des objets type comme opérand,
+mais le message d'erreur mentionne des paramètres au lieu d'opérandes.
+Cela nous rappelle que les opérateurs sont juste du sucre syntaxique pour exprimer une fonction.
+
+
+We see that C<==> does not accept type objects as operand, but the error message speak of
+parameter instead of operand. It remind us that operators are just syntactic sugar for function.
+
+
   > 1.WHAT === 1.WHAT.WHAT
   1.WHAT === 1.WHAT.WHAT
   True
   > 1.WHAT == 1.WHAT.WHAT
   1.WHAT == 1.WHAT.WHAT
   Parameter '' requires an instance, but a type object was passed
+
+
+Le sucre syntaxique est une convention qui permet d'exprimer plus commodément quelque chose.
+Il est quelquefois tellement ancré dans langage que l'expression dont il est l'aternative n'est même pas disponible dans le langage. En général en S<Perl 6>, on trouve les deux formes
+
+=head2 Rôles C<positional> et C<associative>, sigils associés
+
+...et sucre syntaxique correspondant.
+Nous connaissons bien en Perl 5 les tableaux et les hash.
+
+
+  DB<1> my @a = (42, 666); print $a[1]
+  666
+  DB<2> my %a; $a{'42'} = 'ultimate answer'; print  $a{'42'}
+  ultimate answer
+
+  > my @a = 42, 666; say @a[1]
+  666
+  > say @a.at_pos(1)
+  666  
+
+  > my %a;  %a<42> = 'ultimate answer'; say %a{'42'}; say %a<42>
+  ultimate answer
+  ultimate answer
+  > %a.at_key('42')
+  %a.at_key('42')
+  ultimate answer
+
+
+Notons que la précédence relative de l'affectation et de la virgule a changé de sorte
+que les parenthèses ne sont pas nécessaires. En perl 5, c'est la virgule qui construit
+la liste et non les parenthèses comme on le croit souvent. Les parenthèses ne sont là
+que pour forcer l'évaluation avant celle de l'affectation. 
+
+Notons qu'en Perl le sigil est invariant, il ne se change pas en dollar quand on accède les
+éléments d'un hash ou d'un tableau.
+
+Notons que tous les langages répandus surchargent la syntaxe d'accès à des tableaux pour
+des objets dont la nature est associative. Perl 5 et Perl 6 ont une syntaxe spécifique
+avec des accolades.
+
+Les tableaux sont des objets qui implémentent le rôle C<Positional>.
+Les hash sont des objets qui implémentent le rôle
+C<Associative>. L'adjectif associatif désigne ici la propriété d'un
+objet qui associe des valeurs à des clés, non pas la propriété
+algébrique d'un opérateur hypothétique.
+
+Les rôles sont une manière de composer du code. On compose un rôle
+dans une classe avec la directive(??) C<does>. Ainsi la classe
+C<Array> est dérivée de la classe CIterable> qui compose le rôle
+C<Positional>.  Ces rôles sont génériques paramétrés par défaut avec
+la class C<Mu> mais nous ne parlont ici des rôle pour montrer que
+C<@a[1]> n'est que du sucre syntaxique pour l'appel de méthode C<@a.at_pos(1)>.
+De même pour C<@a{'42'}> qui est l'équivalent de C<@a.at_key('42')>.
+
+
+
+  class List is Iterable does Positional { ... }
+  class Array is List { ... }
+  }
+
+  role Positional[::T = Mu] {
+      method at_pos($pos) { ... }
+      method of() { T }
+  }
+
+  role Associative[::T = Mu] {
+      method at_key($key) { ... }
+      method of() { T }
+  }
+
+
 
 
 ...
@@ -175,7 +287,18 @@ familiers. En Perl 5, c'est la manière de créer respectivement un tableau et u
 En Perl6, C<[]> et C<{}> sont des composers. C'est du sucre syntaxique pour éviter d'appeler le constructeur
 pour un type d'objet donné.
 
-=head2 Quelques mot sur les rôles
+=head2 valeur mutable, immutable et Binding
+
+Le binding est l'opération qui consiste à lier une valeur à un nom.
+Par défaut, lors de l'appel d'une fonction, selon qu'une valeur argument est mutable ou non,
+la valeur est liée ou copiée vers le paramètre correspondant.
+
+
+
+ le compilateur lie (bind) les arguments au
+paramètres formel correspondant
+
+=head1 Quelques mot sur les rôles
 
 La programmation objet classique (OOC) a tendance à abuser du mécanisme de dérivation
 de classe. Elle a ensuite introduit la notion de classe abstraite dont
@@ -204,13 +327,16 @@ Le C<< <I<...>> >> est l'équivalent Perl 6 de C<qw( I<...> )>
 
 Nous allons découvrir un peu de syntaxe pour exprimer des valeurs natives et des objets.
 
-Perl6 offre des valeurs natives qui peuvent être stockée dans des registres réels ou virtuels (Parrot).
-Ces valeurs peuvent être exprimées par des litéraux. Un litéral est une unité atomique syntaxique (ou token)
-qui exprime une telle valeur. Beaucoup d'entre elles sont familières à des programmeurs C ou Perl.
-C<1.0>, C<1>, C<'toto'> expriment respectivement un réel, entier ou chaînes dont les noms de type sont
-respectivement C<num>, C<int>, C<str>. La première lettre d'un type natif est minuscule. celle des
-autres types est majuscule, pour autant qu'on reste dans l'alphabet latin, ce qui est le cas de ce tutoriel
-où nous ne parlerons pas d'Unicode.
+Perl6 offre des valeurs natives qui peuvent être stockées dans des
+registres réels ou virtuels (Parrot).  Ces valeurs peuvent être
+exprimées par des litéraux. Un litéral est une unité atomique
+syntaxique (ou token) qui exprime une telle valeur. Beaucoup d'entre
+elles sont familières à des programmeurs C ou Perl.  C<1.0>, C<1>,
+C<'toto'> expriment respectivement un réel, entier ou chaînes dont les
+noms de type sont respectivement C<num>, C<int>, C<str>. La première
+lettre d'un type natif est minuscule. celle des autres types est
+majuscule, pour autant qu'on reste dans l'alphabet latin, ce qui est
+le cas de ce tutoriel où nous ne parlerons pas d'Unicode.
 
 On peut utiliser ces valeurs natives comme des objet.
 
