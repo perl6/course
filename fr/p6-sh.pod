@@ -196,14 +196,14 @@ Nous connaissons bien en Perl 5 les tableaux et les hash.
 Notons que la précédence relative de l'affectation et de la virgule a changé de sorte
 que les parenthèses ne sont pas nécessaires. En perl 5, c'est la virgule qui construit
 la liste et non les parenthèses comme on le croit souvent. Les parenthèses ne sont là
-que pour forcer l'évaluation avant celle de l'affectation. 
+que pour forcer l'évaluation de la liste avant son affectation. 
 
 Notons qu'en Perl le sigil est invariant, il ne se change pas en dollar quand on accède les
 éléments d'un hash ou d'un tableau.
 
-Notons que tous les langages répandus surchargent la syntaxe d'accès à des tableaux pour
-des objets dont la nature est associative. Perl 5 et Perl 6 ont une syntaxe spécifique
-avec des accolades.
+Notons que tous les langages répandus surchargent la syntaxe d'accès à
+des tableaux pour des objets dont la nature est associative. Perl 5 et
+Perl 6 ont une syntaxe spécifique avec des accolades.
 
 Les tableaux sont des objets qui implémentent le rôle C<Positional>.
 Les hash sont des objets qui implémentent le rôle
@@ -214,8 +214,8 @@ algébrique d'un opérateur hypothétique.
 Les rôles sont une manière de composer du code. On compose un rôle
 dans une classe avec la directive(??) C<does>. Ainsi la classe
 C<Array> est dérivée de la classe CIterable> qui compose le rôle
-C<Positional>.  Ces rôles sont génériques paramétrés par défaut avec
-la class C<Mu> mais nous ne parlont ici des rôle pour montrer que
+C<Positional>.  Ces rôles  génériques sont paramétrés par défaut avec
+la classe C<Mu> mais nous ne parlons ici des rôles que pour montrer que
 C<@a[1]> n'est que du sucre syntaxique pour l'appel de méthode C<@a.at_pos(1)>.
 De même pour C<@a{'42'}> qui est l'équivalent de C<@a.at_key('42')>.
 
