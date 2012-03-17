@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 =head1 présentation de l'atelier Perl 6
+=head1 Présentation de l'atelier Perl 6
 =======
 =head1 Présententation de l'atelier Perl 6
 >>>>>>> Casse pour fpw et liens
