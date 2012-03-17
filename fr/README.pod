@@ -1,6 +1,10 @@
 =encoding utf8
 
+<<<<<<< HEAD
 =head1 présentation de l'atelier Perl 6
+=======
+=head1 Présententation de l'atelier Perl 6
+>>>>>>> Casse pour fpw et liens
 
 Une salle sera consacrée pendant les deux jours pour un atelier "libre service" Perl 6. 
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin.
@@ -32,7 +36,7 @@ mettrons progressivement en ligne les tutoriels, puis les exercies au fur et à 
 
 Note : rakudo et niecza sont deux implémentations de Perl 6 suffisament avancées pour être
 utilisables par des adopteurs précoces. Nous avons choisi rakudo parce que l'implémenteur
-de Niecza, résidant outre atlantique ne viendra probablement pas à fpw.
+de Niecza, résidant outre atlantique ne viendra probablement pas à FPW.
 
 =head1 Matériel pédagogique sur github
 
@@ -53,13 +57,13 @@ Liste des S<TP :>
 
 =over
 
-=item L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/blob/master/fr/fr/perl6-sh.pod>
+=item L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/blob/master/fr/p6-sh.pod>
 
-=item L<Interfaçe de rakudo avec du code externe|https://github.com/perl6/course/blob/master/fr/fr/interface.pod>
+=item L<Interfaçe de rakudo avec du code externe|https://github.com/perl6/course/blob/master/fr/interface.pod>
 
-=item L<La culture et les ressources Perl 6|https://github.com/perl6/course/blob/master/fr/fr/cult.pod>
+=item L<La culture et les ressources Perl 6|https://github.com/perl6/course/blob/master/fr/cult.pod>
 
-=item L<L'objet en Perl 6|https://github.com/perl6/course/blob/master/fr/fr/obj.pod>
+=item L<L'objet en Perl 6|https://github.com/perl6/course/blob/master/fr/obj.pod>
 
 
 =back
