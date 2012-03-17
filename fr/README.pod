@@ -1,8 +1,10 @@
 =encoding utf8
 
+<<<<<<< HEAD
 =head1 présentation de l'atelier Perl 6
-
+=======
 =head1 Présententation de l'atelier Perl 6
+>>>>>>> Casse pour fpw et liens
 
 Une salle sera consacrée pendant les deux jours pour un atelier "libre service" Perl 6. 
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin.
