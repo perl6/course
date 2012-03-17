@@ -1,7 +1,6 @@
 =encoding utf8
 
 <<<<<<< HEAD
-=head1 présentation de l'atelier Perl 6
 =head1 Présentation de l'atelier Perl 6
 =======
 =head1 Présententation de l'atelier Perl 6
@@ -41,7 +40,7 @@ de Niecza, résidant outre atlantique ne viendra probablement pas à FPW.
 
 =head1 Matériel pédagogique sur github
 
-Ce répertoire contient le matériel pédagogique pour l'atelier Perl 6 de fpw 2012
+Ce répertoire contient le matériel pédagogique pour l'atelier Perl 6 de FPW 2012
 Cet atelier comprendra plusieurs TP.
 Un TP inclut du matériel pédagogique et des exercices. Il est possible que du matériel
 concernant les réponses aux exercices soit ajouté après l'atelier.
