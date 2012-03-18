@@ -3,11 +3,13 @@
 =head1 TITLE
 
 rough DRAFT:  initiation à Perl 6 via son shell
+Rough DRAFT:  initiation à Perl 6 via son shell
 
 Note: c'est une ébauche
 ... est utilisé pour dénoter les parties manquantes ou à élaborer
 
 =head1 initiation à Perl 6 via son shell
+=head1 Initiation à Perl 6 via son shell
 
 La maîtrise de ce tutoriel et du TP correspondants sont un prérequis
 indispensable pour pouvoir suivre le reste de cet atelier.  Ce texte
@@ -29,6 +31,7 @@ au français avec l'original entre parenthèses lorsque un nom ne se
 "verbe" pas élégamment. :)
 
 Lorsque nous renvoyons au wikipedia, c'est vers l'article français ou,
+Lorsque nous renvoyons au Wikipedia, c'est vers l'article français ou,
 en son absence l'article anglophone. L'article anglophone est généralement
 plus complet ou de meilleur qualité
 
@@ -107,6 +110,9 @@ méthode.
 Perl 6 est un langage réflexif. Pour la déinition de ce concept, je
 vous renvoie au wikipedia.  Cela signifie notamment que tous les types
 nécessaire à la compilation d'un programme son accessible du programme
+Perl 6 est un langage réflexif. Pour la définition de ce concept, je
+vous renvoie au Wikipedia.  Cela signifie notamment que tous les types
+nécessaires à la compilation d'un programme sont accessibles du programme
 lui-même.
 
 
@@ -156,6 +162,7 @@ Cela nous rappelle que les opérateurs sont juste du sucre syntaxique pour expri
 
 We see that C<==> does not accept type objects as operand, but the error message speak of
 parameter instead of operand. It remind us that operators are just syntactic sugar for function.
+parameter instead of operand. It reminds us that operators are just syntactic sugar for function.
 
 
   > 1.WHAT === 1.WHAT.WHAT
@@ -172,6 +179,7 @@ Il est quelquefois tellement ancré dans langage que l'expression dont il est l'
 =head2 Rôles C<positional> et C<associative>, sigils associés
 
 ...et sucre syntaxique correspondant.
+...et sucres syntaxiques correspondants.
 Nous connaissons bien en Perl 5 les tableaux et les hash.
 
 
@@ -297,8 +305,10 @@ la valeur est liée ou copiée vers le paramètre correspondant.
 
  le compilateur lie (bind) les arguments au
 paramètres formel correspondant
+paramètres formels correspondants
 
 =head1 Quelques mot sur les rôles
+=head1 Quelques mots sur les rôles
 
 La programmation objet classique (OOC) a tendance à abuser du mécanisme de dérivation
 de classe. Elle a ensuite introduit la notion de classe abstraite dont
@@ -320,6 +330,7 @@ d'instanciation d'objet et la seconde d'unité de composition de code.
 
 
 En voit que beaucoup de choses sont familières au programmeurs Perl5 avec quelque variantes.
+On voit que beaucoup de choses sont familières au programmeurs Perl5 avec quelque variantes.
 Le C<< <I<...>> >> est l'équivalent Perl 6 de C<qw( I<...> )>
   
 
@@ -335,6 +346,7 @@ elles sont familières à des programmeurs C ou Perl.  C<1.0>, C<1>,
 C<'toto'> expriment respectivement un réel, entier ou chaînes dont les
 noms de type sont respectivement C<num>, C<int>, C<str>. La première
 lettre d'un type natif est minuscule. celle des autres types est
+lettre d'un type natif est minuscule. Celle des autres types est
 majuscule, pour autant qu'on reste dans l'alphabet latin, ce qui est
 le cas de ce tutoriel où nous ne parlerons pas d'Unicode.
 
