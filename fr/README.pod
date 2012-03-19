@@ -20,6 +20,7 @@ donc avoir une version récente du butineur chrome est souhaitable.
 Des dévelopeurs Perl 6 et des utilisateurs avancés seront présents pour vous aider.
 Parmi eux, trois des quatres principaux contributeurs du projet rakudo :
 L<Jonathan Worthington|http://journeesperl.fr/fpw2012/user/1174>,
+L<Jonathan Worthington |http://journeesperl.fr/fpw2012/user/1174>,
 L<Carl Mäsak|http://journeesperl.fr/fpw2012/user/630> and Moritz Lenz.
 
 Parmi ces gens là, se trouvent des gens qui utilisent rakudo sur linux, macosx et windows,
