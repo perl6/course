@@ -1,3 +1,169 @@
 =encoding utf8
 
+Notes en vrac à réordonner et compléter.
+
 =head1 Interfaçe de rakudo avec du code externe
+
+Pour les cas les plus simples, la seule compétence requise pour ce TP est la maîtrise du langage C.
+
+Rakudo n'est pas encore optimisé donc il est lent, par contre Perl 6 étant un 
+langage très expressif,
+on gagne beaucoup à l'utiliser pour scripter du code qui passera la majeure 
+partie de son temps dans une bibliothèque externe et non dans le code Perl 6 non optimisé.
+C'est possible, car depuis quelque mois, Jonathan a intégré le métamodèle qui permet d'étendre rakudo.
+Si les mécanismes de bases sont présents dans rakudo, une bibliothèque appelée zavolaj ajoute un peu de
+glue en pure Perl 6 qui fournit les rôles et les traits pour utiliser lesdits mécanismes.
+
+La présente doc vient en complément de C<nqp/docs/6model/overview.markdown>.
+Cette doc présente les mécanismes généraux donc nous présenterons les structures C qui permettent de les
+implanter. 	On prendra pour modèle les types préexistant de rakudo, dont la partie de l'implantation en C est dans C<nqp/src/6model/reprs/>.
+
+Opérations à S<implanter :> (dé)allocation, (dé)sérialisation
+
+Lorsqu'un module est compilé, les données le concerant sont sérialisé. Pour (dé)sérialiser les objets d'un type donnée, le
+(dé)sérialiseur pour ce type est appelé.
+
+
+
+Tout objet en C++ contient des pointuers vers une ou plusieurs vtable qui pointent vers les méthodes qui peuvent être exécutées avec l'objet
+pour invocant. Le système de rakudo est similaire mais beaucou plus riche.
+
+driver pour un objet
+
+
+
+  C<src/binder/sixmodelobject.h>
+  
+  /* The commonalities shared between all 6model objects, no matter what the
+   * REPR is. This struct should be placed as the first thing in the object
+   * struct used by all representations. */
+  typedef struct {
+      PMC *stable;  /* The shared table. */
+      PMC *sc;      /* Serialization context. */
+  } SixModelObjectCommonalities;
+  
+  /* An example object, mostly used to compute the offset of the data part of
+   * a 6model object. */
+  typedef struct {
+      SixModelObjectCommonalities common;
+      void *data;
+  } SixModelObjectStooge;
+  
+  
+  /* S-Tables (short for Shared Table) contains the commonalities shared between
+   * a (HOW, REPR) pairing (for example, (HOW for the class Dog, P6Opaque). */
+  typedef struct SixModel_REPROps REPROps;
+  
+  struct SixModel_STable {
+      /* The representation operation table. */
+      REPROps *REPR;
+  	...
+  }
+  
+
+  #ifndef SHA1_H_GUARD
+  #define SHA1_H_GUARD
+  #include "../../../3rdparty/sha1/sha1.h"
+  
+  typedef struct {
+      /* sha1 digest */
+    unsigned char digest[SHA1_DIGEST_SIZE];
+  } Sha1Body;
+  
+  /* This is how an instance with the Sha1 representation looks. */
+  typedef struct {
+      SixModelObjectCommonalities common;
+      Sha1Body body;
+  } Sha1Instance;
+  
+  /* Initializes the Sha1 REPR. */
+  REPROps * Sha1_initialize(PARROT_INTERP);
+  
+  #endif
+  
+
+
+
+Dans le cadre de ce TP, nous étudierons comment étendre rakudo, pour utiliser des objets définis dans
+des dlls externes.
+
+http://jnthn.net/papers/2012-gpw-meta-programming.pdf
+
+
+Nous commencerons par étudier un type simple, le sha1 qui est ma première contribution d'un type nouveau
+dans rakudo. 
+
+
+
+Un sha1 est une fonction de hashage cryptographique qui permet de représenter une chaine quelconque par
+un condensat de 20 octets. La représentation imprimable du condensat est le digest de 64 octets.
+Donc notre type sha1, supporte donc seulement deux opérations. Le constructeur prend une chaîne en entrée
+et retourne le sha1. Et l'opération de cast C<.Str> qui a pour invocant un sha1 et retourne son digest.
+Notons S<que :>    C<sha1.new($str).Str ne $str>.
+
+Les probabilités de collisions, c'est-à dire que deux chaînes différentes soient
+représentées par le même condensat, sont infinitésimales. Le sha1 est utilisé un peu partout. Dans les systèmes
+de stockage, le sha1 permet d'identifier quand plusieurs fichiers sont identiques et donc de les stocker
+qu'une seule fois. Git, le système de gestion décentralisé de versions inventé par Linus Torvald.
+Notons que git est la majeure partie des projets Perl utilisent git, ce qui permet de les héberger sur le site
+collaboratif C<github.com>. Nous vous proposons d'y créer un compte et d'héberger le contenu de vos TP sur github.
+
+
+Il se trouve que la bibliothèque est déjà liée à rakudo car elle utilisée pour définir l'opcode pir C<nqp_sha1>.
+Le code en S<question :> C<nqp/3rdparty/sha1/>
+
+
+
+
+multi trait_mod:<is>(Attribute:D $attr, :$box_target!) {
+    $attr.set_box_target();
+}
+
+=head2 petite digresssion
+
+Cette digression pour montrer que pour comprendre une petite chose dans un compilateur, il faut
+souvent visiter au moins une demi-douzaine de fichiers. Une bonne expertise en C<ack> est nécessaire.
+
+
+C<nqp_sha1> est défini dans un fichier C<.ops>. On s'attendrait donc à voir cet opcode appelé
+dans un fichier <.pir>. Or une recherche C<ack -G '\.pir$' nqp_sha1> ne donne rien.
+En fait, les opcodes sont souvent utilisé dans du code C<nqp> ou C<perl6> dans des blocs qui
+contiennent du code PIR. Ils sont de la forme.  C<Q:PIR {  say "hi" }>. Mais là, encore on
+ne trouve rien. En fait les opcodes sont souvent utilisé sous forme masquée qui permettra
+plus tard le port de rakudo vers un autre VM
+
+L'artifice utilisé est le pseudo espace de nom C<nqp::>. Il est lié au hash C<maphash> qui est initialisé
+dans C<NQP.pir>. On voit que C<nqp::sha1> est appelé dans C<Grammar.pm> qui contient aussi la règle pour
+le parser et donc C<Action.pm> contient la méthode à appelé lorsque la règle est réduite.
+
+  /nqp/src/ops/nqp.ops:2285
+
+  inline op nqp_sha1(out STR, in STR) :base_core {
+  
+  nqp/src/NQP/grammar.pm:20
+
+  my $source_id := nqp::sha1(nqp::getattr(self, Regex::Cursor, '$!target'));
+
+  ~/git/rakudo/nqp/src/NQP/Grammar.pm:545
+
+  token term:sym<nqp::op> {
+      'nqp::' $<op>=[\w+] <args>?
+  }
+
+  ~/git/rakudo/nqp/src/NQP/Action.pm:1192
+
+  method term:sym<nqp::op>($/) {
+   my $op    := ~$<op>;
+    my $args  := $<args> ?? $<args>[0].ast.list !! [];
+    my $past  := PAST::Node.'map_node'(|$args, :map<nqp>, :op($op), 
+                                       :node($/));
+
+    pir::defined($past) ||
+        $/.CURSOR.panic("Unrecognized nqp:: opcode 'nqp::$op'");
+    make $past;
+}
+  
+  /rakudo/nqp/src/PAST/NQP.pir:6659
+
+  # serialization context related opcodes
+  maphash['sha1']       = 'nqp_sha1__Ss'
