@@ -16,16 +16,16 @@ glue en pure Perl 6 qui fournit les rôles et les traits pour utiliser lesdits m
 
 La présente doc vient en complément de C<nqp/docs/6model/overview.markdown>.
 Cette doc présente les mécanismes généraux donc nous présenterons les structures C qui permettent de les
-implanter. 	On prendra pour modèle les types préexistant de rakudo, dont la partie de l'implantation en C est dans C<nqp/src/6model/reprs/>.
+implanter. 	On prendra pour modèle les types préexistants de rakudo, dont la partie de l'implantation en C est dans C<nqp/src/6model/reprs/>.
 
 Opérations à S<implanter :> (dé)allocation, (dé)sérialisation
 
-Lorsqu'un module est compilé, les données le concerant sont sérialisé. Pour (dé)sérialiser les objets d'un type donnée, le
+Lorsqu'un module est compilé, les données le concernant sont sérialisées. Pour (dé)sérialiser les objets d'un type donné, le
 (dé)sérialiseur pour ce type est appelé.
 
 
 
-Tout objet en C++ contient des pointuers vers une ou plusieurs vtable qui pointent vers les méthodes qui peuvent être exécutées avec l'objet
+Tout objet en C++ contient des pointeurs vers une ou plusieurs vtable qui pointent vers les méthodes qui peuvent être exécutées avec l'objet
 pour invocant. Le système de rakudo est similaire mais beaucou plus riche.
 
 driver pour un objet
@@ -109,7 +109,7 @@ Notons que git est la majeure partie des projets Perl utilisent git, ce qui perm
 collaboratif C<github.com>. Nous vous proposons d'y créer un compte et d'héberger le contenu de vos TP sur github.
 
 
-Il se trouve que la bibliothèque est déjà liée à rakudo car elle utilisée pour définir l'opcode pir C<nqp_sha1>.
+Il se trouve que la bibliothèque est déjà liée à rakudo car elle est utilisée pour définir l'opcode pir C<nqp_sha1>.
 Le code en S<question :> C<nqp/3rdparty/sha1/>
 
 
@@ -129,12 +129,12 @@ C<nqp_sha1> est défini dans un fichier C<.ops>. On s'attendrait donc à voir ce
 dans un fichier <.pir>. Or une recherche C<ack -G '\.pir$' nqp_sha1> ne donne rien.
 En fait, les opcodes sont souvent utilisé dans du code C<nqp> ou C<perl6> dans des blocs qui
 contiennent du code PIR. Ils sont de la forme.  C<Q:PIR {  say "hi" }>. Mais là, encore on
-ne trouve rien. En fait les opcodes sont souvent utilisé sous forme masquée qui permettra
-plus tard le port de rakudo vers un autre VM
+ne trouve rien. En fait les opcodes sont souvent utilisés sous forme masquée qui permettront
+plus tard le port de rakudo vers une autre VM
 
 L'artifice utilisé est le pseudo espace de nom C<nqp::>. Il est lié au hash C<maphash> qui est initialisé
 dans C<NQP.pir>. On voit que C<nqp::sha1> est appelé dans C<Grammar.pm> qui contient aussi la règle pour
-le parser et donc C<Action.pm> contient la méthode à appelé lorsque la règle est réduite.
+le parser et donc C<Action.pm> contient la méthode à appeler lorsque la règle est réduite.
 
   /nqp/src/ops/nqp.ops:2285
 
