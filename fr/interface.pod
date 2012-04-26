@@ -1,17 +1,25 @@
 =encoding utf8
 
 Notes en vrac à réordonner et compléter.
+Certaines notes sont amenées à disparaître ou à être déplacées. Elles sont pour le moment nécessaires
+à la recherche pour la constitution du tutoriel mais pas au document final.
 
 =head1 Interfaçe de rakudo avec du code externe
 
-Pour les cas les plus simples, la seule compétence requise pour ce TP est la maîtrise du langage C.
+Interfacer rakudo avec du code externe signifie souvent appeler du code externe qui utilise ses
+propres types de donnés.
 
-Rakudo n'est pas encore optimisé donc il est lent, par contre Perl 6 étant un 
-langage très expressif,
-on gagne beaucoup à l'utiliser pour scripter du code qui passera la majeure 
+Pour les cas les plus simples, la seule compétence préalable pour ce TP est la maîtrise du langage C.
+Néanmoins, comme il s'agit de s'interfacer avec un compilateur, il faudra acqérir un minimum de compétences
+supplémentaire.
+Ce document présente toutes les abstractions nécessaires qu'on rencontrera dans tous les compilateurs suffisammet avancés
+et les structures de données propres à Rakudo.
+
+Rakudo n'est pas encore optimisé donc il est lent, par contre Perl 6, étant un 
+langage très expressif, on gagne beaucoup à l'utiliser pour scripter du code qui passera la majeure 
 partie de son temps dans une bibliothèque externe et non dans le code Perl 6 non optimisé.
 C'est possible, car depuis quelque mois, Jonathan a intégré le métamodèle qui permet d'étendre rakudo.
-Si les mécanismes de bases sont présents dans rakudo, une bibliothèque appelée zavolaj ajoute un peu de
+Si les mécanismes de base sont présents dans rakudo, une bibliothèque appelée zavolaj ajoute un peu de
 glue en pure Perl 6 qui fournit les rôles et les traits pour utiliser lesdits mécanismes.
 
 La présente doc vient en complément de C<nqp/docs/6model/overview.markdown>.
@@ -25,8 +33,53 @@ Lorsqu'un module est compilé, les données le concerant sont sérialisé. Pour 
 
 
 
-Tout objet en C++ contient des pointuers vers une ou plusieurs vtable qui pointent vers les méthodes qui peuvent être exécutées avec l'objet
-pour invocant. Le système de rakudo est similaire mais beaucou plus riche.
+Tout objet en C++ contient des pointeurs vers une ou plusieurs vtable qui pointent vers les méthodes qui peuvent être exécutées avec l'objet
+pour invocant. Le système de rakudo est similaire mais beaucoup plus riche.
+
+Enregistrement des types.
+
+Il semble que nqp est pour le moment intimement lié aux types natif de parrot (exemple une opération sur un entier utilise un opcode parrot).
+La branche qast va découpler dès ce niveau.
+
+C<REPR_initialize_registry> appelé par SixModelObject_initialize par C<nqp_dynop_setup>
+
+nc_repr_id = REGISTER_DYNAMIC_REPR(interp,
+    Parrot_str_new_constant(interp, "NativeCall"),
+    NativeCall_initialize);
+	
+	
+	
+
+
+Enregistement S<dynamique> : opcode C<nqp_native_call_setup> défini dans C<nqp_dyncalls.ops> définit les types utilisés par C<zavolaj>.
+Défini dans  la méthode  C<to_past()> de C<src/Perl6/World.pm>. Appelle C<REPR_register_dynamic>?
+
+Différents mots clés pour désigner différents type de paquetage.
+
+  module knowhow class grammar role native
+
+  C<Action.pm>
+
+    method package_declarator:sym<native>($/)  { make $<package_def>.ast }
+  
+
+Natives:`
+
+  C<src/Perl6/Metamodel/NativeHOW.pm>
+
+question: peux-t'on appeler une méthode sur un objet natif sans le wrapper?
+
+  C<src/core/natives.pm>
+
+    my native int1 is repr('P6int') is Int is nativesize(1) { }
+  
+  src/core/traits.pm:24  
+  
+    multi trait_mod:<is>(Mu:U $type, $size, :$nativesize!) {
+       $type.HOW.set_nativesize($type, $size);
+    }
+  
+
 
 driver pour un objet
 
@@ -92,6 +145,115 @@ http://jnthn.net/papers/2012-gpw-meta-programming.pdf
 
 Nous commencerons par étudier un type simple, le sha1 qui est ma première contribution d'un type nouveau
 dans rakudo. 
+
+=head1 Implantation d'un type
+
+Un type est défini par l'ensemble des valeurs qu'il peut prendre et par les opérations qui s'appliquent à lui.
+Perl 6 a deux sortes de types, les types natifs et les types objets.  Les nom des types objets commencent par une
+majuscule alors que le nom des types natif commence par une minuscule.
+Pour chaque type natif il existe un type
+object correspondant. Lorsque c'est nécessaire, une valeur native peut être convertie en valeur objet et réciproquement. On parle respectivement de boxing et de unboxing.
+
+Notons qu'une valeur doit être boxée pour être vue du ramasse miette car un type natif ne contient pas les bits nécessaires à sa gestion.
+Mais certaines valeurs peuvent n'être accessible d'un scope et peuvent être gérées par le seul compilateur sans l'aide du ramasse miette.
+Pour n'être visible que d'un scope, il faut que toutes les références à une valeur appartiennent au même scope.
+
+
+TODO exemple et contre-exemple
+
+=head1 langages statiques/dynamiques; variables, conteneurs, native, boxed
+
+=head1 Langage dynamiquement typé
+
+Perl 5 est un langage dynamique. C'est un concept flou. Dans le cadre de ce document, on entendra par 
+là que le type des valeurs n'est pas connu à la compilation. On parle aussi de langage dynamiquement typé.
+Dans le cadre de cet article, quand je dirais dynamique (resp. statique) sans qualificatif, il s'agira de typage dynamique (resp, statique) et de ses
+conséquences, comme la nature du code généré.
+
+Dans un langage purement dynamique, on ne 
+cannait pas à l'avance le type  d'un conteneur, c'est à dire l'entité qui contient une valeur. Certains des conteneurs sont gérés explicitement pour le
+programmeur ce sont les variables. D'autres conteneurs sont invisibles pour le 
+programmeurs, ce sont le résultat de calculs intermédiaires, par exemple dans 
+une opération arithmétique composite. Finalement certains conteneurs font 
+partie de conteneurs composites et son accessibles via des index. L'index sera typiquement une chaîne de caractères pour accéder un hash et toujours
+un entier positif pour un tableau.
+
+Une variable associe un nom, visble dans un certain scope, à un conteneur qui, à un instant donné, lui-même contient
+une valeur. Lorsque c'est possible on ne se préoccupe pas du conteneur, car l'implantation gère ce genre de détail.
+Mais dans le cadre de ce TP, on s'occupe précisemment de l'implantation.
+
+
+Dans certains langages, une variable peut désigner une constante, ce qui semble une contradiction si on s'attache à la
+seule signification traditionnelles et antinomiques de ces deux mots. Ici, une constante est simplement une variable
+dont la valeur ne change pas au cours du temps. En général, un langage s'assure qu'une constante soit initialisée avant
+usage, sinon elle aura une valeur prédéfinie ou inconnue
+
+Cela veut dire que pour savoir commment opérer sur une valeur, il faut connaître son type.
+Une addition sur un entier est une opération totalement différente d'une opération sur un flottant.
+Concrètement, faute de connaitre à l'avance le type de la valeur,cela veut dire qu'il faut stocker non seulement la valeur proprement dire mais aussi son type.
+
+=head1 Langagement statiquement typé
+
+Inversement
+
+Langage statiquement typé ne signifie pas nécessairement que le typage des variables
+doit être fait explictement par le programmeur. Certains langages statiquement typés
+sont capable d'inférer le type à la compilation. Cela signifie que tous les informations
+sont disponibles à la compilation pour générer du code spécifique au type inféré.
+Ainsi, si du code objet est généré, le bon opcode ou le bon appel de routine pour l'addition sera généré qu'elle
+soit entière,flottante (opcode généré) ou complexe (généralement appel de routine généré).
+
+On parle souvent d'annotation de type
+
+
+=head Langage à typage mixte
+
+Perl 6 est un langage à typage mixte.
+Vous n'avez pas nécessairement à déclarer le type des variables
+
+
+
+
+=head2 L'unboxing n'est pas toujours possible.
+
+
+Ainsi avec C<but>, on peut attacher une valeur "sur le côté" de la valeur principale. Ainsi on peut attacher un booléen
+à côté d'une valeur C<Int>
+
+ > my Int $Int = 3 but False;
+ >  my Int $Int = 3 but False; ($Int, ?$Int).perl.say
+ (3, Bool::False)
+ >   my int $int = $Int
+ ...  # messages incomprehensibles
+ ===SORRY!===
+ Lexical '$int' is of wrong register type in lexical lookup
+
+
+=head2 Boxing
+
+Perl 6 comporte 3 types natifs primaires, C<int>, C<float>, C<str>.
+Des types natifs secondaires peuvent être dérivés en restraignant l'ensemble des valeurs autorisées
+
+src/core/natives.pm:1
+ 
+   my native int is repr('P6int') is Int { }
+   my native int1 is repr('P6int') is Int is nativesize(1) { }
+   
+
+On aura compris que l'usage de types natifs résulte en du code plus rapide alors
+que l'usage de types objets est plus souple.
+
+En pratique, la distinction est souvent invisible pour l'utilisateur. Mieux, un bon
+compilateur saura voir qu'il peut optimiser un type objet en un type natif.
+Qui plus est, la différence entre compilateur et interpréteur est de plus en plus flou et on
+tendra à utilise un terme plus large : moteur.
+
+Ainsi le moteur v8 de chrome gère du javascript. Javascript est un langage à typage dynamique.
+Pourtant v8 est capable de compiler à la volée du code typé statiquement selon le type des
+arrgument d'une routine. 
+
+
+=head1 Sha1
 
 
 
