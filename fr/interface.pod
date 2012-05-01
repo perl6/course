@@ -9,22 +9,22 @@ Une fois la partie théorique complétée, je comparerai les types déjà implan
 Dois rechercher dans l'écosysteme Perl 6 d'autres types implantés.
 J'implanterai un type à taille fixe, le sha1 et un type à longueur variable, un bitvector.
 
-on peut construire des types intéressants à base de bitvectors dérivés d'un type SmartSet.
+On peut construire des types intéressants à base de bitvectors dérivés d'un type SmartSet.
 Une classe dérivée de SmartSet, appellons là S, comprend un hash qui associe des entiers à des clés et un tableau qui
-représente la relation inverse. La classe S implémente un ensemble et ces instances des sous ensembles.
-Le bitvector de l'instance défini les éléments du sous-ensemble.
+représente la relation inverse. La classe S implémente un ensemble et ces instances des sous-ensembles.
+Le bitvector de l'instance définit les éléments du sous-ensemble.
 L'ensemble ne contient pas de bitvector puisqu'il serait redondant (composé de 1)
-Le hash de S permette de nommer les éléments de l'ensemble et d'associer un bit dans le bitvector.
+Le hash de S permet de nommer les éléments de l'ensemble et d'associer un bit dans le bitvector.
 On peut croître l'ensemble S dynamiquement ce qui rallongera les bitvectors.
 SmartSet définit les opération ensemblistes.
 Le cas simple est quand ces opérations ensemblistes opèrent sur des sous ensembles de S.
-Mais on peut avoir plusieurs classes dérivés de SmartSet. Nommons les S et S'.
+Mais on peut avoir plusieurs classes dérivées de SmartSet. Nommons les S et S'.
 Supposons que nous voulons travailler sur des sous-ensembles de leur unions. Il
-devront être représentés par deux bitvectors si nous voulons pouvoir croître ces ensemble.
+devront être représentés par deux bitvectors si nous voulons pouvoir croître ces ensembles.
 De plus, il y a possibilité de clash de clés (ie: de noms d'élément), donc en cas
 d'ambiguité une clé doit être préfixée par le nom de son ensemble.
 D'ailleurs, un sous-ensemble composite sera implémenté par un hash de bitvectors indexés par
-le nom des ensemble. Il est même possible qu'on veuille gérer les collision sur le nom des ensembles; auquel
+le nom des ensembles. Il est même possible qu'on veuille gérer les collision sur le nom des ensembles; auquel
 cas un ensemble est identifié par un sha1 aléatoire. Les bitvectors seront alors indexés par
 les sha1. Par commodité, l'utilisateur de tel vecteurs pour renommer les ensembles.
 
@@ -37,7 +37,7 @@ conversion n'a pas de sens pour la plupart des types externes (ex: sha1, bitvect
 =head1 Découplage de 6model par rapport à Parrot
 
 Parrot fournit la notion de PMC, PolyMorphic Container qui est grandement redondante
-mais moins puissant que 6Model. Le 6model implémente un meta object protocol (MOP)
+mais moins puissant que 6model. Le 6model implémente un meta object protocol (MOP)
 qui permet une introspection des types objet.
 Parrot a été historiquent nécessaire pour booter rakudo et n'a pas su fournir à temps un
 MOP. Il est question de porter le 6model de rakudo sur Parrot pour remplacer les PMC.
@@ -73,7 +73,7 @@ des scripts qui passeront la majeure partie de son temps dans une
 bibliothèque externe et non dans le code Perl 6 non optimisé. Auquel cas la lenteur de Perl 6
 sera irrelevante. L'utilisation de bibliothèques externe est
 possible, car depuis quelque mois, Jonathan a intégré le métamodèle
-qui permet d'étendre rakudo.  Si les mécanismes de base sont présents
+qui permet d'étendre rakudo.  Si les mécanismes de bases sont présents
 dans rakudo, une bibliothèque appelée zavolaj ajoute un peu de glue en
 pure Perl 6 qui fournit les rôles et les traits pour utiliser lesdits
 mécanismes.
@@ -85,7 +85,7 @@ permettent de les implanter. On prendra pour modèle les types
 préexistants de rakudo, dont la partie de l'implantation en C est dans
 C<nqp/src/6model/reprs/>.
 
-Opérations à S<implanter :> (dé)allocation, (dé)sérialisation
+Opérations à S<implanter :> (dé)allocation, (dé)sérialisation.
 
 Lorsqu'un module est compilé, les données le concernant sont
 sérialisées. Pour (dé)sérialiser les objets d'un type donné, le
@@ -240,7 +240,7 @@ sont insuffisantes
 
 Un type est défini par l'ensemble des valeurs qu'il peut prendre et
 par les opérations qui s'appliquent à lui.  S<Perl 6> a deux sortes de
-types, les types natifs et les types objets.  Les nom des types objets
+types, les types natifs et les types objets.  Les noms des types objets
 commencent par une majuscule alors que le nom des types natifs commence
 par une minuscule.  Pour chaque type natif il existe un type object
 correspondant. Lorsque c'est nécessaire, une valeur native peut être
@@ -249,14 +249,14 @@ de boxing et de unboxing.
 
 Notons qu'une valeur doit être boxée pour être vue du ramasse miette
 car un type natif ne contient pas les bits nécessaires à sa gestion.
-Mais certaines valeurs peuvent n'être accessibles que d'un d'un scope et peuvent donc
+Mais certaines valeurs peuvent n'être accessibles que d'un scope et peuvent donc
 être gérées par le seul compilateur sans l'aide du ramasse miette.
 
 
 Pour n'être visible que d'un scope, il faut que toutes les références
 à une valeur appartiennent au même scope.
 La déclaration d'une variable est la premère référence à la 
-valeur associée, mais d'autres peuvent être crée via l'opération de binding (C<:=>) ou
+valeur associée, mais d'autres peuvent être crées via l'opération de binding (C<:=>) ou
 d'appel de fonction. Dans le second cas, le binding lie le paramètre à l'argument.
 Dans la fonction un binding peut être créé qui survivra à son appel.
 
@@ -270,7 +270,7 @@ TODO exemple et contre-exemple
 Perl 5 est un langage dynamique. C'est un concept flou. Dans le cadre
 de ce document, on entendra par là que le type des valeurs n'est pas
 connu à la compilation. On parle aussi de langage dynamiquement typé.
-Dans le cadre de cet article, quand je dirais dynamique
+Dans le cadre de cet article, quand je dirai dynamique
 (resp. statique) sans qualificatif, il s'agira de typage dynamique
 (resp, statique) et de ses conséquences, comme la nature du code
 généré.
@@ -304,7 +304,7 @@ inconnue.
 Pour savoir commment opérer sur une valeur, il faut
 connaître son type.  Une addition sur un entier est une opération
 totalement différente d'une opération sur un flottant.  Concrètement,
-faute de connaitre à l'avance le type de la valeur,cela veut dire
+faute de connaître à l'avance le type de la valeur,cela veut dire
 qu'il faut stocker non seulement la valeur proprement dite mais aussi
 son type.
 
@@ -315,7 +315,7 @@ Inversement
 Langage statiquement typé ne signifie pas nécessairement que le typage
 des variables doit être fait explictement par le programmeur. Certains
 langages statiquement typés, comme Haskell sont capables d'inférer le type à la
-compilation. Cela signifie que tous les informations sont disponibles
+compilation. Cela signifie que toutes les informations sont disponibles
 à la compilation pour générer du code spécifique au type inféré.
 Ainsi, si du code objet est généré, le bon opcode ou le bon appel de
 routine pour l'addition sera généré, qu'elle soit entière,flottante
@@ -324,7 +324,7 @@ routine pour l'addition sera généré, qu'elle soit entière,flottante
 On parle souvent d'annotation de type
 
 
-=head Langage à typage mixte
+=head2 Langage à typage mixte
 
 Perl 6 est un langage à typage mixte.
 Vous n'avez pas nécessairement à déclarer le type des variables
@@ -369,7 +369,7 @@ tendra à utilise un terme plus large : moteur.
 
 Ainsi le moteur v8 de chrome gère du javascript. Javascript est un
 langage à typage dynamique.  Pourtant v8 est capable de compiler à la
-volée du code typé statiquement selon le type des arrgument d'une
+volée du code typé statiquement selon le type des argument d'une
 routine.
 
 =head1 Enregistrement dynamique de type
@@ -393,7 +393,7 @@ l'opération de cast C<.Str> qui a pour invocant un sha1 et retourne
 son digest.  Notons S<que :> C<sha1.new($str).Str ne $str>.
 
 Notons qu'un cast de type A vers type B n'est jamais qu'un constructeur
-du type B s'il est déinit dans B.
+du type B s'il est définit dans B.
 
 Les probabilités de collisions, c'est-à dire que deux chaînes
 différentes soient représentées par le même condensat, sont
@@ -408,15 +408,15 @@ vous proposons d'y créer un compte et d'héberger le contenu de vos TP
 sur github.
 
 
-Il se trouve que la bibliothèque est déjà liée à rakudo car est elle
+Il se trouve que la bibliothèque est déjà liée à rakudo car elle est 
 utilisée pour définir l'opcode pir C<nqp_sha1>.  Le code en S<question
 :> C<nqp/3rdparty/sha1/>
 
 Un sha1 est une structure de longueur fixe : C<SHA1_DIGEST_SIZE>.
 C<SHA1_DIGEST_SIZE> étant défini comme 20 et le type C<char> étant long
 d'un octet,    C<unsigned char digest[SHA1_DIGEST_SIZE]> est un tableau de 20 octets.
-Donc tout l'info concernant le corps d'une intance sha1 est contenue dans ce tableau qui est
-l'unique menbre de la struct <Sha1Body>, elle même enchassé dans la struct Sha1Instance.
+Donc toute l'info concernant le corps d'une instance sha1 est contenue dans ce tableau qui est
+l'unique membre de la struct <Sha1Body>, elle même enchassée dans la struct Sha1Instance.
 
 
 
@@ -461,7 +461,7 @@ nécessaire.
 C<nqp_sha1> est défini dans un fichier C<.ops>. On s'attendrait donc à
 voir cet opcode appelé dans un fichier <.pir>. Or une recherche C<ack
 -G '\.pir$' nqp_sha1> ne donne rien.  En fait, les opcodes sont
-souvent utilisé dans du code C<nqp> ou C<perl6> dans des blocs qui
+souvent utilisés dans du code C<nqp> ou C<perl6> dans des blocs qui
 contiennent du code PIR. Ils sont de la forme.  C<Q:PIR { say "hi"
 }>. Mais là, encore on ne trouve rien. En fait les opcodes sont
 souvent utilisés sous forme masquée qui permettra plus tard le port de
@@ -504,3 +504,4 @@ lorsque la règle est réduite.
 
   # serialization context related opcodes
   maphash['sha1']       = 'nqp_sha1__Ss'
+=cut
