@@ -5,29 +5,73 @@ Notes en vrac à réordonner et compléter.  Certaines notes sont amenées
 nécessaires à la recherche pour la constitution du tutoriel mais pas
 au document final.
 
-Une fois la partie théorique complétée, ke comparerai les types déjà implantés.
+Une fois la partie théorique complétée, je comparerai les types déjà implantés.
 Dois rechercher dans l'écosysteme Perl 6 d'autres types implantés.
-J'implanterai un type à taille fixe, le sha1 et un type à longueur variable un bitvector.
+J'implanterai un type à taille fixe, le sha1 et un type à longueur variable, un bitvector.
+
+on peut construire des types intéressants à base de bitvectors dérivés d'un type SmartSet.
+Une classe dérivée de SmartSet, appellons là S, comprend un hash qui associe des entiers à des clés et un tableau qui
+représente la relation inverse. La classe S implémente un ensemble et ces instances des sous ensembles.
+Le bitvector de l'instance défini les éléments du sous-ensemble.
+L'ensemble ne contient pas de bitvector puisqu'il serait redondant (composé de 1)
+Le hash de S permette de nommer les éléments de l'ensemble et d'associer un bit dans le bitvector.
+On peut croître l'ensemble S dynamiquement ce qui rallongera les bitvectors.
+SmartSet définit les opération ensemblistes.
+Le cas simple est quand ces opérations ensemblistes opèrent sur des sous ensembles de S.
+Mais on peut avoir plusieurs classes dérivés de SmartSet. Nommons les S et S'.
+Supposons que nous voulons travailler sur des sous-ensembles de leur unions. Il
+devront être représentés par deux bitvectors si nous voulons pouvoir croître ces ensemble.
+De plus, il y a possibilité de clash de clés (ie: de noms d'élément), donc en cas
+d'ambiguité une clé doit être préfixée par le nom de son ensemble.
+D'ailleurs, un sous-ensemble composite sera implémenté par un hash de bitvectors indexés par
+le nom des ensemble. Il est même possible qu'on veuille gérer les collision sur le nom des ensembles; auquel
+cas un ensemble est identifié par un sha1 aléatoire. Les bitvectors seront alors indexés par
+les sha1. Par commodité, l'utilisateur de tel vecteurs pour renommer les ensembles.
+
+
+
 Elaborer sur les types implantés par rakudo peuvent boxer des types natifs mais que la
-possiilité de conversion peut dépendre de la valeur (ex: Rat -> int ) alors que la
+possibilité de conversion peut dépendre de la valeur (ex: Rat -> int ) alors que la
 conversion n'a pas de sens pour la plupart des types externes (ex: sha1, bitvector)
+
+=head1 Découplage de 6model par rapport à Parrot
+
+Parrot fournit la notion de PMC, PolyMorphic Container qui est grandement redondante
+mais moins puissant que 6Model. Le 6model implémente un meta object protocol (MOP)
+qui permet une introspection des types objet.
+Parrot a été historiquent nécessaire pour booter rakudo et n'a pas su fournir à temps un
+MOP. Il est question de porter le 6model de rakudo sur Parrot pour remplacer les PMC.
+A terme rakudo devrait pouvoir utiliser d'autres VM que Parrot
+
+=head3 le MOP, c'est pas nouveau 
+
+le MOP n'est pas un concept nouveau puisqu'il a été implanté dans un dialecte de lisp CLOS. Un bouquin paru
+en 1991 document MOP.
+
+http://www.amazon.fr/The-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744/ref=sr_1_1?ie=UTF8&qid=1335436556&sr=8-1
+
+Quelle technologie informatique n'a pas été inventé dans l'univers LISP? Hé bien, celle d'une syntaxe extensible comme celle Perl 6
+qui reprend aussi la notion de macro hygiénique inventée par ... LISP. A part la syntaxe, il vaut bien avouer que Perl 6 et
+ses implémentations ne sont que l'union laborieuse de technologies dont certaines existent depuis des décennies.
+
 
 =head1 Interfaçe de rakudo avec du code externe
 
 Interfacer rakudo avec du code externe signifie souvent appeler du
-code externe qui utilise ses propres types de donnés.
+code externe qui utilise ses propres types de données.
 
 Pour les cas les plus simples, la seule compétence préalable pour ce
 TP est la maîtrise du langage C.  Néanmoins, comme il s'agit de
 s'interfacer avec un compilateur, il faudra acqérir un minimum de
-compétences supplémentaire.  Ce document présente toutes les
+compétences supplémentaires.  Ce document présente toutes les
 abstractions nécessaires qu'on rencontrera dans tous les compilateurs
-suffisammet avancés et les structures de données propres à Rakudo.
+suffisamment avancés et les structures de données propres à Rakudo.
 
 Rakudo n'est pas encore optimisé donc il est lent, par contre Perl 6,
-étant un langage très expressif, on gagne beaucoup à l'utiliser pour
-scripter du code qui passera la majeure partie de son temps dans une
-bibliothèque externe et non dans le code Perl 6 non optimisé.  C'est
+étant un langage très expressif, on gagne beaucoup à l'utiliser pour écrire 
+des scripts qui passeront la majeure partie de son temps dans une
+bibliothèque externe et non dans le code Perl 6 non optimisé. Auquel cas la lenteur de Perl 6
+sera irrelevante. L'utilisation de bibliothèques externe est
 possible, car depuis quelque mois, Jonathan a intégré le métamodèle
 qui permet d'étendre rakudo.  Si les mécanismes de base sont présents
 dans rakudo, une bibliothèque appelée zavolaj ajoute un peu de glue en
@@ -43,21 +87,21 @@ C<nqp/src/6model/reprs/>.
 
 Opérations à S<implanter :> (dé)allocation, (dé)sérialisation
 
-Lorsqu'un module est compilé, les données le concerant sont
-sérialisé. Pour (dé)sérialiser les objets d'un type donnée, le
+Lorsqu'un module est compilé, les données le concernant sont
+sérialisées. Pour (dé)sérialiser les objets d'un type donné, le
 (dé)sérialiseur pour ce type est appelé.
 
 
-Tout objet en C++ contient des pointeurs vers une ou plusieurs vtable
-qui pointent vers les méthodes qui peuvent être exécutées avec l'objet
+Tout objet en C++ contient des pointeurs vers une ou plusieurs vtable.
+Il pointent vers les méthodes qui peuvent être exécutées avec l'objet
 pour invocant. Le système de rakudo est similaire mais beaucoup plus
 riche.
 
 Enregistrement des types.
 
-Il semble que nqp est pour le moment intimement lié aux types natif de
-parrot (exemple une opération sur un entier utilise un opcode parrot).
-La branche qast va découpler dès ce niveau.
+Il semble que nqp est pour le moment intimement lié aux types natifs de
+parrot (S<exemple :> une opération sur un entier utilise un opcode parrot).
+La branche C<qast> de rakudo va découpler dès ce niveau.
 
 C<REPR_initialize_registry> appelé par SixModelObject_initialize par C<nqp_dynop_setup>
 
@@ -71,7 +115,7 @@ dans C<nqp_dyncalls.ops> définit les types utilisés par C<zavolaj>.
 Défini dans la méthode C<to_past()> de C<src/Perl6/World.pm>. Appelle
 C<REPR_register_dynamic>?
 
-Différents mots clés pour désigner différents type de paquetage.
+Différents mots clés pour désigner différents types de paquetage.
 
   module knowhow class grammar role native
 
@@ -86,11 +130,11 @@ Natives:`
 
 question: peux-t'on appeler une méthode sur un objet natif sans le wrapper?
 
-  C<src/core/natives.pm>
+src/core/natives.pm
 
     my native int1 is repr('P6int') is Int is nativesize(1) { }
-  
-  src/core/traits.pm:24  
+	
+src/core/traits.pm:24  
   
     multi trait_mod:<is>(Mu:U $type, $size, :$nativesize!) {
        $type.HOW.set_nativesize($type, $size);
@@ -102,7 +146,7 @@ driver pour un objet
 
 
 
-  C<src/binder/sixmodelobject.h>
+src/binder/sixmodelobject.h
   
   /* The commonalities shared between all 6model objects, no matter what the
    * REPR is. This struct should be placed as the first thing in the object
@@ -127,30 +171,57 @@ driver pour un objet
   struct SixModel_STable {
       /* The representation operation table. */
       REPROps *REPR;
+      void *REPR_data;
   	...
   }
   
+=head3 REPR_data
 
-  #ifndef SHA1_H_GUARD
-  #define SHA1_H_GUARD
-  #include "../../../3rdparty/sha1/sha1.h"
+  my int @a; # creates an array of ints
+
+C'est synonyme de :
+ 
+my @a of int;
   
+On utilise C<CArray> pour représenter un type tableau générique.
+
+nqp/src/6model/reprs/CArray.h:52
+
+  /* The CArray REPR data contains a little info about the type of array
+   * that we have. */
   typedef struct {
-      /* sha1 digest */
-    unsigned char digest[SHA1_DIGEST_SIZE];
-  } Sha1Body;
+      /* The number of bytes in size that an element is. */
+      INTVAL elem_size;
   
-  /* This is how an instance with the Sha1 representation looks. */
-  typedef struct {
-      SixModelObjectCommonalities common;
-      Sha1Body body;
-  } Sha1Instance;
+      /* The type of an element. */
+      PMC *elem_type;
+      
+      /* What kind of element is it (lets us quickly know how to handle access
+       * to it). */
+      INTVAL elem_kind;
+  } CArrayREPRData;
   
-  /* Initializes the Sha1 REPR. */
-  REPROps * Sha1_initialize(PARROT_INTERP);
+
+src/core/Positional.pm:1
+
+  my role Positional[::T = Mu] {
+      method of() { T }
+  }
   
-  #endif
+src/core/traits.pm:127
   
+  proto trait_mod:<of>(|$) { * }
+  multi trait_mod:<of>(Mu:U $target, Mu:U $type) {
+      # XXX Ensure we can do this, die if not.
+      $target.HOW.set_of($target, $type);
+  }
+  multi trait_mod:<of>(Routine:D $target, Mu:U $type) {
+      $target.signature.set_returns($type)
+  }
+  
+  
+
+
 
 
 
@@ -162,13 +233,15 @@ http://jnthn.net/papers/2012-gpw-meta-programming.pdf
 
 Nous commencerons par étudier un type simple, le sha1 qui est ma
 première contribution d'un type nouveau dans rakudo.
+Ca s'avère plus compliqué que privé car les routines atomiques de (dé)sérialisation
+sont insuffisantes
 
 =head1 Implantation d'un type
 
 Un type est défini par l'ensemble des valeurs qu'il peut prendre et
-par les opérations qui s'appliquent à lui.  Perl 6 a deux sortes de
+par les opérations qui s'appliquent à lui.  S<Perl 6> a deux sortes de
 types, les types natifs et les types objets.  Les nom des types objets
-commencent par une majuscule alors que le nom des types natif commence
+commencent par une majuscule alors que le nom des types natifs commence
 par une minuscule.  Pour chaque type natif il existe un type object
 correspondant. Lorsque c'est nécessaire, une valeur native peut être
 convertie en valeur objet et réciproquement. On parle respectivement
@@ -176,10 +249,16 @@ de boxing et de unboxing.
 
 Notons qu'une valeur doit être boxée pour être vue du ramasse miette
 car un type natif ne contient pas les bits nécessaires à sa gestion.
-Mais certaines valeurs peuvent n'être accessible d'un scope et peuvent
+Mais certaines valeurs peuvent n'être accessibles que d'un d'un scope et peuvent donc
 être gérées par le seul compilateur sans l'aide du ramasse miette.
+
+
 Pour n'être visible que d'un scope, il faut que toutes les références
 à une valeur appartiennent au même scope.
+La déclaration d'une variable est la premère référence à la 
+valeur associée, mais d'autres peuvent être crée via l'opération de binding (C<:=>) ou
+d'appel de fonction. Dans le second cas, le binding lie le paramètre à l'argument.
+Dans la fonction un binding peut être créé qui survivra à son appel.
 
 
 TODO exemple et contre-exemple
@@ -199,7 +278,7 @@ généré.
 Dans un langage purement dynamique, on ne cannait pas à l'avance le
 type d'un conteneur, c'est à dire l'entité qui contient une
 valeur. Certains des conteneurs sont gérés explicitement pour le
-programmeur ce sont les variables. D'autres conteneurs sont invisibles
+programmeur : ce sont les variables. D'autres conteneurs sont invisibles
 pour le programmeurs, ce sont le résultat de calculs intermédiaires,
 par exemple dans une opération arithmétique composite. Finalement
 certains conteneurs font partie de conteneurs composites et son
@@ -216,17 +295,17 @@ TP, on s'occupe précisemment de l'implantation.
 
 Dans certains langages, une variable peut désigner une constante, ce
 qui semble une contradiction si on s'attache à la seule signification
-traditionnelles et antinomiques de ces deux mots. Ici, une constante
+traditionnelle et antinomique de ces deux mots. Ici, une constante
 est simplement une variable dont la valeur ne change pas au cours du
 temps. En général, un langage s'assure qu'une constante soit
 initialisée avant usage, sinon elle aura une valeur prédéfinie ou
-inconnue
+inconnue.
 
-Cela veut dire que pour savoir commment opérer sur une valeur, il faut
+Pour savoir commment opérer sur une valeur, il faut
 connaître son type.  Une addition sur un entier est une opération
 totalement différente d'une opération sur un flottant.  Concrètement,
 faute de connaitre à l'avance le type de la valeur,cela veut dire
-qu'il faut stocker non seulement la valeur proprement dire mais aussi
+qu'il faut stocker non seulement la valeur proprement dite mais aussi
 son type.
 
 =head1 Langagement statiquement typé
@@ -235,11 +314,11 @@ Inversement
 
 Langage statiquement typé ne signifie pas nécessairement que le typage
 des variables doit être fait explictement par le programmeur. Certains
-langages statiquement typés sont capable d'inférer le type à la
+langages statiquement typés, comme Haskell sont capables d'inférer le type à la
 compilation. Cela signifie que tous les informations sont disponibles
 à la compilation pour générer du code spécifique au type inféré.
 Ainsi, si du code objet est généré, le bon opcode ou le bon appel de
-routine pour l'addition sera généré qu'elle soit entière,flottante
+routine pour l'addition sera généré, qu'elle soit entière,flottante
 (opcode généré) ou complexe (généralement appel de routine généré).
 
 On parle souvent d'annotation de type
@@ -250,13 +329,11 @@ On parle souvent d'annotation de type
 Perl 6 est un langage à typage mixte.
 Vous n'avez pas nécessairement à déclarer le type des variables
 
-
-
-
 =head2 L'unboxing n'est pas toujours possible.
 
 
-Ainsi avec C<but>, on peut attacher une valeur "sur le côté" de la
+
+Avec C<but>, on peut attacher une valeur "sur le côté" de la
 valeur principale. Ainsi on peut attacher un booléen à côté d'une
 valeur C<Int>
 
@@ -295,26 +372,37 @@ langage à typage dynamique.  Pourtant v8 est capable de compiler à la
 volée du code typé statiquement selon le type des arrgument d'une
 routine.
 
+=head1 Enregistrement dynamique de type
+
+nqp/src/6model/repr_registry.c:176
+
+  INTVAL REPR_register_dynamic(PARROT_INTERP, STRING *name, REPROps * (*reg) (PARROT_INTERP, void *, void *)) {
+
+enregistré dans le 	C<interp->root_namespace> sous le nom de C<_REGISTER_REPR> donc probablement accessible de rakudo, au pire via
+un C<Q:PIR { ... }>
+
 
 =head1 Sha1
 
-
-
 Un sha1 est une fonction de hashage cryptographique qui permet de
-représenter une chaine quelconque par un condensat de 20 octets. La
+représenter une chaîne quelconque par un condensat de 20 octets. La
 représentation imprimable du condensat est le digest de 64 octets.
-Donc notre type sha1, supporte donc seulement deux opérations. Le
-constructeur prend une chaîne en entrée et retourne le sha1. Et
+Donc notre type sha1 supporte donc seulement deux opérations : un constructeur et une opération de cast.
+Le constructeur prend une chaîne en entrée et retourne le sha1. Et
 l'opération de cast C<.Str> qui a pour invocant un sha1 et retourne
 son digest.  Notons S<que :> C<sha1.new($str).Str ne $str>.
+
+Notons qu'un cast de type A vers type B n'est jamais qu'un constructeur
+du type B s'il est déinit dans B.
 
 Les probabilités de collisions, c'est-à dire que deux chaînes
 différentes soient représentées par le même condensat, sont
 infinitésimales. Le sha1 est utilisé un peu partout. Dans les systèmes
 de stockage, le sha1 permet d'identifier quand plusieurs fichiers sont
 identiques et donc de les stocker qu'une seule fois. Git, le système
-de gestion décentralisé de versions inventé par Linus Torvald.  Notons
-que git est la majeure partie des projets Perl utilisent git, ce qui
+de gestion décentralisé de versions inventé par Linus Torvald repose sur
+le sha1 des objets qu'il crée pour les identifier.
+Notons que git est la majeure partie des projets Perl utilisent git, ce qui
 permet de les héberger sur le site collaboratif C<github.com>. Nous
 vous proposons d'y créer un compte et d'héberger le contenu de vos TP
 sur github.
@@ -323,6 +411,37 @@ sur github.
 Il se trouve que la bibliothèque est déjà liée à rakudo car est elle
 utilisée pour définir l'opcode pir C<nqp_sha1>.  Le code en S<question
 :> C<nqp/3rdparty/sha1/>
+
+Un sha1 est une structure de longueur fixe : C<SHA1_DIGEST_SIZE>.
+C<SHA1_DIGEST_SIZE> étant défini comme 20 et le type C<char> étant long
+d'un octet,    C<unsigned char digest[SHA1_DIGEST_SIZE]> est un tableau de 20 octets.
+Donc tout l'info concernant le corps d'une intance sha1 est contenue dans ce tableau qui est
+l'unique menbre de la struct <Sha1Body>, elle même enchassé dans la struct Sha1Instance.
+
+
+
+#ifndef SHA1_H_GUARD
+#define SHA1_H_GUARD
+#include "../../../3rdparty/sha1/sha1.h"
+  
+typedef struct {
+    /* sha1 digest */
+  unsigned char digest[SHA1_DIGEST_SIZE];
+} Sha1Body;
+  
+/* This is how an instance with the Sha1 representation looks. */
+typedef struct {
+    SixModelObjectCommonalities common;
+    Sha1Body body;
+} Sha1Instance;
+  
+/* Initializes the Sha1 REPR. */
+REPROps * Sha1_initialize(PARROT_INTERP);
+  
+#endif
+  
+
+
 
 
 
