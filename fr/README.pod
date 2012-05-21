@@ -8,12 +8,12 @@ Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacre
 La liste des présentations Perl : L<http://journeesperl.fr/fpw2012/talks/tag/perl6>
 Note: couramment accessible aux seuls administrateurs
 
-Cet atelier utilisera rakudo comme interpréteur.
+Cet atelier utilisera L<Rakudo|http://rakudo.org/> comme interpréteur.
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum.
 
 Pour gagner du temps, nous demandons aux participants d'avoir rakudo Star de
 Mai ou Juin installé sur leur laptop. Pour ce faire, il pourront trouver de l'aide sur les canaux
-IRC #perl6 de irc.freenode.org et #perlfr de irc.perl.org. Le premier est anglophone et
+IRC #perl6 de L<irc.freenode.org|http://irc.freenode.org> et #perlfr de L<irc.perl.org|http://irc.perl.org>. Le premier est anglophone et
 le second francophone. Certains TPs pourront utiliser des fonctionalités avancées de HTML 5,
 donc avoir une version récente du butineur chrome est souhaitable.
 
@@ -26,17 +26,17 @@ Parmi ces gens là, se trouvent des gens qui utilisent rakudo sur linux, macosx 
 donc vous pourrez probablement trouver de l'aide quelque soit le système d'exploitation
 que vous utilisez s'il n'est pas trop exotique.
 
-Ils vous proposeront des TPs simples pour découvrir différents aspects de Perl6. Nous
+Ils vous proposeront des TPs simples pour découvrir différents aspects de Perl 6. Nous
 mettrons progressivement en ligne les tutoriels, puis les exercies au fur et à mesure de leur rédaction. Le présent document est accessible à L<https://github.com/perl6/course/blob/master/fr/p6-sh.pod>.
 
 
-Note : rakudo et niecza sont deux implémentations de Perl 6 suffisament avancées pour être
-utilisables par des adopteurs précoces. Nous avons choisi rakudo parce que l'implémenteur
-de Niecza, résidant outre atlantique ne viendra probablement pas à FPW.
+Note : Rakudo et Niecza sont deux implémentations de Perl 6 suffisament avancées pour être
+utilisables par des adopteurs précoces. Nous avons choisi Rakudo parce que l'implémenteur
+de Niecza, résidant outre atlantique ne viendra probablement pas à fpw.
 
 =head1 Matériel pédagogique sur github
 
-Ce répertoire contient le matériel pédagogique pour l'atelier Perl 6 de FPW 2012
+Ce répertoire contient le matériel pédagogique pour l'atelier Perl 6 de fpw 2012
 Cet atelier comprendra plusieurs TP.
 Un TP inclut du matériel pédagogique et des exercices. Il est possible que du matériel
 concernant les réponses aux exercices soit ajouté après l'atelier.
@@ -44,10 +44,10 @@ concernant les réponses aux exercices soit ajouté après l'atelier.
 Il est souhaitable de participer aux ateliers mais le matériel peut être utilisé par
 un hacker seul devant son ordi.
 
-Le TP "Initiation à Perl 6 via son shell" est un prérequis pour tous les autres TP.
+Le TP "L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/blob/master/fr/p6-sh.pod>" est un prérequis pour tous les autres TP.
 
 Il est probable que les documents seront convertis en Pod Perl 6; auquel cas, il faudra
-intégrer leur rendu au site FPW car je ne pense pas que github sache faire le rendu.
+intégrer leur rendu au site fpw car je ne pense pas que github sache faire le rendu.
 
 Liste des S<TP :>
 
@@ -55,7 +55,7 @@ Liste des S<TP :>
 
 =item L<Initiation à Perl 6 via son shell|https://github.com/perl6/course/blob/master/fr/p6-sh.pod>
 
-=item L<Interfaçe de rakudo avec du code externe|https://github.com/perl6/course/blob/master/fr/interface.pod>
+=item L<Interfaçe de Rakudo avec du code externe|https://github.com/perl6/course/blob/master/fr/interface.pod>
 
 =item L<La culture et les ressources Perl 6|https://github.com/perl6/course/blob/master/fr/cult.pod>
 
