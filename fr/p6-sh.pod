@@ -7,17 +7,17 @@ Rough DRAFT:  initiation à Perl 6 via son shell
 Note: c'est une ébauche
 ... est utilisé pour dénoter les parties manquantes ou à élaborer
 
-=head1 Initiation à Perl 6 via son shell
+=head1 Initiation à L<Perl 6|http://www.perl6.org/> via son shell
 
 La maîtrise de ce tutoriel et du TP correspondants sont un prérequis
 indispensable pour pouvoir suivre le reste de cet atelier.  Ce texte
 comprend des liens vers les synopsis qui sont la spécification du
-langage Perl6.  Il n'est pas conseillé de les suivre à la première
+langage Perl 6.  Il n'est pas conseillé de les suivre à la première
 lecture.
 
 Dans le cadre de ce TP, nous allons apprendre à manier le shell Perl 6
 pour découvrir le langage via ses facilités d'introspection. Nous
-supposons que vous êtes familier avec le langage Perl 5 car nous
+supposons que vous êtes familier avec le langage L<Perl 5|http://www.perl.org/learn.html> car nous
 soulignerons les similarités et les différences entre les deux
 langages. Nous glissons quelquefois sur quelques subtilités pour
 obtenir une présentations plus linéaire, et faisons délibéremment
@@ -28,9 +28,9 @@ anglais. Autant se familiariser de suite. Quelquefois, nous revenenous
 au français avec l'original entre parenthèses lorsque un nom ne se
 "verbe" pas élégamment. :)
 
-Lorsque nous renvoyons au Wikipedia, c'est vers l'article français ou,
-en son absence l'article anglophone. L'article anglophone est généralement
-plus complet ou de meilleur qualité
+Lorsque nous renvoyons au Wikipedia, c'est vers L<l'article français|http://fr.wikipedia.org/wiki/Perl_6> ou,
+en son absence L<l'article anglophone|http://en.wikipedia.org/wiki/Perl_6>. L'article anglophone est généralement
+plus complet ou de meilleur qualité.
 
 Nous supposons que vous avez compilé et installé rakudo, ainsi que
 ack, un utilitaire perl5; votre interpréteur perl est 5.x avec x >=
