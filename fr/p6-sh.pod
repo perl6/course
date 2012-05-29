@@ -81,9 +81,9 @@ S<Perl 6>.
   }
   
 
-C'est du code Perl 6. Il semble à la fois familier et différent
-Ce code est familier en ce sens que les variables ont des sigils, qu'il y a des espaces de noms, qu'il y a interpolation
-de variables dans une chaîne doublement quotée. 
+C'est du code Perl 6. Il semble à la fois familier et différent.
+Ce code est familier en ce sens que les variables ont des sigils, qu'il y a des espaces de noms, qu'il y a L<interpolation|http://perlmeme.org/howtos/using_perl/interpolation.html>
+de variables dans une chaîne doublement quotée.
 Ce code est différent car S<Perl 6>, tout au moins dans son mode par défaut, n'est pas une extension de Perl 5. Nous reviendrons sur cette section de code plus tard.
 
   
@@ -104,7 +104,7 @@ méthode, qui, appliquée à un objet, retourne le type de l'objet.
 Notez la convention du pseudo sigil point pour dénoter le nom d'une
 méthode.
 
-Perl 6 est un langage réflexif. Pour la définition de ce concept, je
+Perl 6 est un L<langage réflexif|http://fr.wikipedia.org/wiki/R%C3%A9flexion_%28informatique%29>. Pour la définition de ce concept, je
 vous renvoie au Wikipedia.  Cela signifie notamment que tous les types
 nécessaires à la compilation d'un programme sont accessibles du programme
 lui-même.
