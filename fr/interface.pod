@@ -41,17 +41,17 @@ mais moins puissant que 6model. Le 6model implémente un meta object protocol (L
 qui permet une introspection des types objet.
 Parrot a été historiquent nécessaire pour booter rakudo et n'a pas su fournir à temps un
 MOP. Il est question de porter le 6model de rakudo sur Parrot pour remplacer les PMC.
-A terme rakudo devrait pouvoir utiliser d'autres VM que Parrot
+A terme rakudo devrait pouvoir utiliser d'autres VM que Parrot.
 
 =head3 le MOP, c'est pas nouveau 
 
 le MOP n'est pas un concept nouveau puisqu'il a été implanté dans un dialecte de lisp CLOS. Un bouquin paru
 en 1991 document MOP.
 
-http://www.amazon.fr/The-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744/ref=sr_1_1?ie=UTF8&qid=1335436556&sr=8-1
+L<http://www.amazon.fr/The-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744/ref=sr_1_1?ie=UTF8&qid=1335436556&sr=8-1>
 
 Quelle technologie informatique n'a pas été inventé dans l'univers LISP? Hé bien, celle d'une syntaxe extensible comme celle Perl 6
-qui reprend aussi la notion de macro hygiénique inventée par ... LISP. A part la syntaxe, il vaut bien avouer que Perl 6 et
+qui reprend aussi la notion de L<macro hygiénique|http://fr.wikipedia.org/wiki/Macro-d%C3%A9finition> inventée par ... LISP. A part la syntaxe, il vaut bien avouer que Perl 6 et
 ses implémentations ne sont que l'union laborieuse de technologies dont certaines existent depuis des décennies.
 
 
