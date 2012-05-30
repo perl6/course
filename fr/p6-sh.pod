@@ -104,8 +104,8 @@ méthode, qui, appliquée à un objet, retourne le type de l'objet.
 Notez la convention du pseudo sigil point pour dénoter le nom d'une
 méthode.
 
-Perl 6 est un L<langage réflexif|http://fr.wikipedia.org/wiki/R%C3%A9flexion_%28informatique%29>. Pour la définition de ce concept, je
-vous renvoie au Wikipedia.  Cela signifie notamment que tous les types
+Perl 6 est un langage réflexif. Pour la définition de ce concept, je
+vous renvoie au L<Wikipedia|http://fr.wikipedia.org/wiki/R%C3%A9flexion_%28informatique%29>.  Cela signifie notamment que tous les types
 nécessaires à la compilation d'un programme sont accessibles du programme
 lui-même.
 
@@ -166,7 +166,7 @@ parameter instead of operand. It reminds us that operators are just syntactic su
   Parameter '' requires an instance, but a type object was passed
 
 
-Le sucre syntaxique est une convention qui permet d'exprimer plus commodément quelque chose.
+Le L<sucre syntaxique|http://fr.wikipedia.org/wiki/Sucre_syntaxique> est une convention qui permet d'exprimer plus commodément quelque chose.
 Il est quelquefois tellement ancré dans langage que l'expression dont il est l'aternative n'est même pas disponible dans le langage. En général en S<Perl 6>, on trouve les deux formes
 
 =head2 Rôles C<positional> et C<associative>, sigils associés
