@@ -34,7 +34,7 @@ Elaborer sur les types implantés par rakudo peuvent boxer des types natifs mais
 possibilité de conversion peut dépendre de la valeur (ex: Rat -> int ) alors que la
 conversion n'a pas de sens pour la plupart des types externes (ex: sha1, bitvector)
 
-=head1 Découplage de 6model par rapport à Parrot
+=head1 Découplage de L<6model|https://github.com/jnthn/6model/blob/master/overview.pod> par rapport à Parrot
 
 Parrot fournit la notion de PMC, PolyMorphic Container qui est grandement redondante
 mais moins puissant que 6model. Le 6model implémente un meta object protocol (MOP)
