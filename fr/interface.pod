@@ -7,13 +7,13 @@ au document final.
 
 Une fois la partie théorique complétée, je comparerai les types déjà implantés.
 Dois rechercher dans l'écosysteme Perl 6 d'autres types implantés.
-J'implanterai un type à taille fixe, le sha1 et un type à longueur variable, un bitvector.
+J'implanterai un type à taille fixe, le sha1 et un type à longueur variable, un L<bitvector|http://www.devshed.com/c/a/Perl/More-Perl-Bits/2/>.
 
 On peut construire des types intéressants à base de bitvectors dérivés d'un type SmartSet.
 Une classe dérivée de SmartSet, appellons là S, comprend un hash qui associe des entiers à des clés et un tableau qui
 représente la relation inverse. La classe S implémente un ensemble et ces instances des sous-ensembles.
 Le bitvector de l'instance définit les éléments du sous-ensemble.
-L'ensemble ne contient pas de bitvector puisqu'il serait redondant (composé de 1)
+L'ensemble ne contient pas de bitvector puisqu'il serait redondant (composé de 1).
 Le hash de S permet de nommer les éléments de l'ensemble et d'associer un bit dans le bitvector.
 On peut croître l'ensemble S dynamiquement ce qui rallongera les bitvectors.
 SmartSet définit les opération ensemblistes.
@@ -30,7 +30,7 @@ les sha1. Par commodité, l'utilisateur de tel vecteurs pour renommer les ensemb
 
 
 
-Elaborer sur les types implantés par rakudo peuvent boxer des types natifs mais que la
+Elaborer sur les types implantés par rakudo peuvent L<boxer des types natifs|http://perlcabal.org/syn/S02.html#Built-in_Type_Conventions> mais que la
 possibilité de conversion peut dépendre de la valeur (ex: Rat -> int ) alors que la
 conversion n'a pas de sens pour la plupart des types externes (ex: sha1, bitvector)
 
@@ -48,10 +48,10 @@ A terme rakudo devrait pouvoir utiliser d'autres VM que Parrot
 le MOP n'est pas un concept nouveau puisqu'il a été implanté dans un dialecte de lisp CLOS. Un bouquin paru
 en 1991 document MOP.
 
-http://www.amazon.fr/The-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744/ref=sr_1_1?ie=UTF8&qid=1335436556&sr=8-1
+L<http://www.amazon.fr/The-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744/ref=sr_1_1?ie=UTF8&qid=1335436556&sr=8-1>
 
 Quelle technologie informatique n'a pas été inventé dans l'univers LISP? Hé bien, celle d'une syntaxe extensible comme celle Perl 6
-qui reprend aussi la notion de macro hygiénique inventée par ... LISP. A part la syntaxe, il vaut bien avouer que Perl 6 et
+qui reprend aussi la notion de L<macro hygiénique|http://fr.wikipedia.org/wiki/Macro-d%C3%A9finition> inventée par ... LISP. A part la syntaxe, il faut bien avouer que Perl 6 et
 ses implémentations ne sont que l'union laborieuse de technologies dont certaines existent depuis des décennies.
 
 
@@ -74,7 +74,7 @@ bibliothèque externe et non dans le code Perl 6 non optimisé. Auquel cas la le
 sera irrelevante. L'utilisation de bibliothèques externe est
 possible, car depuis quelque mois, Jonathan a intégré le métamodèle
 qui permet d'étendre rakudo.  Si les mécanismes de bases sont présents
-dans rakudo, une bibliothèque appelée zavolaj ajoute un peu de glue en
+dans rakudo, une bibliothèque appelée L<zavolaj|https://github.com/jnthn/zavolaj/> ajoute un peu de glue en
 pure Perl 6 qui fournit les rôles et les traits pour utiliser lesdits
 mécanismes.
 
@@ -228,13 +228,13 @@ src/core/traits.pm:127
 Dans le cadre de ce TP, nous étudierons comment étendre rakudo, pour
 utiliser des objets définis dans des dlls externes.
 
-http://jnthn.net/papers/2012-gpw-meta-programming.pdf
+L<http://jnthn.net/papers/2012-gpw-meta-programming.pdf>
 
 
 Nous commencerons par étudier un type simple, le sha1 qui est ma
 première contribution d'un type nouveau dans rakudo.
 Ca s'avère plus compliqué que privé car les routines atomiques de (dé)sérialisation
-sont insuffisantes
+sont insuffisantes.
 
 =head1 Implantation d'un type
 
