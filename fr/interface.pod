@@ -410,7 +410,7 @@ sur github.
 
 Il se trouve que la bibliothèque est déjà liée à rakudo car elle est 
 utilisée pour définir l'opcode pir C<nqp_sha1>.  Le code en S<question
-:> C<nqp/3rdparty/sha1/>
+:> C<nqp/3rdparty/sha1/> .
 
 Un sha1 est une structure de longueur fixe : C<SHA1_DIGEST_SIZE>.
 C<SHA1_DIGEST_SIZE> étant défini comme 20 et le type C<char> étant long
