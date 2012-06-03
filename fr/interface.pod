@@ -245,7 +245,7 @@ commencent par une majuscule alors que le nom des types natifs commence
 par une minuscule.  Pour chaque type natif il existe un type object
 correspondant. Lorsque c'est nécessaire, une valeur native peut être
 convertie en valeur objet et réciproquement. On parle respectivement
-de boxing et de unboxing.
+de L<boxing|"Boxing"> et de L<unboxing|"L'unboxing n'est pas toujours possible.">.
 
 Notons qu'une valeur doit être boxée pour être vue du ramasse miette
 car un type natif ne contient pas les bits nécessaires à sa gestion.
@@ -313,7 +313,7 @@ son type.
 Inversement
 
 Langage statiquement typé ne signifie pas nécessairement que le typage
-des variables doit être fait explictement par le programmeur. Certains
+des variables doit être fait explicitement par le programmeur. Certains
 langages statiquement typés, comme Haskell sont capables d'inférer le type à la
 compilation. Cela signifie que toutes les informations sont disponibles
 à la compilation pour générer du code spécifique au type inféré.
@@ -321,13 +321,13 @@ Ainsi, si du code objet est généré, le bon opcode ou le bon appel de
 routine pour l'addition sera généré, qu'elle soit entière,flottante
 (opcode généré) ou complexe (généralement appel de routine généré).
 
-On parle souvent d'annotation de type
+On parle souvent d'annotation de type.
 
 
 =head2 Langage à typage mixte
 
 Perl 6 est un langage à typage mixte.
-Vous n'avez pas nécessairement à déclarer le type des variables
+Vous n'avez pas nécessairement à déclarer le type des variables.
 
 =head2 L'unboxing n'est pas toujours possible.
 
@@ -350,7 +350,7 @@ valeur C<Int>
 
 Perl 6 comporte 3 types natifs primaires, C<int>, C<float>, C<str>.
 Des types natifs secondaires peuvent être dérivés en restraignant
-l'ensemble des valeurs autorisées
+l'ensemble des valeurs autorisées:
 
 src/core/natives.pm:1
  
@@ -365,7 +365,7 @@ En pratique, la distinction est souvent invisible pour
 l'utilisateur. Mieux, un bon compilateur saura voir qu'il peut
 optimiser un type objet en un type natif.  Qui plus est, la différence
 entre compilateur et interpréteur est de plus en plus flou et on
-tendra à utilise un terme plus large : moteur.
+tendra à utiliser un terme plus large : moteur.
 
 Ainsi le moteur v8 de chrome gère du javascript. Javascript est un
 langage à typage dynamique.  Pourtant v8 est capable de compiler à la
@@ -384,7 +384,7 @@ un C<Q:PIR { ... }>
 
 =head1 Sha1
 
-Un sha1 est une fonction de hashage cryptographique qui permet de
+Un sha1 est une L<fonction de hashage cryptographique|http://fr.wikipedia.org/wiki/Fonction_de_hash#Fonction_de_hachage_cryptographique> qui permet de
 représenter une chaîne quelconque par un condensat de 20 octets. La
 représentation imprimable du condensat est le digest de 64 octets.
 Donc notre type sha1 supporte donc seulement deux opérations : un constructeur et une opération de cast.
