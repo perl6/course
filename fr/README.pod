@@ -6,14 +6,14 @@ Une salle sera consacrée pendant les deux jours pour un atelier "libre service"
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum et d'assister préalablement à la piste Perl 6. Cette piste ayant lieu vendredi matin.
 
 La liste des présentations Perl : L<http://journeesperl.fr/fpw2012/talks/tag/perl6>
-Note: couramment accessible aux seuls administrateurs
+Note: couramment accessible aux seuls administrateurs.
 
 Cet atelier utilisera L<Rakudo|http://rakudo.org/> comme interpréteur.
 Pour tirer un maximum de bénéfice de l'atelier, il est conseillé d'y consacrer une demi-journée minimum.
 
 Pour gagner du temps, nous demandons aux participants d'avoir rakudo Star de
 Mai ou Juin installé sur leur laptop. Pour ce faire, il pourront trouver de l'aide sur les canaux
-IRC #perl6 de L<irc.freenode.org|http://irc.freenode.org> et #perlfr de L<irc.perl.org|http://irc.perl.org>. Le premier est anglophone et
+IRC #perl6 de L<irc.freenode.org|http://freenode.net> et #perlfr de L<irc.perl.org|http://irc.perl.org>. Le premier est anglophone et
 le second francophone. Certains TPs pourront utiliser des fonctionalités avancées de HTML 5,
 donc avoir une version récente du butineur chrome est souhaitable.
 
