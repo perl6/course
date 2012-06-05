@@ -19,14 +19,14 @@ On peut croître l'ensemble S dynamiquement ce qui rallongera les bitvectors.
 SmartSet définit les opération ensemblistes.
 Le cas simple est quand ces opérations ensemblistes opèrent sur des sous ensembles de S.
 Mais on peut avoir plusieurs classes dérivées de SmartSet. Nommons les S et S'.
-Supposons que nous voulons travailler sur des sous-ensembles de leur unions. Il
+Supposons que nous voulons travailler sur des sous-ensembles de leur unions. Ils
 devront être représentés par deux bitvectors si nous voulons pouvoir croître ces ensembles.
 De plus, il y a possibilité de clash de clés (ie: de noms d'élément), donc en cas
 d'ambiguité une clé doit être préfixée par le nom de son ensemble.
 D'ailleurs, un sous-ensemble composite sera implémenté par un hash de bitvectors indexés par
-le nom des ensembles. Il est même possible qu'on veuille gérer les collision sur le nom des ensembles; auquel
+le nom des ensembles. Il est même possible qu'on veuille gérer les collisions sur le nom des ensembles; auquel
 cas un ensemble est identifié par un sha1 aléatoire. Les bitvectors seront alors indexés par
-les sha1. Par commodité, l'utilisateur de tel vecteurs pour renommer les ensembles.
+les sha1. Par commodité, l'utilisateur de tels vecteurs pour renommer les ensembles.
 
 
 
