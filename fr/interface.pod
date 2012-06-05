@@ -450,7 +450,7 @@ REPROps * Sha1_initialize(PARROT_INTERP);
       $attr.set_box_target();
   }
 
-=head2 petite digresssion
+=head2 Petite digresssion
 
 Cette digression pour montrer que pour comprendre une petite chose
 dans un compilateur, il faut souvent visiter au moins une
