@@ -34,12 +34,12 @@ Elaborer sur les types implantés par rakudo peuvent L<boxer des types natifs|ht
 possibilité de conversion peut dépendre de la valeur (ex: Rat -> int ) alors que la
 conversion n'a pas de sens pour la plupart des types externes (ex: sha1, bitvector)
 
-=head1 Découplage de L<6model|https://github.com/jnthn/6model/blob/master/overview.pod> par rapport à Parrot
+=head1 Découplage de 6model par rapport à Parrot
 
 Parrot fournit la notion de PMC, L<PolyMorphic Container|http://fr.wikipedia.org/wiki/Parrot_%28machine_virtuelle%29#Parrot_Polymorphic_Containers> qui est grandement redondante
-mais moins puissant que 6model. Le 6model implémente un meta object protocol (L<MOP|http://perl6advent.wordpress.com/2010/12/22/day-22-the-meta-object-protocol/>)
+mais moins puissant que L<6model|https://github.com/jnthn/6model/blob/master/overview.pod>. Le 6model implémente un meta object protocol (L<MOP|http://perl6advent.wordpress.com/2010/12/22/day-22-the-meta-object-protocol/>)
 qui permet une introspection des types objet.
-Parrot a été historiquent nécessaire pour booter rakudo et n'a pas su fournir à temps un
+Parrot a été historiquement nécessaire pour booter rakudo et n'a pas su fournir à temps un
 MOP. Il est question de porter le 6model de rakudo sur Parrot pour remplacer les PMC.
 A terme rakudo devrait pouvoir utiliser d'autres VM que Parrot
 
