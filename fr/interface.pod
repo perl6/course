@@ -124,7 +124,7 @@ Différents mots clés pour désigner différents types de paquetage.
     method package_declarator:sym<native>($/)  { make $<package_def>.ast }
   
 
-Natives:`
+Natives:
 
   C<src/Perl6/Metamodel/NativeHOW.pm>
 
