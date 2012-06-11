@@ -20,6 +20,8 @@ Larry Wall
 
 =back
 
+=back
+
 =head1 La documentation
 
 =over 4
@@ -36,12 +38,14 @@ Une autre supposition a été que si nous ne parlons pas de ces Synopsis, c'est 
 
 Bientôt nous nous engageons de remplir les faussés aussi avec Perl 5.
 
-=item L<Synopsis 2: Bits and Pieces|https://github.com/perl6/specs/blob/master/S02-bits.pod>
+=item L<Synopsis 2: Bits et Pieces|https://github.com/perl6/specs/blob/master/S02-bits.pod>
 
 Ce document résume l'Apocalypse 2, qui couvre des articles lexicaux de petites tailles et des questions typologiques. Ces 
 synopses contiennent des mises à jours qui reflètent l'évolution de la conception de Perl 6 à travers le temps à l'inverse 
 des Apocalypses qui sont figés dans le temps (documents historique). Ces mises à jours ne sont pas marquées si un Synopsis 
 est en désaccord avec son Apocalypse, en admettant que le Synopsis est correct.
+
+=item L<Synopsis 3: Opérateurs Perl 6|https://github.com/perl6/specs/blob/master/S03-operators.pod>
 
 =back
 
@@ -50,7 +54,6 @@ est en désaccord avec son Apocalypse, en admettant que le Synopsis est correct.
 =over 4
 
 L'état de l'onion: L<http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>.
-
 
 =back
 
