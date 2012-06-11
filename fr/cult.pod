@@ -1,3 +1,31 @@
 =encoding utf8
 
 =head1 La culture et les ressources Perl 6
+
+=over 4
+
+=item Introduction
+
+Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information sur la culture et la façon de penser en Perl 6.
+
+"I<... Now, you may be wondering what all this has to do with Perl. The fact is, 
+your brains are built to do Perl programming. You have a deep desire to turn the 
+complex into the simple, and Perl is just another tool to help you do that--just 
+as I am using English right now to try to simplify reality. I can use English for 
+that because English is a mess... >" 
+
+=over 20
+
+Larry Wall
+
+=back
+
+=head1 Références
+
+=over 4
+
+L'état de l'onion: L<http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>.
+
+
+=back
+
