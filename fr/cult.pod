@@ -12,23 +12,62 @@ L<La documentation|"La documentation">
 
 =over 4
 
-L<Synopsis 1: vue d'ensemble|"Synopsis 1: vue d'ensemble">
+Synopsis 1: vue d'ensemble / I<Synopsis 1: Overview>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S01-overview.pod>
 
-L<Synopsis 2: Bits et Pieces|"Synopsis 2: Bits et Pieces">
+Synopsis 2: Bits et Pieces / I<Synopsis 2: Bits and Pieces>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S02-bits.pod>
 
-L<Synopsis 3: Operateurs Perl 6|"Synopsis 3: Operateurs Perl 6">
+Synopsis 3: Operateurs Perl 6 / I<Synopsis 3: Perl 6 Operators>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S03-operators.pod>
 
-L<Synopsis 4: Blocks et declarations|"Synopsis 4: Blocks et declarations">
+Synopsis 4: Blocks et declarations / I<Synopsis 4: Blocks and Statements> 
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S04-control.pod>
 
-L<Synopsis 5: Les Regex et les Lois|"Synopsis 5: Les Regex et les Lois">
+Synopsis 5: Les Regex et les Lois / I<Synopsis 5: Regexes and Rules>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S05-regex.pod>
 
-L<Synopsis 6: Les souroutines|"Synopsis 6: Les souroutines">
+Synopsis 6: Les sous-routines / I<Synopsis 6: Subroutines>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S06-routines.pod>
 
-L<Synopsis 7: Iterateurs et Paresse|"Synopsis 7: Iterateurs et Paresse">
+Synopsis 7: Iterateurs et Paresse / I<Synopsis 7: Iterators and Laziness>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S07-iterators.pod>
 
-L<Synopsis 8: Les types Parcel, Capture|"Synopsis 8: Les types Parcel, Capture">
+Synopsis 8: Les types Parcel, Capture / I<Synopsis 8: Capture and Parcel>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S08-capture.pod>
 
-L<Synopsis 9: Structures de donnees|"Synopsis 9: Structures de donnees">
+Synopsis 9: Structures de donnees / I<Synopsis 9: Data Structures>
+L<Lire/Read...|https://github.com/perl6/specs/blob/master/S09-data.pod>
+
+L<Synopsis 10: Les paquetages|"Synopsis 10: Les paquetages">
+
+L<Synopsis 11: Les modules|"Synopsis 11: Les modules">
+
+L<Synopsis 12: Les objects|"Synopsis 12: Les objects">
+
+L<Synopsis 13: Les surcharges|"Synopsis 13: Les surcharges">
+
+L<Synopsis 14: Roles et Types Parametric [brouillon]|"Synopsis 14: Roles et Types Parametric [brouillon]">
+
+L<Brouillon: Synopsis 16: IO / Name Services|"Brouillon: Synopsis 16: IO / Name Services">
+
+L<DRAFT: Synopsis 17: Les Process et la Concurrence|"DRAFT: Synopsis 17: Les Process et la Concurrence">
+
+L<DRAFT: Synopsis 19: L'interface de ligne de commande|"DRAFT: Synopsis 19: L'interface de ligne de commande">
+
+L<DRAFT: Synopsis 21: Appel de code etranger|"DRAFT: Synopsis 21: Appel de code etranger">
+
+L<Synopsis 22: Format de Package [DRAFT]|"Synopsis 22: Format de Package [DRAFT]">
+
+L<Synopsis 24: Les Tests|"Synopsis 24: Les Tests">
+
+L<Synopsis 26: La documentation|"Synopsis 26: La documentation">
+
+L<[Brouillon] Synopsis 28 - Special Names [Brouillon]|"[Brouillon] Synopsis 28 - Special Names [Brouillon]">
+
+L<Synopsis 29: Les Fonctions Builtin|"Synopsis 29: Les Fonctions Builtin">
+
+L<[Brouillon] Synopsis 31: Pragmatic Modules|"[Brouillon] Synopsis 31: Pragmatic Modules">
 
 =back
 
@@ -52,56 +91,7 @@ Larry Wall
 
 =head1 La documentation
 
-=head2 L<Synopsis 1: vue d'ensemble|https://github.com/perl6/specs/blob/master/S01-overview.pod>
 
-Ce document récapitule à l'origine l'Apocalypse 1, ce qui couvre les concepts (design), les concepts initiaux.
-Le résumé initial peut être trouvé sous "L<notes en vrac|https://github.com/perl6/specs/blob/master/S01-overview.pod#___top>".
-Cependant, ces synopsis contienent aussi des mises à jours qui reflètent l'évolution des concepts(design) de Perl 6 à travers 
-le temps, pas comme l'Apocalypse, qui est figé dans le temps comme "documents historiques". Ces mises à jours ne sont pas 
-marquées si un Synopsis est en désaccord avec son Apocalypse, en admettant que le Synopsis est correct.
-
-Une autre supposition a été que si nous ne parlons pas de ces Synopsis, c'est que c'est la même en Perl 5.
-
-Bientôt nous nous engageons de remplir les faussés aussi avec Perl 5.
-
-=head2 L<Synopsis 2: Bits et Pieces|https://github.com/perl6/specs/blob/master/S02-bits.pod>
-
-Ce document récapitule l'Apocalypse 2, qui couvre des articles lexicaux de petites tailles et des questions typologiques. Ces 
-synopses contiennent des mises à jours qui reflètent l'évolution de la conception de Perl 6 à travers le temps à l'inverse 
-des Apocalypses qui sont figés dans le temps (documents historique). Ces mises à jours ne sont pas marquées si un Synopsis 
-est en désaccord avec son Apocalypse, en admettant que le Synopsis est correct.
-
-=head2 L<Synopsis 3: Operateurs Perl 6|https://github.com/perl6/specs/blob/master/S03-operators.pod>
-
-Récapitulation des changements en provenance de Perl 5.
-
-=head2 L<Synopsis 4: Blocks et declarations|https://github.com/perl6/specs/blob/master/S04-control.pod>
-
-Ce document récapitule l'Apocalypse 4, qui couvre les blocks et les déclarations de Perl.
-
-=head2 L<Synopsis 5: Les Regex et les Lois|https://github.com/perl6/specs/blob/master/S05-regex.pod>
-
-Ce document récapitule l'Apocalypse 5, qui est à propos de la nouvelle syntaxe des regex. On les appelle maintenant regex plutôt "qu'expression régulières" parcequ'ils n'ont pas été des expressions régulières depuis trés longtemps, et nous pensons que le terme "regex" est dans la passe de devenir un terme technique avec le sens précisi de: "I<quelque chose où vous faites la correspondance avec, quelque chose qui ressemble à une expression régulière>". D'un autre coté, un des buts de cette restructuration est de faire des portions de nos modèles plus susceptibles à analyse sous expression régulière traditionnelle et parcourir la sémantique, et ce qui induit faire attentions aux distinctions entre les parties de nos modèles et la grammaire sont traités comme déclarative, et qu'elle parti doit être procédurale.
-
-Dans n'importe quel cas, quand on se réfère à des modèles récursifs à l'intérieur d'une grammaire, les termes I<loi> et I<jeton> sont utilisés plutot que regex.
-
-=head2 L<Synopsis 6: Les souroutines|https://github.com/perl6/specs/blob/master/S06-routines.pod>
-
-Ce document récapitule l'Apocalypse 6, qui couvre les sous-routines et le nouveau type système.
-
-=head2 L<Synopsis 7: Iterateurs et Paresse|https://github.com/perl6/specs/blob/master/S07-iterators.pod>
-
-Comme nous le savons tous, une des premières virtues des programmeurs en Perl est la paresses. C'est aussi une des vertues de Perl en soi. De quelques manière, Perl 6 sait succomber à sa fausse paresse, est de temps en temps il en demande plus, mais il est aussi est surtout paresseux.
-
-Une chose que Perl comprend c'est la différence entre paresse est le désir. Quand des fois il est Paresseux il dit juste "I<Filez mois ce que vous avez>" quand des fois il en demande plus il dit "I<Plus, plus! Donnez moi tout ce que vous pouvez>". Il y a plusieurs niveau de paresse: la super paresse(paresse stricte), paresse laxiste(surtout paresseux), super désireux, et surtout désireux.
-
-=head2 L<Synopsis 8: Les types Parcel, Capture|https://github.com/perl6/specs/blob/master/S08-capture.pod>
-
-Contrairement à la pluspart des langages de programmation, la structure de donnée qui est utilisée pour envoyer les paramètres dans une routine d'appel (que cela soit C<method> ou C<sub>) est présentée dans le langage comme une builtin type comme les autres. Cela présente un aspect important de Perl 6 pour les besoins des temps d'exécution.
-
-=head2 L<Synopsis 9: Structures de donnees|https://github.com/perl6/specs/blob/master/S09-data.pod>
-
-Ce synopsis résume la non existance de l'Apocalypse 9, qui traite en détail de la conception des structures de données de Perl 6. C'était principalement une discussion sur l'existance des mélanges des caractéristiques de Perl 6 pour que les gars du PDL écrivent plus facilement des Perl  numériques.
 
 =head1 Références
 
