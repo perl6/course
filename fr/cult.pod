@@ -26,6 +26,8 @@ L<Synopsis 6: Les souroutines|"Synopsis 6: Les souroutines">
 
 L<Synopsis 7: Iterateurs et Paresse|"Synopsis 7: Iterateurs et Paresse">
 
+L<Synopsis 8: Les types Parcel, Capture|"Synopsis 8: Les types Parcel, Capture">
+
 =back
 
 =back
@@ -87,9 +89,11 @@ Ce document récapitule l'Apocalypse 6, qui couvre les sous-routines et le nouve
 
 =head2 L<Synopsis 7: Iterateurs et Paresse|https://github.com/perl6/specs/blob/master/S07-iterators.pod>
 
-Comme nous le savons tous, une des premières virtues des programmeurs en Perl est la paresses. C'est aussi une des vertues de Perl en lui même. De quelques manière, Perl 6 sait succomber à sa fausse paresse, est de temps en temps est aussi en demande plus, mais il est aussi paresseux.
+Comme nous le savons tous, une des premières virtues des programmeurs en Perl est la paresses. C'est aussi une des vertues de Perl en soi ;-) . De quelques manière, Perl 6 sait succomber à sa fausse paresse, est de temps en temps est aussi en demande plus, mais il est aussi paresseux.
 
 Une chose que Perl comprend c'est la différence entre paresse est le désir. Quand des fois il est Paresseux il dit juste "I<Filez mois ce que vous avez>" quand des fois il en demande plus il dit "I<Plu, plus! Donnez moi tout ce que vous pouvez>". Il y a plusieurs niveau de paresse: la super paresse(paresse stricte), paresse laxiste(surtout paresseux),super désireux, et surtout désireux.
+
+=head2 L<Synopsis 8: Les types Parcel, Capture|https://github.com/perl6/specs/blob/master/S08-capture.pod>
 
 =head1 Références
 
