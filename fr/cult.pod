@@ -28,7 +28,7 @@ L<Synopsis 7: Iterateurs et Paresse|"Synopsis 7: Iterateurs et Paresse">
 
 L<Synopsis 8: Les types Parcel, Capture|"Synopsis 8: Les types Parcel, Capture">
 
-L<Synopsis 9: Structures de données|"Synopsis 9: Structures de données">
+L<Synopsis 9: Structures de donnees|"Synopsis 9: Structures de donnees">
 
 =back
 
@@ -99,7 +99,7 @@ Une chose que Perl comprend c'est la différence entre paresse est le désir. Qu
 
 Contrairement à la pluspart des langages de programmation, la structure de donnée qui est utilisée pour envoyer les paramètres dans une routine d'appel (que cela soit C<method> ou C<sub>) est présentée dans le langage comme une builtin type comme les autres. Cela présente un aspect important de Perl 6 pour les besoins des temps d'exécution.
 
-=head2 L<Synopsis 9: Structures de données|https://github.com/perl6/specs/blob/master/S09-data.pod>
+=head2 L<Synopsis 9: Structures de donnees|https://github.com/perl6/specs/blob/master/S09-data.pod>
 
 Ce synopsis résume la non existance de l'Apocalypse 9, qui traite en détail de la conception des structures de données de Perl 6. C'était principalement une discussion sur l'existance des mélanges des caractéristiques de Perl 6 pour que les gars du PDL écrivent plus facilement des Perl numériques.
 =head1 Références
