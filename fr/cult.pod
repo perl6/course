@@ -8,7 +8,46 @@
 
 L<Introduction|"Introduction">
 
+Synopsis
+
+=over 4
+
+L<Synopsis 1-9|"Synopsis 1-9">
+
+L<Synopsis 10-19|"Synopsis 10-19">
+
+L<Synopsis 20-29|"Synopsis 20-29">
+
+L<Synopsis 30-32|"Synopsis 30-32">
+
+=back
+
 L<La documentation|"La documentation">
+
+=back
+
+=head1 Introduction
+
+Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information sur la culture et la façon de penser en Perl 6.
+
+"I<... Now, you may be wondering what all this has to do with Perl. The fact is, 
+your brains are built to do Perl programming. You have a deep desire to turn the 
+complex into the simple, and Perl is just another tool to help you do that--just 
+as I am using English right now to try to simplify reality. I can use English for 
+that because English is a mess... >" 
+
+=over 20
+
+Larry Wall
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+
+
+=head1 Synopsis 1-9
 
 =over 4
 
@@ -48,6 +87,15 @@ Synopsis 9: Structures de donnees | I<Synopsis 9: Data Structures>
 L<Lire|https://github.com/perl6/specs/blob/master/S09-data.pod>
 | L<Read|https://github.com/perl6/specs/blob/master/S09-data.pod>...
 
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head1 Synopsis 10-19
+
+=over 4
+
 Synopsis 10: Les paquetages | I<Synopsis 10: Packages>
 L<Lire|https://github.com/perl6/specs/blob/master/S10-packages.pod>
 | L<Read|https://github.com/perl6/specs/blob/master/S10-packages.pod>...
@@ -80,6 +128,15 @@ DRAFT: Synopsis 19: L'interface de ligne de commande | I<DRAFT: Synopsis 19: Com
 L<Lire|https://github.com/perl6/specs/blob/master/S19-commandline.pod> 
 | L<Read|https://github.com/perl6/specs/blob/master/S19-commandline.pod>...
 
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head1 Synopsis 20-29
+
+=over 4
+
 DRAFT: Synopsis 21: Appel de code etranger | I<DRAFT: Synopsis 21: Calling Foreign Code>
 L<Lire|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod> 
 | L<Read|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod>...
@@ -103,6 +160,15 @@ L<Lire|https://github.com/perl6/specs/blob/master/S28-special-names.pod>
 Synopsis 29: Les Fonctions Builtin| I<Synopsis 29: Builtin Functions>
 L<Lire|https://github.com/perl6/specs/blob/master/S29-functions.pod> 
 | L<Read|https://github.com/perl6/specs/blob/master/S29-functions.pod>...
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head1 Synopsis 30-32
+
+=over 4
 
 [BROUILLON] Synopsis 31: Pragmatic Modules | I<[DRAFT] Synopsis 31: Pragmatic Modules>
 L<Lire|https://github.com/perl6/specs/blob/master/S31-pragmatic-modules.pod> 
@@ -152,23 +218,8 @@ L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Temporal.p
 
 =back
 
-=back
-
-=head1 Introduction
-
-Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information sur la culture et la façon de penser en Perl 6.
-
-"I<... Now, you may be wondering what all this has to do with Perl. The fact is, 
-your brains are built to do Perl programming. You have a deep desire to turn the 
-complex into the simple, and Perl is just another tool to help you do that--just 
-as I am using English right now to try to simplify reality. I can use English for 
-that because English is a mess... >" 
-
-=over 20
-
-Larry Wall
-
-=back
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
 
 =head1 La documentation
 
