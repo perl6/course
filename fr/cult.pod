@@ -112,7 +112,7 @@ Blibliothèque de réglage | Setting library
 
 =over 4
 
-BROUILLON: Synopsis 32: Bibliothèqe de réglage - La base | I<DRAFT: Synopsis 32: Setting Library - Basics>
+BROUILLON: Synopsis 32: Bibliothèqe de réglage - L'essentiel | I<DRAFT: Synopsis 32: Setting Library - Basics>
 L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Basics.pod>
 | L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Basics.pod>...
 
@@ -121,8 +121,8 @@ L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Callable.p
 | L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Callable.pod>...
 
 BROUILLON: Synopsis 32: Bibliothèque de réglage - Conteneurs.pod | I<DRAFT: Synopsis 32: Setting Library - Containers.pod>
-L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Callable.pod>
-| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Callable.pod>...
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Containers.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Containers.pod>...
 
 BROUILLON: Synopsis 32: Bibliothèque de réglage - Exceptions | I<DRAFT: Synopsis 32: Setting Library - Exceptions>
 L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Exception.pod>
