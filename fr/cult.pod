@@ -12,77 +12,91 @@ L<La documentation|"La documentation">
 
 =over 4
 
-Synopsis 1: vue d'ensemble / I<Synopsis 1: Overview>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S01-overview.pod>
+Synopsis 1: vue d'ensemble | I<Synopsis 1: Overview>
+L<Lire|https://github.com/perl6/specs/blob/master/S01-overview.pod>
+|L<Read...|https://github.com/perl6/specs/blob/master/S01-overview.pod>...
 
-Synopsis 2: Bits et Pieces / I<Synopsis 2: Bits and Pieces>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S02-bits.pod>
+Synopsis 2: Bits et Pieces | I<Synopsis 2: Bits and Pieces>
+L<Lire|https://github.com/perl6/specs/blob/master/S02-bits.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S02-bits.pod>...
 
-Synopsis 3: Operateurs Perl 6 / I<Synopsis 3: Perl 6 Operators>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S03-operators.pod>
+Synopsis 3: Operateurs Perl 6 | I<Synopsis 3: Perl 6 Operators>
+L<Lire|https://github.com/perl6/specs/blob/master/S03-operators.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S03-operators.pod>...
 
-Synopsis 4: Blocks et declarations / I<Synopsis 4: Blocks and Statements> 
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S04-control.pod>
+Synopsis 4: Blocks et declarations | I<Synopsis 4: Blocks and Statements> 
+L<Lire|https://github.com/perl6/specs/blob/master/S04-control.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S04-control.pod>...
 
-Synopsis 5: Les Regex et les Lois / I<Synopsis 5: Regexes and Rules>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S05-regex.pod>
+Synopsis 5: Les Regex et les Lois | I<Synopsis 5: Regexes and Rules>
+L<Lire|https://github.com/perl6/specs/blob/master/S05-regex.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S05-regex.pod>...
 
-Synopsis 6: Les sous-routines / I<Synopsis 6: Subroutines>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S06-routines.pod>
+Synopsis 6: Les sous-routines | I<Synopsis 6: Subroutines>
+L<Lire|https://github.com/perl6/specs/blob/master/S06-routines.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S06-routines.pod>...
 
-Synopsis 7: Iterateurs et Paresse / I<Synopsis 7: Iterators and Laziness>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S07-iterators.pod>
+Synopsis 7: Iterateurs et Paresse | I<Synopsis 7: Iterators and Laziness>
+L<Lire|https://github.com/perl6/specs/blob/master/S07-iterators.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S07-iterators.pod>...
 
-Synopsis 8: Les types Parcel, Capture / I<Synopsis 8: Capture and Parcel>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S08-capture.pod>
+Synopsis 8: Les types Parcel, Capture | I<Synopsis 8: Capture and Parcel>
+L<Lire|https://github.com/perl6/specs/blob/master/S08-capture.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S08-capture.pod>...
 
-Synopsis 9: Structures de donnees / I<Synopsis 9: Data Structures>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S09-data.pod>
+Synopsis 9: Structures de donnees | I<Synopsis 9: Data Structures>
+L<Lire|https://github.com/perl6/specs/blob/master/S09-data.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S09-data.pod>...
 
-Synopsis 10: Les paquetages / I<Synopsis 10: Packages>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S10-packages.pod>
+Synopsis 10: Les paquetages | I<Synopsis 10: Packages>
+L<Lire|https://github.com/perl6/specs/blob/master/S10-packages.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S10-packages.pod>...
 
-Synopsis 11: Les modules / I<Synopsis 11: Modules>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S11-modules.pod>
+Synopsis 11: Les modules | I<Synopsis 11: Modules>
+L<Lire|https://github.com/perl6/specs/blob/master/S11-modules.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S11-modules.pod>...
 
-Synopsis 12: Les objects / I<Synopsis 12: Objects>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S12-objects.pod>
+Synopsis 12: Les objects | I<Synopsis 12: Objects>
+L<Lire|https://github.com/perl6/specs/blob/master/S12-objects.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S12-objects.pod>...
 
-Synopsis 13: Les surcharges / I<Synopsis 13: Overloading>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S13-overloading.pod>
+Synopsis 13: Les surcharges | I<Synopsis 13: Overloading>
+L<Lire|https://github.com/perl6/specs/blob/master/S13-overloading.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S13-overloading.pod>...
 
-Synopsis 14: Roles et Types Parametric [brouillon] / I<Synopsis 14: Roles and Parametric Types [DRAFT]>
-L<Lire/Read...|https://github.com/perl6/specs/blob/master/S14-roles-and-parametric-types.pod>
+Synopsis 14: Roles et Types Parametric [brouillon] | I<Synopsis 14: Roles and Parametric Types [DRAFT]>
+L<Lire|https://github.com/perl6/specs/blob/master/S14-roles-and-parametric-types.pod>
+|L<Read|https://github.com/perl6/specs/blob/master/S14-roles-and-parametric-types.pod>...
 
-L<Brouillon: Synopsis 16: IO / Name Services|"Brouillon: Synopsis 16: IO / Name Services">
-L<Lire/Read...|>
+Brouillon: Synopsis 16: IO / Name Services | I<DRAFT: Synopsis 16: IO / Name Services>
+L<Lire|https://github.com/perl6/specs/blob/master/S16-io.pod>|L<Read|https://github.com/perl6/specs/blob/master/S16-io.pod>...
 
-L<DRAFT: Synopsis 17: Les Process et la Concurrence|"DRAFT: Synopsis 17: Les Process et la Concurrence">
-L<Lire/Read...|>
+DRAFT: Synopsis 17: Les Process et la Concurrence | I<DRAFT: Synopsis 17: Processes and Concurrency>
+L<Lire|https://github.com/perl6/specs/blob/master/S17-concurrency.pod>|L<Read|https://github.com/perl6/specs/blob/master/S17-concurrency.pod>...
 
 L<DRAFT: Synopsis 19: L'interface de ligne de commande|"DRAFT: Synopsis 19: L'interface de ligne de commande">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<DRAFT: Synopsis 21: Appel de code etranger|"DRAFT: Synopsis 21: Appel de code etranger">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<Synopsis 22: Format de Package [DRAFT]|"Synopsis 22: Format de Package [DRAFT]">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<Synopsis 24: Les Tests|"Synopsis 24: Les Tests">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<Synopsis 26: La documentation|"Synopsis 26: La documentation">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<[Brouillon] Synopsis 28 - Special Names [Brouillon]|"[Brouillon] Synopsis 28 - Special Names [Brouillon]">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<Synopsis 29: Les Fonctions Builtin|"Synopsis 29: Les Fonctions Builtin">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 L<[Brouillon] Synopsis 31: Pragmatic Modules|"[Brouillon] Synopsis 31: Pragmatic Modules">
-L<Lire/Read...|>
+L<Lire|>|L<Read|>...
 
 =back
 
