@@ -10,7 +10,15 @@ L<Introduction|"Introduction">
 
 L<La documentation|"La documentation">
 
-L<Calendrier|http://journeesperl.fr/fpw2012/talks>
+L<Le calendrier |"Le calendrier | Calendar"> | L<Calendar |"Le calendrier | Calendar">
+
+=over 4
+
+L<Jour 1|"Jour 1 | Day 1"> | L<Day 1|"Jour 1 | Day 1">
+
+L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
+
+=back
 
 L<Synopsis|"Synopsis">
 
@@ -41,6 +49,30 @@ that because English is a mess... >"
 =over 20
 
 Larry Wall
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head1 La documentation
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head1 Le calendrier | Calendar
+
+=head2 Jour 1 | Day 1
+
+=over 4
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 Jour 2 | Day 2
+=over 4
 
 =back
 
@@ -189,8 +221,6 @@ Synopsis 32: Bibliothèque de réglage - Temporel L<lire|https://github.com/perl
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
-
-=head1 La documentation
 
 =head1 Références
 
