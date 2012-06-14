@@ -8,6 +8,8 @@
 
 L<Introduction|"Introduction">
 
+L<La documentation|"La documentation">
+
 Synopsis
 
 =over 4
@@ -21,8 +23,6 @@ L<Synopsis 20-29|"Synopsis 20-29">
 L<Synopsis 30-32|"Synopsis 30-32">
 
 =back
-
-L<La documentation|"La documentation">
 
 =back
 
@@ -45,9 +45,9 @@ Larry Wall
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
+=head1 Synopsis
 
-
-=head1 Synopsis 1-9
+=head2 Synopsis 1-9
 
 =over 4
 
@@ -92,7 +92,7 @@ L<Lire|https://github.com/perl6/specs/blob/master/S09-data.pod>
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Synopsis 10-19
+=head2 Synopsis 10-19
 
 =over 4
 
@@ -133,7 +133,7 @@ L<Lire|https://github.com/perl6/specs/blob/master/S19-commandline.pod>
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Synopsis 20-29
+=head2 Synopsis 20-29
 
 =over 4
 
@@ -166,7 +166,7 @@ L<Lire|https://github.com/perl6/specs/blob/master/S29-functions.pod>
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Synopsis 30-32
+=head2 Synopsis 30-32
 
 =over 4
 
