@@ -124,18 +124,29 @@ BROUILLON: Synopsis 32: Bibliothèque de réglage - Conteneurs.pod | I<DRAFT: Sy
 L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Callable.pod>
 | L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Callable.pod>...
 
-BROUILLON: Synopsis 32: Setting Library - Exceptions | I<DRAFT: Synopsis 32: Setting Library - Exceptions>
-L<Lire|>
-| L<Read|>...
+BROUILLON: Synopsis 32: Bibliothèque de réglage - Exceptions | I<DRAFT: Synopsis 32: Setting Library - Exceptions>
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Exception.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Exception.pod>...
 
-L<Lire|>
-| L<Read|>...
+BROUILLON: Synopsis 32: Bibliothèque de réglage - ES | I<DRAFT: Synopsis 32: Setting Library - IO>
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/IO.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/IO.pod>...
 
-L<Lire|>
-| L<Read|>...
+BROUILLON: Synopsis 32: Bibliothèque de réglage - Numérique | I<DRAFT: Synopsis 32: Setting Library - Numeric>
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Numeric.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Numeric.pod>...
 
-L<Lire|>
-| L<Read|>...
+BROUILLON: Synopsis 32: Bibliothèque de réglage - Les lois | I<DRAFT: Synopsis 32: Setting Library - Rules>
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Rules.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Rules.pod>...
+
+BROUILLON: Synopsis 32: Bibliothèque de réglage - Str | I<DRAFT: Synopsis 32: Setting Library - Str>
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Str.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Str.pod>...
+
+Synopsis 32: Bibliothèque de réglage - Temporel | I<Synopsis 32: Setting Library - Temporal>
+L<Lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Temporal.pod>
+| L<Read|https://github.com/perl6/specs/blob/master/S32-setting-library/Temporal.pod>...
 
 =back
 
