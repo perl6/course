@@ -10,9 +10,11 @@ L<Introduction|"Introduction">
 
 L<La documentation|"La documentation">
 
-L<Le calendrier |"Le calendrier | Calendar"> | L<Calendar |"Le calendrier | Calendar">
+L<Calendrier |"Le calendrier | Schedule"> | L<Schedule |"Le calendrier | Schedule">
 
 =over 4
+
+L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Calendrier entier | Full schedule">
 
 L<Jour 1|"Jour 1 | Day 1"> | L<Day 1|"Jour 1 | Day 1">
 
@@ -60,7 +62,15 @@ L<Haut|"La culture et les ressources Perl 6">
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Le calendrier | Calendar
+=head1 Le calendrier | Schedule
+
+=head2 Calendrier entier | Full schedule
+
+=over 4
+
+L<Liste des talk|http://journeesperl.fr/fpw2012/talks> | L<List of talks|http://journeesperl.fr/fpw2012/talks>
+
+=back
 
 =head2 Jour 1 | Day 1
 
@@ -72,6 +82,7 @@ L<Haut|"La culture et les ressources Perl 6">
 | L<Top|"La culture et les ressources Perl 6">
 
 =head2 Jour 2 | Day 2
+
 =over 4
 
 =back
