@@ -16,9 +16,9 @@ L<Keynotes|"Keynotes">
 
 =over 4
 
-L<L'etat de l'onion de 1997 vers 1999|"L'etat de l'onion de 1997 vers 1999 | The state of the onion from 1997 to 1999"> | L<The state of the onion from 1997 to 1999|"L'etat de l'onion de 1997 vers 1999 | The state of the onion from 1997 to 1999">
+L<L'etat de l'onion de 1997 a 1999|"L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999"> | L<The state of the onion from 1997 to 1999|"L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999">
 
-L<L'etat de l'onion de 2000 vers 2009|"L'etat de l'onion de 2000 vers 2009 | The state of the onion from 2000 to 2009"> | L<The state of the onion from 2000 to 2009|"L'etat de l'onion de 2000 vers 2009 | The state of the onion from 2000 to 2009"> 
+L<L'etat de l'onion de 2000 a 2009|"L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> | L<The state of the onion from 2000 to 2009|"L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> 
 
 =back
 
@@ -79,7 +79,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-=head3 L'etat de l'onion de 1997 vers 1999 | The state of the onion from 1997 to 1999
+=head3 L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999
 
 =over 4
 
@@ -94,7 +94,7 @@ L<L'etat de l'onion 3|http://www.wall.org/~larry/onion3/talk.html> (en anglais) 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head3 L'etat de l'onion de 2000 vers 2009 | The state of the onion from 2000 to 2009
+=head3 L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009
 
 =over 4
 
