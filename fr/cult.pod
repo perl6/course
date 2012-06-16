@@ -70,15 +70,6 @@ L<Haut|"La culture et les ressources Perl 6">
 
 L<Liste des talk|http://journeesperl.fr/fpw2012/talks> | L<List of talks|http://journeesperl.fr/fpw2012/talks>
 
-=back
-
-L<Haut|"La culture et les ressources Perl 6"> 
-| L<Top|"La culture et les ressources Perl 6">
-
-=head2 Jour 1 | Day 1
-
-=over 4
-
 L<Les nouveautés de Perl 5.16|http://journeesperl.fr/fpw2012/talk/4123> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français
 
 L<Introduction aux expressions régulières de Perl 5 et PCRE 7|http://journeesperl.fr/fpw2012/talk/4124> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 45 minutes Français
@@ -97,27 +88,46 @@ L<Les (organis|http://journeesperl.fr/fpw2012/talk/4103>|L<associ|http://journee
 
 L<die hard perl|http://journeesperl.fr/fpw2012/talk/4051> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français
 
+L<erl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes 
+
+L<les outils autour du cpan: partagez et deployez du code Perl|http://journeesperl.fr/fpw2012/talk/4143> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français
+
+L<MARC::MIR, le PSGI de l'informatique documentaire|http://journeesperl.fr/fpw2012/talk/4144> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français
+
+L<Big Data en perl (par DM)|http://journeesperl.fr/fpw2012/talk/4145> 
+
 L<SQL::Abstract::FromQuery|http://journeesperl.fr/fpw2012/talk/4099> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 20 minutes Français
 
 L<DBIx::DataModel vs DBIx::Class|http://journeesperl.fr/fpw2012/talk/4100> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 45 minutes Français
 
 L<latex -O fun|http://journeesperl.fr/fpw2012/talk/4133> L<Jean Forget|http://journeesperl.fr/fpw2012/user/29> 20 minutes Français
 
-L<Des outils et des hommes|http://journeesperl.fr/fpw2012/talk/4101> L<Nils Grunwald|http://journeesperl.fr/fpw2012/user/4145> 45 minutes
+L<Des outils et des hommes|http://journeesperl.fr/fpw2012/talk/4101> L<Nils Grunwald|http://journeesperl.fr/fpw2012/user/4145> 45 minutes Français
 
-L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes
+L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes Français
 
-L<SPORE - La solution polyglotte pour accéder aux API REST|http://journeesperl.fr/fpw2012/talk/4115> L<Camille Maussang (cmaussan)|http://journeesperl.fr/fpw2012/user/5021> 20 minutes
+L<SPORE - La solution polyglotte pour accéder aux API REST|http://journeesperl.fr/fpw2012/talk/4115> L<Camille Maussang (cmaussan)|http://journeesperl.fr/fpw2012/user/5021> 20 minutes Français
+
+L<Un webservice facile avec Dancer & Spore|http://journeesperl.fr/fpw2012/talk/4116> L<Camille Maussang (cmaussan)|http://journe    esperl.fr/fpw2012/user/5021> 45 minutes Français
 
 L<Macros in Rakudo|http://journeesperl.fr/fpw2012/talk/4052> L<Carl Mäsak (masak)|http://journeesperl.fr/fpw2012/user/630> 45 minutes English
 
 L<TDD in deeply embedded with TAP|http://journeesperl.fr/fpw2012/talk/4038> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> 20 minutes Français
 
-L<Bailador -- A Perl 6 port of Dancer|http://journeesperl.fr/fpw2012/talk/4122> L<Tadeusz Sośnierz ( tadzik)|http://journeesperl.fr/fpw2012/user/7132> 20 minutes
+L<Bailador -- A Perl 6 port of Dancer|http://journeesperl.fr/fpw2012/talk/4122> L<Tadeusz Sośnierz ( tadzik)|http://journeesperl.fr/fpw2012/user/7132> 20 minutes English
 
-L<Meta-programming In Perl 6|http://journeesperl.fr/fpw2012/talk/4053> L<Jonathan Worthington (jnthn)|http://journeesperl.fr/fpw2012/user/1174> 45 minutes
+L<Meta-programming In Perl 6|http://journeesperl.fr/fpw2012/talk/4053> L<Jonathan Worthington (jnthn)|http://journeesperl.fr/fpw2012/user/1174> 45 minutes English
 
 L<Parrot statistics|http://journeesperl.fr/fpw2012/talk/4128> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> éclair 	Français
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 Jour 1 | Day 1
+
+=over 4
 
 =back
 
