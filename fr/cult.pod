@@ -78,6 +78,8 @@ L<Étendre Net-SNMP en Perl|http://journeesperl.fr/fpw2012/talk/4125> L<Sébasti
 
 L<De RackTables à rack, grâce au CPAN|http://journeesperl.fr/fpw2012/talk/4126> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français
 
+L<De RackTables à rack, grâce au CPAN|http://journeesperl.fr/fpw2012/talk/4126>  L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français
+
 L<Ligne de commande avec classe en Perl|http://journeesperl.fr/fpw2012/talk/4129> [ L<Résumé|http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/> - L<Présentation|http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/> ] L<Vincent Bachelier (geistteufel)|http://journeesperl.fr/fpw2012/user/7617> 20 minutes Français
 
 L<Retours d'experience sur une utilisation avancée du MetaCPAN|http://journeesperl.fr/fpw2012/talk/4083> L<Erwan Ben Souiden (Labynocle)|http://journeesperl.fr/fpw2012/user/8511> 20 minutes Français
@@ -88,7 +90,9 @@ L<Les (organis|http://journeesperl.fr/fpw2012/talk/4103>|L<associ|http://journee
 
 L<die hard perl|http://journeesperl.fr/fpw2012/talk/4051> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français
 
-L<erl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes 
+L<intro à perl6|http://journeesperl.fr/fpw2012/talk/4050> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français
+
+L<perl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes 
 
 L<les outils autour du cpan: partagez et deployez du code Perl|http://journeesperl.fr/fpw2012/talk/4143> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français
 
@@ -115,6 +119,8 @@ L<Macros in Rakudo|http://journeesperl.fr/fpw2012/talk/4052> L<Carl Mäsak (masa
 L<TDD in deeply embedded with TAP|http://journeesperl.fr/fpw2012/talk/4038> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> 20 minutes Français
 
 L<Bailador -- A Perl 6 port of Dancer|http://journeesperl.fr/fpw2012/talk/4122> L<Tadeusz Sośnierz ( tadzik)|http://journeesperl.fr/fpw2012/user/7132> 20 minutes English
+
+L<surprise ?|http://journeesperl.fr/fpw2012/talk/4142> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English
 
 L<Meta-programming In Perl 6|http://journeesperl.fr/fpw2012/talk/4053> L<Jonathan Worthington (jnthn)|http://journeesperl.fr/fpw2012/user/1174> 45 minutes English
 
