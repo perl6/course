@@ -6,7 +6,7 @@
 
 =over 4
 
-L<Introduction|"Introduction">
+L<Introduction|"Introduction | Introduction"> | L<Introduction|"Introduction | Introduction">
 
 L<La documentation|"La documentation | Documenting"> | L<Documenting|"La documentation | Documenting">
 
@@ -24,17 +24,6 @@ L<L'etat de l'onion de 2000 a 2009|"L'etat de l'onion de 2000 a 2009 | The state
 
 =back
 
-L<Calendrier |"Le calendrier | Schedule"> | L<Schedule |"Le calendrier | Schedule">
-
-=over 4
-
-L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Calendrier entier | Full schedule">
-
-L<Jour 1|"Jour 1 | Day 1"> | L<Day 1|"Jour 1 | Day 1">
-
-L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
-
-=back
 
 L<Les Apocalypses|"Les Apocalypses | Apocalypses"> | L<Apocalypses|"Les Apocalypses | Apocalypses">
 
@@ -50,11 +39,25 @@ L<Synopsis 30-32|"Synopsis 30-32">
 
 =back
 
+L<Calendrier |"Le calendrier | Schedule"> | L<Schedule |"Le calendrier | Schedule">
+
+=over 4
+
+L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Calendrier entier | Full schedule">
+
+L<Jour 1|"Jour 1 | Day 1"> | L<Day 1|"Jour 1 | Day 1">
+
+L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
+
 =back
 
-=head1 Introduction
+=back
+
+=head1 Introduction | Introduction
 
 Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information sur la culture et la façon de penser en Perl 6.
+
+Larry Wall's yearly "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" talks are a good source of background information on the thinking and culture behind Perl 6.
 
 "I<... Now, you may be wondering what all this has to do with Perl. The fact is, 
 your brains are built to do Perl programming. You have a deep desire to turn the 
