@@ -83,11 +83,11 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-L<L'etat de l'onion 1|http://www.wall.org/~larry/keynote/keynote.html> (en anglais) | L<The state of the onion 1|http://www.wall.org/~larry/keynote/keynote.html> (1997)
+L<L'etat de l'onion 1|http://www.wall.org/~larry/keynote/keynote.html> | L<The state of the onion 1|http://www.wall.org/~larry/keynote/keynote.html> (1997)
 
-L<L'etat de l'onion 2|http://www.wall.org/~larry/onion/onion.html> (en anglais) | L<The state of the onion 2|http://www.wall.org/~larry/onion/onion.html> (1998)
+L<L'etat de l'onion 2|http://www.wall.org/~larry/onion/onion.html> | L<The state of the onion 2|http://www.wall.org/~larry/onion/onion.html> (1998)
 
-L<L'etat de l'onion 3|http://www.wall.org/~larry/onion3/talk.html> (en anglais) | L<The state of the onion 3|http://www.wall.org/~larry/onion3/talk.html> (1999)
+L<L'etat de l'onion 3|http://www.wall.org/~larry/onion3/talk.html> | L<The state of the onion 3|http://www.wall.org/~larry/onion3/talk.html> (1999)
 
 =back
 
@@ -98,25 +98,25 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-L<L'etat de l'onion 4|http://www.perl.com/pub/a/2000/10/23/soto2000.html> (en anglais) | L<The state of the onion 4|http://www.perl.com/pub/a/2000/10/23/soto2000.html> (2000)
+L<L'etat de l'onion 4|http://www.perl.com/pub/a/2000/10/23/soto2000.html> | L<The state of the onion 4|http://www.perl.com/pub/a/2000/10/23/soto2000.html> (2000)
 
-L<L'etat de l'onion 5|http://www.perl.com/pub/a/2001/07/25/onion.html> (en anglais) | L<The state of the onion 5|http://www.perl.com/pub/a/2001/07/25/onion.html> (2001)
+L<L'etat de l'onion 5|http://www.perl.com/pub/a/2001/07/25/onion.html> | L<The state of the onion 5|http://www.perl.com/pub/a/2001/07/25/onion.html> (2001)
 
-L<L'etat de l'onion 6|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm> (en anglais) | L<The state of the onion 6|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm> (2002)
+L<L'etat de l'onion 6|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm> | L<The state of the onion 6|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm> (2002)
 
-L<L'etat de l'onion 7|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1> (en anglais) | L<The state of the onion 7|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1> (2003)
+L<L'etat de l'onion 7|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1> | L<The state of the onion 7|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1> (2003)
 
-L<L'etat de l'onion 8|http://www.perl.com/pub/a/2004/08/18/onion.html> (en anglais) | L<The state of the onion 8|http://www.perl.com/pub/a/2004/08/18/onion.html> (2004)
+L<L'etat de l'onion 8|http://www.perl.com/pub/a/2004/08/18/onion.html> | L<The state of the onion 8|http://www.perl.com/pub/a/2004/08/18/onion.html> (2004)
 
-L<L'etat de l'onion 9|http://www.perl.com/pub/a/2005/09/22/onion.html> (en anglais) | L<The state of the onion 9|http://www.perl.com/pub/a/2005/09/22/onion.html> (2005)
+L<L'etat de l'onion 9|http://www.perl.com/pub/a/2005/09/22/onion.html> | L<The state of the onion 9|http://www.perl.com/pub/a/2005/09/22/onion.html> (2005)
 
-L<L'etat de l'onion 10|http://www.perl.com/pub/a/2006/09/21/onion.html> (en anglais) | L<The state of the onion 10|http://www.perl.com/pub/a/2006/09/21/onion.html> (2006)
+L<L'etat de l'onion 10|http://www.perl.com/pub/a/2006/09/21/onion.html> | L<The state of the onion 10|http://www.perl.com/pub/a/2006/09/21/onion.html> (2006)
 
-L<L'etat de l'onion 11|http://www.perl.com/pub/a/2007/12/06/soto-11.html> (en anglais) | L<The state of the onion 11|http://www.perl.com/pub/a/2007/12/06/soto-11.html> (2007)
+L<L'etat de l'onion 11|http://www.perl.com/pub/a/2007/12/06/soto-11.html> | L<The state of the onion 11|http://www.perl.com/pub/a/2007/12/06/soto-11.html> (2007)
 
-L<L'etat de l'onion 12|http://www.perl.com/TBD> (en anglais) | L<The state of the onion 12|http://www.perl.com/TBD> (2008)
+L<L'etat de l'onion 12|http://www.perl.com/TBD> | L<The state of the onion 12|http://www.perl.com/TBD> (2008)
 
-L<L'etat de l'onion 13|http://www.perl.com/TBD> (en anglais) | L<The state of the onion 13|http://www.perl.com/TBD> (2009)
+L<L'etat de l'onion 13|http://www.perl.com/TBD> | L<The state of the onion 13|http://www.perl.com/TBD> (2009)
 
 =back
 
