@@ -55,7 +55,7 @@ L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
 
 =head1 Introduction | Introduction
 
-Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information sur la culture et la façon de penser en Perl 6.
+Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information de base sur la culture et la façon de penser en Perl 6.
 
 Larry Wall's yearly "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" talks are a good source of background information on the thinking and culture behind Perl 6.
 
