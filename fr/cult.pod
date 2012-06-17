@@ -8,11 +8,11 @@
 
 L<Introduction|"Introduction">
 
-L<La documentation|"La documentation">
+L<La documentation|"La documentation | Documenting"> | L<Documenting|"La documentation | Documenting">
 
 =over 4
 
-L<Keynotes|"Keynotes">
+L<Idees directrices|"Idees directrices | Keynotes"> | L<Keynotes|"Idees directrices | Keynotes">
 
 =over 4
 
@@ -36,7 +36,7 @@ L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
 
 =back
 
-L<Synopsis|"Synopsis">
+L<Les Apocalypses|"Les Apocalypses | Apocalypses"> | L<Apocalypses|"Les Apocalypses | Apocalypses">
 
 =over 4
 
@@ -71,11 +71,11 @@ Larry Wall
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 La documentation
+=head1 La documentation | Documenting
 
 =over 4
 
-=head2 Keynotes
+=head2 Idees directrices | Keynotes
 
 =over 4
 
@@ -214,7 +214,7 @@ L<Haut|"La culture et les ressources Perl 6">
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Synopsis
+=head1 Les Apocalypses | Apocalypses
 
 =head2 Synopsis 1-9
 
