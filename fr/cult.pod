@@ -29,13 +29,19 @@ L<Les Apocalypses|"Les Apocalypses | Apocalypses"> | L<Apocalypses|"Les Apocalyp
 
 =over 4
 
-L<Synopsis 1-9|"Synopsis 1-9">
+L<Les synopsis de 1 a 9|"Les synopsis de 1 a 9 | Synopsis from 1 to 9"> | L<Synopsis from 1 to 9|"Les synopsis de 1 a 9 | Synopsis from 1 to 9">
 
-L<Synopsis 10-19|"Synopsis 10-19">
+L<Les synopsis de 10 a 19|"Les synopsis de 10 a 19 | Synopsis from 10 to 19"> | L<Synopsis from 10 to 19|"Les synopsis de 10 a 19 | Synopsis from 10 to 19">
 
-L<Synopsis 20-29|"Synopsis 20-29">
+L<Les synopsis de 20 a 29|"Les synopsis de 20 a 29 | Synopsis from 20 to 29"> | L<Synopsis from 20 to 29|"Les synopsis de 20 a 29 | Synopsis from 20 to 29">
 
-L<Synopsis 30-32|"Synopsis 30-32">
+L<Les synopsis de 30 a 32|"Les synopsis de 30 a 32 | Synopsis from 30 to 32"> | L<Synopsis from 30 to 32|"Les synopsis de 30 a 32 | Synopsis from 30 to 32">
+
+=back
+
+L<Les tablettes|"Les tablettes | Tablets"> | L<Tablets|"Les tablettes | Tablets"> 
+
+=over 4
 
 =back
 
@@ -130,6 +136,11 @@ L<L'etat de l'onion 13|http://www.perl.com/TBD> | L<The state of the onion 13|ht
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
+=head2 Les tablettes | Tablets
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
 =head1 Le calendrier | Schedule
 
 =head2 Calendrier entier | Full schedule
@@ -219,7 +230,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head1 Les Apocalypses | Apocalypses
 
-=head2 Synopsis 1-9
+=head2 Les synopsis de 1 a 9 | Synopsis from 1 to 9
 
 =over 4
 
@@ -255,7 +266,7 @@ Synopsis 9: Structures de donnees L<lire|https://github.com/perl6/specs/blob/mas
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Synopsis 10-19
+=head2 Les synopsis de 10 a 19 | Synopsis from 10 to 19
 
 =over 4
 
@@ -288,7 +299,7 @@ DRAFT: Synopsis 19: L'interface de ligne de commande L<lire|https://github.com/p
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Synopsis 20-29
+=head2 Les synopsis de 20 a 29 | Synopsis from 20 to 29
 
 =over 4
 
@@ -316,7 +327,7 @@ Synopsis 29: Les Fonctions Builtin L<lire|https://github.com/perl6/specs/blob/ma
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Synopsis 30-32
+=head2 Les synopsis de 30 a 32 | Synopsis from 30 to 32
 
 =over 4
 
