@@ -2,8 +2,6 @@
 
 =head1 La culture et les ressources Perl 6
 
-=head1 Index
-
 =over 4
 
 L<Introduction|"Introduction | Introduction"> | L<Introduction|"Introduction | Introduction">
@@ -43,6 +41,20 @@ L<Les tablettes|"Les tablettes | Tablets"> | L<Tablets|"Les tablettes | Tablets"
 
 =over 4
 
+L<Les Tablettes Perl 6: Introduction|"Les Tablettes Perl 6: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Les Tablettes Perl 6: Introduction | Perl 6 Tablets: Introduction">
+
+L<Les tablettes de 1 a 9|"Les tablettes de 1 a 9 | Tablets from 1 to 9"> | L<Tablets from 1 to 9|"Les tablettes de 1 a 9 | Tablets from 1 to 9">
+
+L<Appendix de 'a' a 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablets from 'a' to 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'">
+
+=over 4
+
+L<Les tablettes en Perl 6: Introduction|"Les tablettes en Perl 6: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Les tablettes en Perl 6: Introduction | Perl 6 Tablets: Introduction">
+
+=back
+
+=back
+
 =back
 
 L<Calendrier |"Le calendrier | Schedule"> | L<Schedule |"Le calendrier | Schedule">
@@ -54,8 +66,6 @@ L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Cale
 L<Jour 1|"Jour 1 | Day 1"> | L<Day 1|"Jour 1 | Day 1">
 
 L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
-
-=back
 
 =back
 
@@ -137,6 +147,29 @@ L<Haut|"La culture et les ressources Perl 6">
 | L<Top|"La culture et les ressources Perl 6">
 
 =head2 Les tablettes | Tablets
+
+=over 4
+
+=head3 Les Tablettes Perl 6: Introduction | Perl 6 Tablets: Introduction
+
+L<Les Tablettes Perl 6: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
+
+=head3 Les tablettes de 1 a 9 | Tablets from 1 to 9
+
+=over 4
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head3 Appendix de 'a' a 'h' | Tablets from 'a' to 'h'
+
+=over 4
+
+=back
+
+=back
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
