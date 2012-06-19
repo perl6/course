@@ -6,10 +6,6 @@
 
 L<Introduction|"Introduction | Introduction"> | L<Introduction|"Introduction | Introduction">
 
-L<La documentation|"La documentation | Documenting"> | L<Documenting|"La documentation | Documenting">
-
-=over 4
-
 L<Idees directrices|"Idees directrices | Keynotes"> | L<Keynotes|"Idees directrices | Keynotes">
 
 =over 4
@@ -17,8 +13,6 @@ L<Idees directrices|"Idees directrices | Keynotes"> | L<Keynotes|"Idees directri
 L<L'etat de l'onion de 1997 a 1999|"L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999"> | L<The state of the onion from 1997 to 1999|"L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999">
 
 L<L'etat de l'onion de 2000 a 2009|"L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> | L<The state of the onion from 2000 to 2009|"L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> 
-
-=back
 
 =back
 
@@ -37,17 +31,15 @@ L<Les synopsis de 30 a 32|"Les synopsis de 30 a 32 | Synopsis from 30 to 32"> | 
 
 =back
 
-L<Les tablettes|"Les tablettes | Tablets"> | L<Tablets|"Les tablettes | Tablets"> 
+L<Les comprimes|"Les Comprimes | Tablets"> | L<Tablets|"Les Comprimes | Tablets"> 
 
 =over 4
 
 L<Perl 6 Comprimes: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction">
 
-L<Les tablettes de 1 a 9|"Les tablettes de 1 a 9 | Tablets from 1 to 9"> | L<Tablets from 1 to 9|"Les tablettes de 1 a 9 | Tablets from 1 to 9">
+L<Les comprimes de 1 a 9|"Les comprimes de 1 a 9 | Tablets from 1 to 9"> | L<Tablets from 1 to 9|"Les comprimes de 1 a 9 | Tablets from 1 to 9">
 
 L<Appendix de 'a' a 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablets from 'a' to 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'">
-
-=back
 
 =back
 
@@ -60,6 +52,8 @@ L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Cale
 L<Jour 1|"Jour 1 | Day 1"> | L<Day 1|"Jour 1 | Day 1">
 
 L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
+
+=back
 
 =back
 
@@ -140,7 +134,7 @@ L<L'etat de l'onion 13|http://www.perl.com/TBD> | L<The state of the onion 13|ht
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Les tablettes | Tablets
+=head2 Les Comprimes | Tablets
 
 =over 4
 
@@ -148,7 +142,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 L<Perl 6 Comprimes: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
 
-=head3 Les tablettes de 1 a 9 | Tablets from 1 to 9
+=head3 Les comprimes de 1 a 9 | Tablets from 1 to 9
 
 =over 4
 
