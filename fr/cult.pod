@@ -41,17 +41,11 @@ L<Les tablettes|"Les tablettes | Tablets"> | L<Tablets|"Les tablettes | Tablets"
 
 =over 4
 
-L<Les Tablettes Perl 6: Introduction|"Les Tablettes Perl 6: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Les Tablettes Perl 6: Introduction | Perl 6 Tablets: Introduction">
+L<Perl 6 Comprimes: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction">
 
 L<Les tablettes de 1 a 9|"Les tablettes de 1 a 9 | Tablets from 1 to 9"> | L<Tablets from 1 to 9|"Les tablettes de 1 a 9 | Tablets from 1 to 9">
 
 L<Appendix de 'a' a 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablets from 'a' to 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'">
-
-=over 4
-
-L<Les tablettes en Perl 6: Introduction|"Les tablettes en Perl 6: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Les tablettes en Perl 6: Introduction | Perl 6 Tablets: Introduction">
-
-=back
 
 =back
 
@@ -150,9 +144,9 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-=head3 Les Tablettes Perl 6: Introduction | Perl 6 Tablets: Introduction
+=head3 Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction
 
-L<Les Tablettes Perl 6: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
+L<Perl 6 Comprimes: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
 
 =head3 Les tablettes de 1 a 9 | Tablets from 1 to 9
 
