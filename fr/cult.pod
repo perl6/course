@@ -37,7 +37,9 @@ L<Les comprimes|"Les Comprimes | Tablets"> | L<Tablets|"Les Comprimes | Tablets"
 
 L<Perl 6 Comprimes: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction">
 
-L<Les comprimes de 1 a 9|"Les comprimes de 1 a 9 | Tablets from 1 to 9"> | L<Tablets from 1 to 9|"Les comprimes de 1 a 9 | Tablets from 1 to 9">
+L<Les comprimes de 0 a 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9"> | L<Tablets from 0 to 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9">
+
+L<Les comprimes 10|"Les comprimes 10 | Tablets 10"> | L<Tablets 10|"Les comprimes 10 | Tablets 10">
 
 L<Appendix de 'a' a 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablets from 'a' to 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'">
 
@@ -142,7 +144,13 @@ L<Haut|"La culture et les ressources Perl 6">
 
 L<Perl 6 Comprimes: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
 
-=head3 Les comprimes de 1 a 9 | Tablets from 1 to 9
+=head3 Les comprimes de 0 a 9 | Tablets from 0 to 9
+
+=over 4
+
+=back
+
+=head3 Les comprimes 10 | Tablets 10
 
 =over 4
 
