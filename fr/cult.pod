@@ -148,6 +148,11 @@ L<Perl 6 Comprimes: Introduction|https://github.com/perl6/tablets/blob/master/do
 
 =over 4
 
+
+L<Comprime 0 - histoire|https://github.com/perl6/tablets/blob/master/docs/tablet-0-history.txt> | L<Tablet 0 - history|https://github.com/perl6/tablets/blob/master/docs/tablet-0-history.txt>
+
+L<Comprime 1 - concept de langage|https://github.com/perl6/tablets/blob/master/docs/tablet-1-language-design.txt> | L<Tablet 1 - language design|https://github.com/perl6/tablets/blob/master/docs/tablet-1-language-design.txt>
+
 =back
 
 =head3 Les comprimes 10 | Tablets 10
