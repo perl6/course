@@ -16,8 +16,17 @@ L<L'etat de l'onion de 2000 a 2009|"L'etat de l'onion de 2000 a 2009 | The state
 
 =back
 
-
 L<Les Apocalypses|"Les Apocalypses | Apocalypses"> | L<Apocalypses|"Les Apocalypses | Apocalypses">
+
+=over 4
+
+L<Les Apocalypses de 1 a 6|"Les Apocalypses | Apocalypses"> | L<Apocalypses from 1 to 6 and, 12|"Les Apocalypses | Apocalypses">
+
+L<Les Apocalypses 12|"Les Apocalypses | Apocalypses"> | L<Apocalypses from 1 to 6 and, 12|"Les Apocalypses | Apocalypses">
+
+=back
+
+L<Les synopsis|"Les synopsis | Synopsis"> | L<Synopsis|"Les synopsis | Synopsis">
 
 =over 4
 
@@ -80,15 +89,9 @@ Larry Wall
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 La documentation | Documenting
+=head1 Idees directrices | Keynotes
 
-=over 4
-
-=head2 Idees directrices | Keynotes
-
-=over 4
-
-=head3 L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999
+=head2 L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999
 
 =over 4
 
@@ -103,7 +106,7 @@ L<L'etat de l'onion 3|http://www.wall.org/~larry/onion3/talk.html> | L<The state
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head3 L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009
+=head2 L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009
 
 =over 4
 
@@ -129,18 +132,12 @@ L<L'etat de l'onion 13|http://www.perl.com/TBD> | L<The state of the onion 13|ht
 
 =back
 
-=back
-
-=back
-
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Les Comprimes | Tablets
+=head1 Les Comprimes | Tablets
 
-=over 4
-
-=head3 Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction
+=head2 Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction
 
 =over 4
 
@@ -148,7 +145,10 @@ L<Perl 6 Comprimes: introduction|https://github.com/perl6/tablets/blob/master/do
 
 =back
 
-=head3 Les comprimes de 0 a 9 | Tablets from 0 to 9
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 Les comprimes de 0 a 9 | Tablets from 0 to 9
 
 =over 4
 
@@ -174,7 +174,7 @@ L<Perl 6 Comprimé 9 - Expressions régulières|https://github.com/perl6/tablets
 
 =back
 
-=head3 Les comprimes 10 | Tablets 10
+=head2 Les comprimes 10 | Tablets 10
 
 =over 4
 
@@ -185,7 +185,7 @@ L<Perl 6 Comprimé 10 - Metaprogramming|https://github.com/perl6/tablets/blob/ma
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head3 Annexe de 'a' a 'h' | Tablets from 'a' to 'h'
+=head2 Annexe de 'a' a 'h' | Tablets from 'a' to 'h'
 
 =over 4
 
@@ -204,10 +204,6 @@ L<annexe f - faq|https://github.com/perl6/tablets/blob/master/docs/appendix-f-fa
 L<annexe g - glossary|https://github.com/perl6/tablets/blob/master/docs/appendix-g-glossary.txt> | L<appendix g - glossary|https://github.com/perl6/tablets/blob/master/docs/appendix-g-glossary.txt>
 
 L<annexe h - href|https://github.com/perl6/tablets/blob/master/docs/appendix-h-href.txt> | L<appendix h - href|https://github.com/perl6/tablets/blob/master/docs/appendix-h-href.txt>
-
-
-
-=back
 
 =back
 
@@ -285,23 +281,38 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Jour 1 | Day 1
 
-=over 4
-
-=back
-
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
 =head2 Jour 2 | Day 2
 
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 Les Apocalypses | Apocalypses
+
 =over 4
+
+L<Apocalyse 1|http://www.perl6.org/archive/doc/design/apo/A01.html>
+
+L<Apocalyse 2|http://www.perl6.org/archive/doc/design/apo/A02.html>
+
+L<Apocalyse 3|http://www.perl6.org/archive/doc/design/apo/A03.html>
+
+L<Apocalyse 4|http://www.perl6.org/archive/doc/design/apo/A04.html>
+
+L<Apocalyse 5|http://www.perl6.org/archive/doc/design/apo/A05.html>
+
+L<Apocalyse 6|http://www.perl6.org/archive/doc/design/apo/A06.html>
+
+L<Apocalyse 12|http://www.perl6.org/archive/doc/design/apo/A12.html>
 
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Les Apocalypses | Apocalypses
+=head1 Les synopsis | Synopsis
 
 =head2 Les synopsis de 1 a 9 | Synopsis from 1 to 9
 
@@ -409,8 +420,6 @@ L<Haut|"La culture et les ressources Perl 6">
 
 Blibliothèque de réglage | Setting library
 
-=over 4
-
 BROUILLON: Synopsis 32: Bibliothèqe de réglage - L'essentiel L<lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Basics.pod>...
 | I<DRAFT: Synopsis 32: Setting Library - Basics> L<read|https://github.com/perl6/specs/blob/master/S32-setting-library/Basics.pod>...
 
@@ -440,8 +449,6 @@ Synopsis 32: Bibliothèque de réglage - Temporel L<lire|https://github.com/perl
 
 =back
 
-=back
-
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
@@ -449,7 +456,8 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-L'état de l'onion: L<http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>.
+=item  L<Documentation officielle de Perl 6|http://perlcabal.org/syn/> | L<Official Perl 6 documentation|http://perlcabal.org/syn/>.
+
+=item L<L'état de l'onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion> | L<The onion state|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>.
 
 =back
-
