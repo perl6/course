@@ -41,7 +41,7 @@ L<Les comprimes de 0 a 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9"> | L<Tab
 
 L<Les comprimes 10|"Les comprimes 10 | Tablets 10"> | L<Tablets 10|"Les comprimes 10 | Tablets 10">
 
-L<Appendix de 'a' a 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablets from 'a' to 'h'|"Appendix de 'a' a 'h' | Tablets from 'a' to 'h'">
+L<Annexe de 'a' a 'h'|"Annexe de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablets from 'a' to 'h'|"Annexe de 'a' a 'h' | Tablets from 'a' to 'h'">
 
 =back
 
@@ -170,7 +170,7 @@ L<Perl 6 Comprimé 7 - Sous routines|https://github.com/perl6/tablets/blob/maste
 
 L<Perl 6 Comprimé 8 - Objets|https://github.com/perl6/tablets/blob/master/docs/tablet-8-objects.txt> | L<Perl 6 Tablet 8 - Objetcs|https://github.com/perl6/tablets/blob/master/docs/tablet-8-objects.txt>
 
-L<Perl 6 Comprimé 9 - les expressions régulières|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt> | L<Perl 6 Tablet 9 - Regexes|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt>
+L<Perl 6 Comprimé 9 - Expressions régulières|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt> | L<Perl 6 Tablet 9 - Regexes|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt>
 
 =back
 
@@ -185,9 +185,17 @@ L<Perl 6 Comprimé 10 - Metaprogramming|https://github.com/perl6/tablets/blob/ma
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head3 Appendix de 'a' a 'h' | Tablets from 'a' to 'h'
+=head3 Annexe de 'a' a 'h' | Tablets from 'a' to 'h'
 
 =over 4
+
+L<annexe a - Index|https://github.com/perl6/tablets/blob/master/docs/appendix-a-index.txt> | L<appendix a - index|https://github.com/perl6/tablets/blob/master/docs/appendix-a-index.txt>
+
+L<annexe b - Groupé|https://github.com/perl6/tablets/blob/master/docs/appendix-b-grouped.txt> | L<appendix b - grouped|https://github.com/perl6/tablets/blob/master/docs/appendix-b-grouped.txt>
+
+L<annexe c - livre de cuisine|https://github.com/perl6/tablets/blob/master/docs/appendix-c-cookbook.txt> | L<appendix c - cookbook|https://github.com/perl6/tablets/blob/master/docs/appendix-c-cookbook.txt>
+
+L<annexe d - delta|https://github.com/perl6/tablets/blob/master/docs/appendix-d-delta.txt> | L<appendix d - delta|https://github.com/perl6/tablets/blob/master/docs/appendix-d-delta.txt>
 
 =back
 
