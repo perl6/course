@@ -16,17 +16,25 @@ L<L'etat de l'onion de 2000 a 2009|"L'etat de l'onion de 2000 a 2009 | The state
 
 =back
 
-L<Les Apocalypses|"Les Apocalypses | Apocalypses"> | L<Apocalypses|"Les Apocalypses | Apocalypses">
+L<Exegese|"Exegese (explication) | Exegesis (Explanation)"> (I<Explication>) | L<Exegesis|"Exegese (explication) | Exegesis (Explanation)"> (I<Explanation>)
 
 =over 4
 
-L<Les Apocalypses de 1 a 6|"Les Apocalypses | Apocalypses"> | L<Apocalypses from 1 to 6 and, 12|"Les Apocalypses | Apocalypses">
-
-L<Les Apocalypses 12|"Les Apocalypses | Apocalypses"> | L<Apocalypses from 1 to 6 and, 12|"Les Apocalypses | Apocalypses">
+L<Exegese de 1 a 6|"Exegese de 1 a 6 | Exegesis from 1 to 6"> | L<Exegesis from 1 to 6|"Exegese de 1 a 6 | Exegesis from 1 to 6">
 
 =back
 
-L<Les synopsis|"Les synopsis | Synopsis"> | L<Synopsis|"Les synopsis | Synopsis">
+L<Les Apocalypses|"Les Apocalypses (Justification) | Apocalypses (Justification)"> (I<Justification>) | L<Apocalypses|"Les Apocalypses (Justification) | Apocalypses (Justification)"> (I<Justification>)
+
+=over 4
+
+L<Les Apocalypses de 1 a 6|"Les Apocalypses de 1 a 6 | Apocalypses from 1 to 6"> | L<Apocalypses from 1 to 6 and, 12|"Les Apocalypses de 1 a 6 | Apocalypses from 1 to 6">
+
+L<L'Apocalypses 12|"L'Apocalypse 12 | Apocalypse 12"> | L<Apocalypses 12|"L'Apocalypse 12 | Apocalypse 12">
+
+=back
+
+L<Les synopsis|"Les synopsis | Synopsis (Specification)"> (I<Specification>) | L<Synopsis|"Les synopsis | Synopsis (Specification)"> (I<Specification>)
 
 =over 4
 
@@ -289,30 +297,60 @@ L<Haut|"La culture et les ressources Perl 6">
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Les Apocalypses | Apocalypses
+=head1 Exegese (explication) | Exegesis (Explanation)
+
+=head2 Exegese de 1 a 6 | Exegesis from 1 to 6
 
 =over 4
 
-L<Apocalyse 1|http://www.perl6.org/archive/doc/design/apo/A01.html>
+L<Exegese 2: Bits et Pieces|http://www.perl6.org/archive/doc/design/exe/E02.html> | L<Exegesis 2: Bits and Pieces|http://www.perl6.org/archive/doc/design/exe/E02.html>
 
-L<Apocalyse 2|http://www.perl6.org/archive/doc/design/apo/A02.html>
+L<Exegese 3: Operateurs|http://www.perl6.org/archive/doc/design/exe/E03.html> | L<Exegesis 3: Bits and Pieces|http://www.perl6.org/archive/doc/design/exe/E03.html>
 
-L<Apocalyse 3|http://www.perl6.org/archive/doc/design/apo/A03.html>
+L<Exegese 4: Syntaxe|http://www.perl6.org/archive/doc/design/exe/E04.html> | L<Exegesis 4: Syntax|http://www.perl6.org/archive/doc/design/exe/E04.html>
 
-L<Apocalyse 4|http://www.perl6.org/archive/doc/design/apo/A04.html>
-
-L<Apocalyse 5|http://www.perl6.org/archive/doc/design/apo/A05.html>
-
-L<Apocalyse 6|http://www.perl6.org/archive/doc/design/apo/A06.html>
-
-L<Apocalyse 12|http://www.perl6.org/archive/doc/design/apo/A12.html>
+L<Exegese 5: Le filtrage par motif|http://www.perl6.org/archive/doc/design/exe/E05.html> | L<Exegesis 5: Pattern matching|http://www.perl6.org/archive/doc/design/exe/E05.html>
 
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Les synopsis | Synopsis
+=head1 Les Apocalypses (Justification) | Apocalypses (Justification)
+
+=head2 Les Apocalypses de 1 a 6 | Apocalypses from 1 to 6
+
+=over 4
+
+L<Apocalyse 1|http://www.perl6.org/archive/doc/design/apo/A01.html> | L<Apocalyse 1|http://www.perl6.org/archive/doc/design/apo/A01.html>
+
+L<Apocalyse 2|http://www.perl6.org/archive/doc/design/apo/A02.html> | L<Apocalyse 2|http://www.perl6.org/archive/doc/design/apo/A02.html>
+
+L<Apocalyse 3|http://www.perl6.org/archive/doc/design/apo/A03.html> | L<Apocalyse 3|http://www.perl6.org/archive/doc/design/apo/A03.html>
+
+L<Apocalyse 4|http://www.perl6.org/archive/doc/design/apo/A04.html> | L<Apocalyse 4|http://www.perl6.org/archive/doc/design/apo/A04.html>
+
+L<Apocalyse 5|http://www.perl6.org/archive/doc/design/apo/A05.html> | L<Apocalyse 5|http://www.perl6.org/archive/doc/design/apo/A05.html>
+
+L<Apocalyse 6|http://www.perl6.org/archive/doc/design/apo/A06.html> | L<Apocalyse 6|http://www.perl6.org/archive/doc/design/apo/A06.html>
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 L'Apocalypse 12 | Apocalypse 12
+
+=over 4
+
+L<Apocalyse 12|http://www.perl6.org/archive/doc/design/apo/A12.html> | L<Apocalyse 12|http://www.perl6.org/archive/doc/design/apo/A12.html>
+
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head1 Les synopsis | Synopsis (Specification)
 
 =head2 Les synopsis de 1 a 9 | Synopsis from 1 to 9
 
