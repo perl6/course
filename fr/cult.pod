@@ -178,6 +178,8 @@ L<Perl 6 Comprimé 9 - les expressions régulières|https://github.com/perl6/tab
 
 =over 4
 
+L<Perl 6 Comprimé 10 - Metaprogramming|https://github.com/perl6/tablets/blob/master/docs/tablet-10-metaprogramming.txt> | L<Perl 6 Tablet 10 - Metaprogramming|https://github.com/perl6/tablets/blob/master/docs/tablet-10-metaprogramming.txt>
+
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
