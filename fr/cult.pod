@@ -197,6 +197,16 @@ L<annexe c - livre de cuisine|https://github.com/perl6/tablets/blob/master/docs/
 
 L<annexe d - delta|https://github.com/perl6/tablets/blob/master/docs/appendix-d-delta.txt> | L<appendix d - delta|https://github.com/perl6/tablets/blob/master/docs/appendix-d-delta.txt>
 
+L<annexe e - excitant|https://github.com/perl6/tablets/blob/master/docs/appendix-e-exciting.txt> | L<appendix e - exciting|https://github.com/perl6/tablets/blob/master/docs/appendix-e-exciting.txt>
+
+L<annexe f - faq|https://github.com/perl6/tablets/blob/master/docs/appendix-f-faq.txt> | L<appendix f - faq|https://github.com/perl6/tablets/blob/master/docs/appendix-f-faq.txt>
+
+L<annexe g - glossary|https://github.com/perl6/tablets/blob/master/docs/appendix-g-glossary.txt> | L<appendix g - glossary|https://github.com/perl6/tablets/blob/master/docs/appendix-g-glossary.txt>
+
+L<annexe h - href|https://github.com/perl6/tablets/blob/master/docs/appendix-h-href.txt> | L<appendix h - href|https://github.com/perl6/tablets/blob/master/docs/appendix-h-href.txt>
+
+
+
 =back
 
 =back
