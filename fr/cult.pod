@@ -35,7 +35,7 @@ L<Les comprimes|"Les Comprimes | Tablets"> | L<Tablets|"Les Comprimes | Tablets"
 
 =over 4
 
-L<Perl 6 Comprimes: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction">
+L<Perl 6 Comprimes: introduction|"Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction">
 
 L<Les comprimes de 0 a 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9"> | L<Tablets from 0 to 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9">
 
@@ -140,18 +140,37 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-=head3 Perl 6 Comprimes: Introduction | Perl 6 Tablets: Introduction
+=head3 Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction
 
-L<Perl 6 Comprimes: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
+=over 4
+
+L<Perl 6 Comprimes: introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt> | L<Perl 6 Tablets: Introduction|https://github.com/perl6/tablets/blob/master/docs/introduction.txt>
+
+=back
 
 =head3 Les comprimes de 0 a 9 | Tablets from 0 to 9
 
 =over 4
 
+L<Perl 6 Comprimé 0 - histoire|https://github.com/perl6/tablets/blob/master/docs/tablet-0-history.txt> | L<Perl 6 Tablet 0 - history|https://github.com/perl6/tablets/blob/master/docs/tablet-0-history.txt>
 
-L<Comprime 0 - histoire|https://github.com/perl6/tablets/blob/master/docs/tablet-0-history.txt> | L<Tablet 0 - history|https://github.com/perl6/tablets/blob/master/docs/tablet-0-history.txt>
+L<Perl 6 Comprimé 1 - concept de langage|https://github.com/perl6/tablets/blob/master/docs/tablet-1-language-design.txt> | L<Perl 6 Tablet 1 - language design|https://github.com/perl6/tablets/blob/master/docs/tablet-1-language-design.txt>
 
-L<Comprime 1 - concept de langage|https://github.com/perl6/tablets/blob/master/docs/tablet-1-language-design.txt> | L<Tablet 1 - language design|https://github.com/perl6/tablets/blob/master/docs/tablet-1-language-design.txt>
+L<Perl 6 Comprimé 2 - Syntaxe de base|https://github.com/perl6/tablets/blob/master/docs/tablet-2-basic-syntax.txt> | L<Perl 6 Tablet 2 - Basic Syntax|https://github.com/perl6/tablets/blob/master/docs/tablet-2-basic-syntax.txt>
+
+L<Perl 6 Comprimé 3 - Variables|https://github.com/perl6/tablets/blob/master/docs/tablet-3-variables.txt> | L<Perl 6 Tablet 3 - Variables|https://github.com/perl6/tablets/blob/master/docs/tablet-3-variables.txt>
+
+L<Perl 6 Comprimé 4 - Operateurs|https://github.com/perl6/tablets/blob/master/docs/tablet-4-operators.txt> | L<Perl 6 Tablet 4 - Operators|https://github.com/perl6/tablets/blob/master/docs/tablet-4-operators.txt>
+
+L<Perl 6 Comprimé 5 - ES|https://github.com/perl6/tablets/blob/master/docs/tablet-5-io.txt> | L<Perl 6 Tablet 5 - IO|https://github.com/perl6/tablets/blob/master/docs/tablet-5-io.txt>
+
+L<Perl 6 Comprimé 6 - Blocs|https://github.com/perl6/tablets/blob/master/docs/tablet-6-blocks.txt> | L<Perl 6 Tablet 6 - Blocks|https://github.com/perl6/tablets/blob/master/docs/tablet-6-blocks.txt>
+
+L<Perl 6 Comprimé 7 - Sous routines|https://github.com/perl6/tablets/blob/master/docs/tablet-7-subroutines.txt> | L<Perl 6 Tablet 7 - Subroutines|https://github.com/perl6/tablets/blob/master/docs/tablet-7-subroutines.txt>
+
+L<Perl 6 Comprimé 8 - Objets|https://github.com/perl6/tablets/blob/master/docs/tablet-8-objects.txt> | L<Perl 6 Tablet 8 - Objetcs|https://github.com/perl6/tablets/blob/master/docs/tablet-8-objects.txt>
+
+L<Perl 6 Comprimé 9 - les expressions régulières|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt> | L<Perl 6 Tablet 9 - Regexes|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt>
 
 =back
 
