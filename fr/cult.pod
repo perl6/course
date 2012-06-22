@@ -283,7 +283,6 @@ L<Haut|"La culture et les ressources Perl 6">
 
 L<Liste des talk|http://journeesperl.fr/fpw2012/talks> | L<List of talks|http://journeesperl.fr/fpw2012/talks>
 
-L<Moo - almost, but not quite, two thirds of Moose|http://journeesperl.fr/fpw2012/talk/4151> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English
 
 L<Postmodern deconstructionism|http://journeesperl.fr/fpw2012/talk/4154> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English
 
@@ -302,7 +301,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 L<Le développement de Perl 5|http://journeesperl.fr/fpw2012/talk/4057> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 10h00
 
-L<Les nouveautés de Perl 5.16|http://journeesperl.fr/fpw2012/talk/4123> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h30
+L<Les nouveautés de Perl 5.16|http://journeesperl.fr/fpw2012/talk/4123> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h25
 
 L<intro à perl6|http://journeesperl.fr/fpw2012/talk/4050> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 11h00
 
@@ -326,17 +325,19 @@ L<surprise ?|http://journeesperl.fr/fpw2012/talk/4142> L<Matt S Trout (mst)|http
 
 L<Meta-programming In Perl 6|http://journeesperl.fr/fpw2012/talk/4053> L<Jonathan Worthington (jnthn)|http://journeesperl.fr/fpw2012/user/1174> 45 minutes English 15h00
 
+L<Moo - almost, but not quite, two thirds of Moose|http://journeesperl.fr/fpw2012/talk/4151> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English 15h25
+
 L<SQL::Abstract::FromQuery|http://journeesperl.fr/fpw2012/talk/4099> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 20 minutes Français 16h00
 
 L<TDD in deeply embedded with TAP|http://journeesperl.fr/fpw2012/talk/4038> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> 20 minutes Français 16h00
 
-L<Les (organis|http://journeesperl.fr/fpw2012/talk/4103>|L<associ|http://journeesperl.fr/fpw2012/talk/4103>|L<fond)ations de Perl|http://journeesperl.fr/fpw2012/talk/4103> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 16h30
+L<Les (organis|http://journeesperl.fr/fpw2012/talk/4103>|L<associ|http://journeesperl.fr/fpw2012/talk/4103>|L<fond)ations de Perl|http://journeesperl.fr/fpw2012/talk/4103> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 16h25
 
 L<MARC::MIR, le PSGI de l'informatique documentaire|http://journeesperl.fr/fpw2012/talk/4144> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 17h00
 
 L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes Français 17h00
 
-L<Ligne de commande avec classe en Perl|http://journeesperl.fr/fpw2012/talk/4129> [ L<Résumé|http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/> - L<Présentation|http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/> ] L<Vincent Bachelier (geistteufel)|http://journeesperl.fr/fpw2012/user/7617> 20 minutes Français 18h00
+L<Ligne de commande avec classe en Perl|http://journeesperl.fr/fpw2012/talk/4129> [ L<Résumé|http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/> - L<Présentation|http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/> ] L<Vincent Bachelier (geistteufel)|http://journeesperl.fr/fpw2012/user/7617> 20 minutes Français 15h25
 
 L<Bailador -- A Perl 6 port of Dancer|http://journeesperl.fr/fpw2012/talk/4122> L<Tadeusz Sośnierz ( tadzik)|http://journeesperl.fr/fpw2012/user/7132> 20 minutes English 18h00
 
@@ -541,7 +542,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-DRAFT: Synopsis 21 - Appel de code etranger L<lire|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod>...
+PROJET: Synopsis 21 - Appel de code etranger L<lire|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod>...
 | I<DRAFT: Synopsis 21 - Calling Foreign Code> L<read|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod>...
 
 Synopsis 22 - Format de Package [DRAFT] L<lire|https://github.com/perl6/specs/blob/master/S22-package-format.pod>...
