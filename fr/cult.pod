@@ -74,6 +74,8 @@ L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
 
 =back
 
+L<References|"References | References"> | L<References|"References | References">
+
 =back
 
 =head1 Introduction | Introduction
@@ -490,12 +492,14 @@ Synopsis 32: Bibliothèque de réglage - Temporel L<lire|https://github.com/perl
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Références
+=head1 References | References
 
 =over 4
 
 =item  L<Documentation officielle de Perl 6|http://perlcabal.org/syn/> | L<Official Perl 6 documentation|http://perlcabal.org/syn/>.
 
 =item L<L'état de l'onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion> | L<The onion state|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>.
+
+=item L<Perl 6 RFC|http://www.perl6.org/archive/rfc/>
 
 =back
