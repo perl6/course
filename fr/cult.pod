@@ -8,6 +8,12 @@ L<Introduction|"Introduction | Introduction"> | L<Introduction|"Introduction | I
 
 L<Presentation|"Presentation | Presentation"> | L<Presentation|"Presentation | Presentation">
 
+=over 4
+
+L<Le jeu de la boisson du CPAN |"Le jeu de la boisson du CPAN | The CPAN drinking game"> | L<The CPAN drinking game |"Le jeu de la boisson du CPAN | The CPAN drinking game">
+
+=back
+
 L<Idees directrices|"Idees directrices | Keynotes"> | L<Keynotes|"Idees directrices | Keynotes">
 
 =over 4
@@ -103,7 +109,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head1 Presentation | Presentation
 
-=head2 LE JEU DE LA BOISSON DU CPAN | THE CPAN DRINKING GAME
+=head2 Le jeu de la boisson du CPAN | The CPAN drinking game
 
 Beaucoup de personnes aiment la bierre. Beaucoup de I<Perl Hackers> sont des gens. Alors quoi de mieux pour commencer ce projet (pas de jeux de mots voulu) que de décrire le jeu de la boisson du CPAN L<appuyez ici|https://github.com/perl6/mu/blob/master/docs/AES/S27draft.pod#___top> pour lire la suite en VO...
 
