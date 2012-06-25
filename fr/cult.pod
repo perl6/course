@@ -32,9 +32,9 @@ L<Les synopsis de 1 a 9|"Les synopsis de 1 a 9 | Synopsis from 1 to 9"> | L<Syno
 
 L<Les synopsis de 10 a 19|"Les synopsis de 10 a 19 | Synopsis from 10 to 19"> | L<Synopsis from 10 to 19|"Les synopsis de 10 a 19 | Synopsis from 10 to 19">
 
-L<Les synopsis de 21 a 29|"Les synopsis de 21 a 29 | Synopsis from 21 to 29"> | L<Synopsis from 21 to 29|"Les synopsis de 21 a 29 | Synopsis from 21 to 29">
+L<Les synopsis de 20 a 29|"Les synopsis de 20 a 29 | Synopsis from 20 to 29"> | L<Synopsis from 20 to 29|"Les synopsis de 20 a 29 | Synopsis from 20 to 29">
 
-L<Les synopsis de 31 a 32|"Les synopsis de 31 a 32 | Synopsis from 31 to 32"> | L<Synopsis from 31 to 32|"Les synopsis de 31 a 32 | Synopsis from 31 to 32">
+L<Les synopsis de 30 a 33|"Les synopsis de 30 a 33 | Synopsis from 30 to 33"> | L<Synopsis from 30 to 33|"Les synopsis de 30 a 33 | Synopsis from 30 to 33">
 
 =back
 
@@ -237,11 +237,17 @@ Synopsis 13 - Les surcharges L<lire|https://github.com/perl6/specs/blob/master/S
 Synopsis 14 - Roles et Types Parametric [brouillon] L<lire|https://github.com/perl6/specs/blob/master/S14-roles-and-parametric-types.pod>...
 | I<Synopsis 14 - Roles and Parametric Types [DRAFT]> L<read|https://github.com/perl6/specs/blob/master/S14-roles-and-parametric-types.pod>...
 
+Synopsis 15 - Unicodes I<Doit être fait>
+| I<Synopsis 15 - Unicode > I<TBD>
+
 PROJET: Synopsis 16 - IO / Name Services L<lire|https://github.com/perl6/specs/blob/master/S16-io.pod>...
 | I<DRAFT: Synopsis 16 - IO / Name Services> L<read|https://github.com/perl6/specs/blob/master/S16-io.pod>...
 
 PROJET: Synopsis 17 - Les Process et Concurrence L<lire|https://github.com/perl6/specs/blob/master/S17-concurrency.pod>...
 | I<DRAFT: Synopsis 17 - Processes and Concurrency> L<read|https://github.com/perl6/specs/blob/master/S17-concurrency.pod>...
+
+Synopsis 18 - Compilation I<Doit être fait>
+| I<Synopsis 18 - Compiling > I<TBD>
 
 PROJET: Synopsis 19 - L'interface de ligne de commande L<lire|https://github.com/perl6/specs/blob/master/S19-commandline.pod>...
 | I<DRAFT: Synopsis 19 - Command Line Interface> L<read|https://github.com/perl6/specs/blob/master/S19-commandline.pod>...
@@ -251,9 +257,12 @@ PROJET: Synopsis 19 - L'interface de ligne de commande L<lire|https://github.com
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Les synopsis de 21 a 29 | Synopsis from 21 to 29
+=head2 Les synopsis de 20 a 29 | Synopsis from 20 to 29
 
 =over 4
+
+Synopsis 20 - Introspection Projet
+| I<Synopsis 20 - Introspection Draft>
 
 PROJET: Synopsis 21 - Appel de code etranger L<lire|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod>...
 | I<DRAFT: Synopsis 21 - Calling Foreign Code> L<read|https://github.com/perl6/specs/blob/master/S21-calling-foreign-code.pod>...
@@ -261,12 +270,20 @@ PROJET: Synopsis 21 - Appel de code etranger L<lire|https://github.com/perl6/spe
 Synopsis 22 - Format de Package [DRAFT] L<lire|https://github.com/perl6/specs/blob/master/S22-package-format.pod>...
 | I<Synopsis 22 - Package Format [DRAFT]> L<read|https://github.com/perl6/specs/blob/master/S22-package-format.pod>...
 
+Synopsis 23 - Sécurité I<Doit être fait>
+| I<Synopsis 23 - Security> I<TBD>
+
 Synopsis 24 - Les Tests L<lire|https://github.com/perl6/specs/blob/master/S24-testing.pod>...
 | I<Synopsis 24 - Testing> L<read|https://github.com/perl6/specs/blob/master/S24-testing.pod>...
+
+Synopsis 25 - Perl portable I<Doit être fait>
+| I<Synopsis 25 - Portable Perl> I<TBD>
 
 Synopsis 26 - La documentation L<lire|https://github.com/perl6/specs/blob/master/S26-documentation.pod>...
 | I<Synopsis 26 - Documentation> L<read|https://github.com/perl6/specs/blob/master/S26-documentation.pod>...
 
+Synopsis 27 - Perl Culture I<Projet>
+| I<Synopsis 27 - Perl Culture> I<Draft>
 
 [PROJET] Synopsis 28 - Special Names [PROJET] L<lire|https://github.com/perl6/specs/blob/master/S28-special-names.pod> 
 | I<[DRAFT] Synopsis 28 - Special Names [DRAFT]> L<read|https://github.com/perl6/specs/blob/master/S28-special-names.pod>...
@@ -279,14 +296,19 @@ Synopsis 29 - Les Fonctions Builtin L<lire|https://github.com/perl6/specs/blob/m
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Les synopsis de 31 a 32 | Synopsis from 31 to 32
+=head2 Les synopsis de 30 a 33 | Synopsis from 30 to 33
 
 =over 4
+
+Synopsis 30 - Bibliothèque standard I<Doit être fait>
+| I<Synopsis 30 - Standard Perl library> I<TBD>
 
 [PROJET] Synopsis 31 - Pragmatic Modules L<lire|https://github.com/perl6/specs/blob/master/S31-pragmatic-modules.pod>... 
 | I<[DRAFT] Synopsis 31 - Pragmatic Modules> L<read|https://github.com/perl6/specs/blob/master/S31-pragmatic-modules.pod>...
 
 Blibliothèque de réglage | Setting library
+
+=over 4
 
 PROJET: Synopsis 32 - Bibliothèqe de réglage - L'essentiel L<lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Basics.pod>...
 | I<DRAFT: Synopsis 32 - Setting Library - Basics> L<read|https://github.com/perl6/specs/blob/master/S32-setting-library/Basics.pod>...
@@ -315,6 +337,11 @@ PROJET: Synopsis 32 - Bibliothèque de réglage - Str L<lire|https://github.com/
 Synopsis 32 - Bibliothèque de réglage - Temporel L<lire|https://github.com/perl6/specs/blob/master/S32-setting-library/Temporal.pod>...
 | I<Synopsis 32 - Setting Library - Temporal> L<read|https://github.com/perl6/specs/blob/master/S32-setting-library/Temporal.pod>...
 
+=back
+
+Synopsis 33 - Messages diagnostique I<Doit être fait>
+| I<Synopsis 33 - Diagnostic messages> I<TBD>
+ 
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
@@ -447,10 +474,10 @@ Perl 6 Comprimé 8 - Objets L<lire|https://github.com/perl6/tablets/blob/master/
 Perl 6 Comprimé 9 - Expressions régulières L<lire|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt>... 
 | I<Perl 6 Tablet 9 - Regexes> L<read|https://github.com/perl6/tablets/blob/master/docs/tablet-9-regexes.txt>...
 
-L<Haut|"La culture et les ressources Perl 6"> 
-| Top|"La culture et les ressources Perl 6">
-
 =back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
 
 =head2 Les comprimes 10 | Tablets 10
 
