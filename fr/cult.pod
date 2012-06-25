@@ -85,6 +85,8 @@ L<Jour 2|"Jour 2 | Day 2"> | L<Day 2|"Jour 2 | Day 2">
 
 =back
 
+L<Litterature|"Litterature | Litterature"> | L<Litterature|"Litterature | Litterature">
+
 L<References|"References | References"> | L<References|"References | References">
 
 =back
@@ -632,6 +634,13 @@ L<De RackTables à rack, grâce au CPAN|http://journeesperl.fr/fpw2012/talk/4126
 L<Big Data en perl (par DM)|http://journeesperl.fr/fpw2012/talk/4145> 45 minutes Français 16h00
 
 =back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 Litterature | Litterature
+
+Utiliser Perl 6 - Un livre sur Perl 6 en développement L<lire|https://github.com/perl6/book> | Using Perl 6 - a Perl 6 book in development L<read|https://github.com/perl6/book>
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
