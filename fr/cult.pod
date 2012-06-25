@@ -28,7 +28,7 @@ L<Exegese|"Exegese (explication) | Exegesis (Explanation)"> (I<Explication>) | L
 
 =over 4
 
-L<Exegese de 1 a 6|"Exegese de 1 a 6 | Exegesis from 1 to 6"> | L<Exegesis from 1 to 6|"Exegese de 1 a 6 | Exegesis from 1 to 6">
+L<Exegese de 1 a 7|"Exegese de 1 a 7 | Exegesis from 1 to 7"> | L<Exegesis from 1 to 7|"Exegese de 1 a 7 | Exegesis from 1 to 7">
 
 =back
 
@@ -390,7 +390,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head1 Exegese (explication) | Exegesis (Explanation)
 
-=head2 Exegese de 1 a 6 | Exegesis from 1 to 6
+=head2 Exegese de 1 a 7 | Exegesis from 1 to 7
 
 =over 4
 
