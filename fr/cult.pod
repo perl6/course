@@ -127,13 +127,13 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-L'etat de l'onion 1 L<lire|http://www.wall.org/~larry/keynote/keynote.html>... (1997) 
+L'état de l'onion 1 L<lire|http://www.wall.org/~larry/keynote/keynote.html>... (1997) 
 | I<The state of the onion 1> L<read|http://www.wall.org/~larry/keynote/keynote.html>... (1997)
 
-L'etat de l'onion 2 L<lire|http://www.wall.org/~larry/onion/onion.html>... (1998) 
+L'état de l'onion 2 L<lire|http://www.wall.org/~larry/onion/onion.html>... (1998) 
 | I<The state of the onion 2> L<read|http://www.wall.org/~larry/onion/onion.html>... (1998)
 
-L'etat de l'onion 3 L<lire|http://www.wall.org/~larry/onion3/talk.html>... (1999)  
+L'état de l'onion 3 L<lire|http://www.wall.org/~larry/onion3/talk.html>... (1999)  
 | I<The state of the onion 3> L<read|http://www.wall.org/~larry/onion3/talk.html>... (1999)
 
 =back
@@ -145,34 +145,34 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =over 4
 
-L'etat de l'onion 4 L<lire|http://www.perl.com/pub/a/2000/10/23/soto2000.html>... (2000) 
+L'état de l'onion 4 L<lire|http://www.perl.com/pub/a/2000/10/23/soto2000.html>... (2000) 
 | I<The state of the onion 4> L<read|http://www.perl.com/pub/a/2000/10/23/soto2000.html>... (2000)
 
-L'etat de l'onion 5 L<lire|http://www.perl.com/pub/a/2001/07/25/onion.html>... (2001) 
+L'état de l'onion 5 L<lire|http://www.perl.com/pub/a/2001/07/25/onion.html>... (2001) 
 | I<The state of the onion 5> L<read|http://www.perl.com/pub/a/2001/07/25/onion.html>... (2001)
 
-L'etat de l'onion 6 L<lire|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm>... (2002) 
+L'état de l'onion 6 L<lire|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm>... (2002) 
 | I<The state of the onion 6> L<read|http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm>... (2002)
 
-L'etat de l'onion 7 L<lire|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1>... (2003) 
+L'état de l'onion 7 L<lire|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1>... (2003) 
 | I<The state of the onion 7> L<read|http://www.perl.com/pub/a/2003/07/16/soto2003.html?page=1>... (2003)
 
-L'etat de l'onion 8 L<lire|http://www.perl.com/pub/a/2004/08/18/onion.html>... (2004) 
+L'état de l'onion 8 L<lire|http://www.perl.com/pub/a/2004/08/18/onion.html>... (2004) 
 | I<The state of the onion 8> L<read|http://www.perl.com/pub/a/2004/08/18/onion.html>... (2004)
 
-L'etat de l'onion 9 L<lire|http://www.perl.com/pub/a/2005/09/22/onion.html>... (2005) 
+L'état de l'onion 9 L<lire|http://www.perl.com/pub/a/2005/09/22/onion.html>... (2005) 
 | I<The state of the onion 9> L<read|http://www.perl.com/pub/a/2005/09/22/onion.html>... (2005)
 
-L'etat de l'onion 10 L<lire|http://www.perl.com/pub/a/2006/09/21/onion.html>... (2006) 
+L'état de l'onion 10 L<lire|http://www.perl.com/pub/a/2006/09/21/onion.html>... (2006) 
 | I<The state of the onion 10> L<read|http://www.perl.com/pub/a/2006/09/21/onion.html>... (2006)
 
-L'etat de l'onion 11 L<lire|http://www.perl.com/pub/a/2007/12/06/soto-11.html>... (2007) 
+L'état de l'onion 11 L<lire|http://www.perl.com/pub/a/2007/12/06/soto-11.html>... (2007) 
 | I<The state of the onion 11> L<read|http://www.perl.com/pub/a/2007/12/06/soto-11.html>... (2007)
 
-L'etat de l'onion 12 L<lire|http://www.perl.com/TBD>... (2008) 
+L'état de l'onion 12 L<lire|http://www.perl.com/TBD>... (2008) 
 | I<The state of the onion 12> L<read|http://www.perl.com/TBD>... (2008)
 
-L'etat de l'onion 13 L<lire|http://www.perl.com/TBD>... (2009) 
+L'état de l'onion 13 L<lire|http://www.perl.com/TBD>... (2009) 
 | I<The state of the onion 13> L<read|http://www.perl.com/TBD>... (2009)
 
 =back
@@ -189,13 +189,13 @@ L<Haut|"La culture et les ressources Perl 6">
 Synopsis 1 - vue d'ensemble L<lire|https://github.com/perl6/specs/blob/master/S01-overview.pod>...
 | I<Synopsis 1 - Overview> L<read|https://github.com/perl6/specs/blob/master/S01-overview.pod>...
 
-Synopsis 2 - Bits et Pieces L<lire|https://github.com/perl6/specs/blob/master/S02-bits.pod>...
+Synopsis 2 - Bits et Pièces L<lire|https://github.com/perl6/specs/blob/master/S02-bits.pod>...
 | I<Synopsis 2 - Bits and Pieces> L<read|https://github.com/perl6/specs/blob/master/S02-bits.pod>...
 
-Synopsis 3 - Operateurs Perl 6 L<lire|https://github.com/perl6/specs/blob/master/S03-operators.pod>...
+Synopsis 3 - Opérateurs Perl 6 L<lire|https://github.com/perl6/specs/blob/master/S03-operators.pod>...
 | I<Synopsis 3 - Perl 6 Operators> L<read|https://github.com/perl6/specs/blob/master/S03-operators.pod>...
 
-Synopsis 4 - Blocks et declarations L<lire|https://github.com/perl6/specs/blob/master/S04-control.pod>...
+Synopsis 4 - Blocks et déclarations L<lire|https://github.com/perl6/specs/blob/master/S04-control.pod>...
 | I<Synopsis 4 - Blocks and Statements> L<read|https://github.com/perl6/specs/blob/master/S04-control.pod>...
 
 Synopsis 5 - Les Regex et les Lois L<lire|https://github.com/perl6/specs/blob/master/S05-regex.pod>...
@@ -204,13 +204,13 @@ Synopsis 5 - Les Regex et les Lois L<lire|https://github.com/perl6/specs/blob/ma
 Synopsis 6 - Les sous-routines L<lire|https://github.com/perl6/specs/blob/master/S06-routines.pod>...
 | I<Synopsis 6 - Subroutines> L<read|https://github.com/perl6/specs/blob/master/S06-routines.pod>...
 
-Synopsis 7 - Iterateurs et Paresse L<lire|https://github.com/perl6/specs/blob/master/S07-iterators.pod>...
+Synopsis 7 - Itérateurs et Paresse L<lire|https://github.com/perl6/specs/blob/master/S07-iterators.pod>...
 | I<Synopsis 7 - Iterators and Laziness> L<read|https://github.com/perl6/specs/blob/master/S07-iterators.pod>...
 
-Synopsis 8 - Les types Parcel, Capture L<lire|https://github.com/perl6/specs/blob/master/S08-capture.pod>...
+Synopsis 8 - Les types Parcel et Capture L<lire|https://github.com/perl6/specs/blob/master/S08-capture.pod>...
 | I<Synopsis 8 - Capture and Parcel> L<read|https://github.com/perl6/specs/blob/master/S08-capture.pod>...
 
-Synopsis 9 - Structures de donnees L<lire|https://github.com/perl6/specs/blob/master/S09-data.pod>...
+Synopsis 9 - Structures de données L<lire|https://github.com/perl6/specs/blob/master/S09-data.pod>...
 | I<Synopsis 9 - Data Structures> L<read|https://github.com/perl6/specs/blob/master/S09-data.pod>...
 
 =back
