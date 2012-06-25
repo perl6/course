@@ -640,7 +640,13 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Litterature | Litterature
 
-Utiliser Perl 6 - Un livre sur Perl 6 en développement L<lire|https://github.com/perl6/book> | Using Perl 6 - a Perl 6 book in development L<read|https://github.com/perl6/book>
+=over 4
+
+Utiliser Perl 6 - Un livre sur Perl 6 en développement L<lire|https://github.com/perl6/book>... | Using Perl 6 - a Perl 6 book in development L<read|https://github.com/perl6/book>...
+
+Un livre à propos de NQP L<lire|https://github.com/perl6/nqpbook>... | A book about NQP L<read|https://github.com/perl6/nqpbook>...
+
+=back
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
