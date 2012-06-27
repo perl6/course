@@ -633,7 +633,7 @@ L<Des outils et des hommes|http://journeesperl.fr/fpw2012/talk/4101> L<Nils Grun
 
 =over 4
 
-L<perl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes 9h00
+L<perl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 20 minutes 9h00
 
 L<die hard perl|http://journeesperl.fr/fpw2012/talk/4051> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 9h30
 
