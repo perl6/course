@@ -662,7 +662,7 @@ L<cloture|http://journeesperl.fr/fpw2012/event/1086> 45 minutes 17h15
 
 =back
 
-=head3 EPITCH 2
+=head3 EPITECH 2
 
 =over 4
 
