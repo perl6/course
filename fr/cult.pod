@@ -588,6 +588,8 @@ L<Moo - almost, but not quite, two thirds of Moose|http://journeesperl.fr/fpw201
 
 L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes Français 17h00
 
+L<Restaurant du vendredi soir : brasserie Kohler-Rehm|http://journeesperl.fr/fpw2012/event/1084> (239 min)
+
 =back
 
 =head3 EPITECH 2
@@ -603,8 +605,6 @@ L<Ligne de commande avec classe en Perl|http://journeesperl.fr/fpw2012/talk/4129
 L<les outils autour du cpan: partagez et deployez du code Perl|http://journeesperl.fr/fpw2012/talk/4143> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 15h50
 
 L<MARC::MIR, le PSGI de l'informatique documentaire|http://journeesperl.fr/fpw2012/talk/4144> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 17h00
-
-L<Restaurant du vendredi soir : brasserie Kohler-Rehm|http://journeesperl.fr/fpw2012/event/1084> (239 min)
 
 =back
 
