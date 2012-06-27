@@ -588,7 +588,7 @@ L<Moo - almost, but not quite, two thirds of Moose|http://journeesperl.fr/fpw201
 
 L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes Français 17h00
 
-L<Restaurant du vendredi soir : brasserie Kohler-Rehm|http://journeesperl.fr/fpw2012/event/1084> (239 min)
+L<Restaurant du vendredi soir : brasserie Kohler-Rehm|http://journeesperl.fr/fpw2012/event/1084> (239 min) 20h00
 
 =back
 
