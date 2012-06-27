@@ -637,7 +637,7 @@ L<perl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eir
 
 L<die hard perl|http://journeesperl.fr/fpw2012/talk/4051> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 9h30
 
-L<Étendre Net-SNMP en Perl|http://journeesperl.fr/fpw2012/talk/4125> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 14h30
+L<Étendre Net-SNMP en Perl|http://journeesperl.fr/fpw2012/talk/4125> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h30
 
 L<TDD in deeply embedded with TAP|http://journeesperl.fr/fpw2012/talk/4038> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> 20 minutes Français 11h00
 
