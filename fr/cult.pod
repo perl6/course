@@ -545,9 +545,9 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Jour 1 | Day 1 20120629
 
-=head3 EPITECH 1
-
 =head3 Matin | Morning
+
+=head3 EPITECH 1
 
 =over 4
 
