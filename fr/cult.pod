@@ -85,7 +85,7 @@ L<Jour 2 |"Jour 2 | Day 2 20120630"> | L<Day 2|"Jour 2 | Day 2 20120630">
 
 =back
 
-L<Litterature|"Litterature | Litterature"> | L<Litterature|"Litterature | Litterature">
+L<Lectures|"Lectures | Readings"> | L<Readings|"Lectures | Readings">
 
 L<References|"References | References"> | L<References|"References | References">
 
@@ -675,7 +675,7 @@ L<latex -O fun|http://journeesperl.fr/fpw2012/talk/4133> L<Jean Forget|http://jo
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Litterature | Litterature
+=head2 Lectures | Readings
 
 =over 4
 
