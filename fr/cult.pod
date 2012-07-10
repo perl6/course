@@ -73,17 +73,17 @@ L<Annexe de 'a' a 'h'|"Annexe de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablet
 
 =back
 
-L<Calendrier |"Le calendrier | Schedule"> | L<Schedule |"Le calendrier | Schedule">
+=for L<Calendrier |"Le calendrier | Schedule"> | L<Schedule |"Le calendrier | Schedule">
 
-=over 4
+=for =over 4
 
-L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Calendrier entier | Full schedule">
+=for L<Calendrier entier|"Calendrier entier | Full schedule"> | L<Full schedule|"Calendrier entier | Full schedule">
 
-L<Jour 1 |"Jour 1 | Day 1 20120629"> | L<Day 1|"Jour 1 | Day 1 20120629">
+=for L<Jour 1 |"Jour 1 | Day 1 20120629"> | L<Day 1|"Jour 1 | Day 1 20120629">
 
-L<Jour 2 |"Jour 2 | Day 2 20120630"> | L<Day 2|"Jour 2 | Day 2 20120630">
+=for L<Jour 2 |"Jour 2 | Day 2 20120630"> | L<Day 2|"Jour 2 | Day 2 20120630">
 
-=back
+=for =back
 
 L<Lectures|"Lectures | Readings"> | L<Readings|"Lectures | Readings">
 
@@ -526,154 +526,154 @@ annexe h - href L<lire|https://github.com/perl6/tablets/blob/master/docs/appendi
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Le calendrier | Schedule
+=for =head1 Le calendrier | Schedule
 
-=head2 Calendrier entier | Full schedule
+=for =head2 Calendrier entier | Full schedule
 
-=over 4
+=for =over 4
 
-L<Liste des talk|http://journeesperl.fr/fpw2012/talks> | L<List of talks|http://journeesperl.fr/fpw2012/talks>
+=for L<Liste des talk|http://journeesperl.fr/fpw2012/talks> | L<List of talks|http://journeesperl.fr/fpw2012/talks>
 
 =for L<surprise ?|http://journeesperl.fr/fpw2012/talk/4142> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English 15h00
 
 =for L<Parrot statistics|http://journeesperl.fr/fpw2012/talk/4128> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> éclair Français
 
-=back
+=for =back
 
-L<Haut|"La culture et les ressources Perl 6"> 
-| L<Top|"La culture et les ressources Perl 6">
+=for L<Haut|"La culture et les ressources Perl 6"> 
+=for | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Jour 1 | Day 1 20120629
+=for =head2 Jour 1 | Day 1 20120629
 
-=head3 Matin | Morning
+=for =head3 Matin | Morning
 
-=head3 EPITECH 1
+=for =head3 EPITECH 1
 
-=over 4
+=for =over 4
 
-L<Ouverture|http://journeesperl.fr/fpw2012/event/1085> | L<Opening|http://journeesperl.fr/fpw2012/event/1085> 45 minutes 9h00
+=for L<Ouverture|http://journeesperl.fr/fpw2012/event/1085> | L<Opening|http://journeesperl.fr/fpw2012/event/1085> 45 minutes 9h00
 
-L<Le développement de Perl 5|http://journeesperl.fr/fpw2012/talk/4057> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 10h00
+=for L<Le développement de Perl 5|http://journeesperl.fr/fpw2012/talk/4057> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 10h00
 
-L<Les nouveautés de Perl 5.16|http://journeesperl.fr/fpw2012/talk/4123> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h25
+=for L<Les nouveautés de Perl 5.16|http://journeesperl.fr/fpw2012/talk/4123> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h25
 
-L<Introduction aux expressions régulières de Perl 5 et PCRE 7|http://journeesperl.fr/fpw2012/talk/4124> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 45 minutes Français 11h00
+=for L<Introduction aux expressions régulières de Perl 5 et PCRE 7|http://journeesperl.fr/fpw2012/talk/4124> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 45 minutes Français 11h00
 
-=back
+=for =back
 
-=head3 EPITECH 2
+=for =head3 EPITECH 2
 
-=over 4
+=for =over 4
 
-L<intro à perl6|http://journeesperl.fr/fpw2012/talk/4050> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 10h00
+=for L<intro à perl6|http://journeesperl.fr/fpw2012/talk/4050> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 10h00
 
-L<Meta-programming In Perl 6|http://journeesperl.fr/fpw2012/talk/4053> L<Jonathan Worthington (jnthn)|http://journeesperl.fr/fpw2012/user/1174> 45 minutes English 11h00
+=for L<Meta-programming In Perl 6|http://journeesperl.fr/fpw2012/talk/4053> L<Jonathan Worthington (jnthn)|http://journeesperl.fr/fpw2012/user/1174> 45 minutes English 11h00
 
-=back
+=for =back
 
-L<Haut|"La culture et les ressources Perl 6"> 
-| L<Top|"La culture et les ressources Perl 6">
+=for L<Haut|"La culture et les ressources Perl 6"> 
+=for | L<Top|"La culture et les ressources Perl 6">
 
-=head3 Aprés-midi | Afternoon
+=for =head3 Aprés-midi | Afternoon
 
-=head3 EPITECH 1
+=for =head3 EPITECH 1
 
-=over 4
+=for =over 4
 
-L<DBIx::DataModel vs DBIx::Class|http://journeesperl.fr/fpw2012/talk/4100> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 45 minutes Français 14h00
+=for L<DBIx::DataModel vs DBIx::Class|http://journeesperl.fr/fpw2012/talk/4100> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 45 minutes Français 14h00
 
-L<SQL::Abstract::FromQuery|http://journeesperl.fr/fpw2012/talk/4099> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 20 minutes Français 15h00
+=for L<SQL::Abstract::FromQuery|http://journeesperl.fr/fpw2012/talk/4099> L<Laurent Dami (dami)|http://journeesperl.fr/fpw2012/user/199> 20 minutes Français 15h00
 
-L<Moo - almost, but not quite, two thirds of Moose|http://journeesperl.fr/fpw2012/talk/4151> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English 15h25
+=for L<Moo - almost, but not quite, two thirds of Moose|http://journeesperl.fr/fpw2012/talk/4151> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English 15h25
 
-L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes Français 17h00
+=for L<l'inventaire des ordinateurs, hyperviseurs et des équipements réseaux|http://journeesperl.fr/fpw2012/talk/4113> L<Gonéri Le Bouder|http://journeesperl.fr/fpw2012/user/7870> 45 minutes Français 17h00
 
-L<Restaurant du vendredi soir : brasserie Kohler-Rehm|http://journeesperl.fr/fpw2012/event/1084> (239 min) 20h00
+=for L<Restaurant du vendredi soir : brasserie Kohler-Rehm|http://journeesperl.fr/fpw2012/event/1084> (239 min) 20h00
 
-=back
+=for =back
 
-=head3 EPITECH 2
+=for =head3 EPITECH 2
 
-=over 4
+=for =over 4
 
-L<Macros in Rakudo|http://journeesperl.fr/fpw2012/talk/4052> L<Carl Mäsak (masak)|http://journeesperl.fr/fpw2012/user/630> 45 minutes English 14h00
+=for L<Macros in Rakudo|http://journeesperl.fr/fpw2012/talk/4052> L<Carl Mäsak (masak)|http://journeesperl.fr/fpw2012/user/630> 45 minutes English 14h00
 
-L<Bailador -- A Perl 6 port of Dancer|http://journeesperl.fr/fpw2012/talk/4122> L<Tadeusz Sośnierz ( tadzik)|http://journeesperl.fr/fpw2012/user/7132> 20 minutes English 15h00
+=for L<Bailador -- A Perl 6 port of Dancer|http://journeesperl.fr/fpw2012/talk/4122> L<Tadeusz Sośnierz ( tadzik)|http://journeesperl.fr/fpw2012/user/7132> 20 minutes English 15h00
 
-L<Ligne de commande avec classe en Perl|http://journeesperl.fr/fpw2012/talk/4129> L<Vincent Bachelier (geistteufel)|http://journeesperl.fr/fpw2012/user/7617> 20 minutes Français 15h25
+=for L<Ligne de commande avec classe en Perl|http://journeesperl.fr/fpw2012/talk/4129> L<Vincent Bachelier (geistteufel)|http://journeesperl.fr/fpw2012/user/7617> 20 minutes Français 15h25
 
-L<les outils autour du cpan: partagez et deployez du code Perl|http://journeesperl.fr/fpw2012/talk/4143> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 15h50
+=for L<les outils autour du cpan: partagez et deployez du code Perl|http://journeesperl.fr/fpw2012/talk/4143> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 15h50
 
-L<MARC::MIR, le PSGI de l'informatique documentaire|http://journeesperl.fr/fpw2012/talk/4144> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 17h00
+=for L<MARC::MIR, le PSGI de l'informatique documentaire|http://journeesperl.fr/fpw2012/talk/4144> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 17h00
 
-=back
+=for =back
 
-L<Haut|"La culture et les ressources Perl 6"> 
-| L<Top|"La culture et les ressources Perl 6">
+=for L<Haut|"La culture et les ressources Perl 6"> 
+=for | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Jour 2 | Day 2 20120630
+=for =head2 Jour 2 | Day 2 20120630
 
-=head3 Matin | Morning
+=for =head3 Matin | Morning
 
-=head3 EPITECH 1
+=for =head3 EPITECH 1
 
-=over 4
+=for =over 4
 
-L<SPORE - La solution polyglotte pour accéder aux API REST|http://journeesperl.fr/fpw2012/talk/4115> L<Camille Maussang (cmaussan)|http://journeesperl.fr/fpw2012/user/5021> 20 minutes Français 9h00
+=for L<SPORE - La solution polyglotte pour accéder aux API REST|http://journeesperl.fr/fpw2012/talk/4115> L<Camille Maussang (cmaussan)|http://journeesperl.fr/fpw2012/user/5021> 20 minutes Français 9h00
 
-L<Un webservice facile avec Dancer & Spore|http://journeesperl.fr/fpw2012/talk/4116> L<Camille Maussang (cmaussan)|http://journeesperl.fr/fpw2012/user/5021> 45 minutes Français 9h30
+=for L<Un webservice facile avec Dancer & Spore|http://journeesperl.fr/fpw2012/talk/4116> L<Camille Maussang (cmaussan)|http://journeesperl.fr/fpw2012/user/5021> 45 minutes Français 9h30
 
-L<Retours d'experience sur une utilisation avancée du MetaCPAN|http://journeesperl.fr/fpw2012/talk/4083> L<Erwan Ben Souiden (Labynocle)|http://journeesperl.fr/fpw2012/user/8511> 20 minutes Français 10h30
+=for L<Retours d'experience sur une utilisation avancée du MetaCPAN|http://journeesperl.fr/fpw2012/talk/4083> L<Erwan Ben Souiden (Labynocle)|http://journeesperl.fr/fpw2012/user/8511> 20 minutes Français 10h30
 
-L<Des outils et des hommes|http://journeesperl.fr/fpw2012/talk/4101> L<Nils Grunwald|http://journeesperl.fr/fpw2012/user/4145> 45 minutes Français 11h00
+=for L<Des outils et des hommes|http://journeesperl.fr/fpw2012/talk/4101> L<Nils Grunwald|http://journeesperl.fr/fpw2012/user/4145> 45 minutes Français 11h00
 
-=back
+=for =back
 
-=head3 EPITECH 2
+=for =head3 EPITECH 2
 
-=over 4
+=for =over 4
 
-L<perl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 20 minutes 9h00
+=for L<perl debugging|http://journeesperl.fr/fpw2012/talk/4141> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 20 minutes 9h00
 
-L<die hard perl|http://journeesperl.fr/fpw2012/talk/4051> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 9h30
+=for L<die hard perl|http://journeesperl.fr/fpw2012/talk/4051> L<marc chantreux (eiro)|http://journeesperl.fr/fpw2012/user/4950> 45 minutes Français 9h30
 
-L<Étendre Net-SNMP en Perl|http://journeesperl.fr/fpw2012/talk/4125> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h30
+=for L<Étendre Net-SNMP en Perl|http://journeesperl.fr/fpw2012/talk/4125> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 10h30
 
-L<TDD in deeply embedded with TAP|http://journeesperl.fr/fpw2012/talk/4038> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> 20 minutes Français 11h00
+=for L<TDD in deeply embedded with TAP|http://journeesperl.fr/fpw2012/talk/4038> L<François Perrad (fperrad)|http://journeesperl.fr/fpw2012/user/2391> 20 minutes Français 11h00
 
-L<Les (organis|http://journeesperl.fr/fpw2012/talk/4103>|L<associ|http://journeesperl.fr/fpw2012/talk/4103>|L<fond)ations de Perl|http://journeesperl.fr/fpw2012/talk/4103> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 11h25
+=for L<Les (organis|http://journeesperl.fr/fpw2012/talk/4103>|L<associ|http://journeesperl.fr/fpw2012/talk/4103>|L<fond)ations de Perl|http://journeesperl.fr/fpw2012/talk/4103> L<Philippe Bruhat (BooK)|http://journeesperl.fr/fpw2012/user/1> 20 minutes Français 11h25
 
-=back
+=for =back
 
-L<Haut|"La culture et les ressources Perl 6"> 
-| L<Top|"La culture et les ressources Perl 6">
+=for L<Haut|"La culture et les ressources Perl 6"> 
+=for | L<Top|"La culture et les ressources Perl 6">
 
-=head3 Aprés-midi | Afternoon
+=for =head3 Aprés-midi | Afternoon
 
-=head3 EPITECH 1
+=for =head3 EPITECH 1
 
-=over 4
+=for =over 4
 
-L<Big Data en perl|http://journeesperl.fr/fpw2012/talk/4145> L<iDavid Morel (dm)|http://journeesperl.fr/fpw2012/user/188> 45 minutes Français 14h00
+=for L<Big Data en perl|http://journeesperl.fr/fpw2012/talk/4145> L<iDavid Morel (dm)|http://journeesperl.fr/fpw2012/user/188> 45 minutes Français 14h00
 
-L<Postmodern deconstructionism|http://journeesperl.fr/fpw2012/talk/4154> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English 16h00
+=for L<Postmodern deconstructionism|http://journeesperl.fr/fpw2012/talk/4154> L<Matt S Trout (mst)|http://journeesperl.fr/fpw2012/user/1846> 45 minutes English 16h00
 
-L<cloture|http://journeesperl.fr/fpw2012/event/1086> 45 minutes 17h15
+=for L<cloture|http://journeesperl.fr/fpw2012/event/1086> 45 minutes 17h15
 
-=back
+=for =back
 
-=head3 EPITECH 2
+=for =head3 EPITECH 2
 
-=over 4
+=for =over 4
 
-L<De RackTables à rack, grâce au CPAN|http://journeesperl.fr/fpw2012/talk/4126> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 14h00
+=for L<De RackTables à rack, grâce au CPAN|http://journeesperl.fr/fpw2012/talk/4126> L<Sébastien Aperghis-Tramoni (Maddingue)|http://journeesperl.fr/fpw2012/user/15> 20 minutes Français 14h00
 
-L<latex -O fun|http://journeesperl.fr/fpw2012/talk/4133> L<Jean Forget|http://journeesperl.fr/fpw2012/user/29> 20 minutes Français 14h25
+=for L<latex -O fun|http://journeesperl.fr/fpw2012/talk/4133> L<Jean Forget|http://journeesperl.fr/fpw2012/user/29> 20 minutes Français 14h25
 
-=back
+=for =back
 
-L<Haut|"La culture et les ressources Perl 6"> 
-| L<Top|"La culture et les ressources Perl 6">
+=for L<Haut|"La culture et les ressources Perl 6"> 
+=for | L<Top|"La culture et les ressources Perl 6">
 
 =head2 Lectures | Readings
 
