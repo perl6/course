@@ -374,6 +374,7 @@ Apocalypse 6 - Sous-programmes L<lire|http://www.perl6.org/archive/doc/design/ap
 | I<Apocalypse 6 - Subroutines> L<read|http://www.perl6.org/archive/doc/design/apo/A06.html>...
 
 Apocalypse 7 - Formats L<lire|http://perl6.org/archive/doc/design/apo/A06.html#Apocalypse_7:_Formats> | I<Apocalypse 7 - Formats> L<lire|http://perl6.org/archive/doc/design/apo/A06.html#Apocalypse_7:_Formats>
+
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
