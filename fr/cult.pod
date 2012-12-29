@@ -12,7 +12,7 @@ L<Presentation|"Presentation | Introduction"> | L<Introduction|"Presentation | I
 
 L<Le jeu de la boisson du CPAN |"Le jeu de la boisson du CPAN | The CPAN drinking game"> | L<The CPAN drinking game |"Le jeu de la boisson du CPAN | The CPAN drinking game">
 
-L<Contounez le|"Presentation | Introduction"> |  L<Get round to it|"Presentation | Introduction">
+L<Contournez le|"Presentation | Introduction"> |  L<Get round to it|"Presentation | Introduction">
 
 =back
 
@@ -124,9 +124,9 @@ Many people love beer. Many I<Perl hackers> are people. Thus what better way to 
 
 =head2 Contournez le | Get round to it
 
-Cela vient d'un jeu de mot "I'll get round to it" L<lire...|http://tech.groups.yahoo.com/group/libwww-perl/message/3387>
+Cela vient d'un jeu de mot "I<I'll get round to it>" L<lire...|http://tech.groups.yahoo.com/group/libwww-perl/message/3387>
 
-It comes from a pun "I'll get round to it" L<read...|http://tech.groups.yahoo.com/group/libwww-perl/message/3387>
+It comes from a pun "I<I'll get round to it>" L<read...|http://tech.groups.yahoo.com/group/libwww-perl/message/3387>
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
