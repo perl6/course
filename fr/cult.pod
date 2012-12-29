@@ -12,7 +12,7 @@ L<Presentation|"Presentation | Introduction"> | L<Introduction|"Presentation | I
 
 L<Le jeu de la boisson du CPAN |"Le jeu de la boisson du CPAN | The CPAN drinking game"> | L<The CPAN drinking game |"Le jeu de la boisson du CPAN | The CPAN drinking game">
 
-L<Je le ferai|"Presentation | Introduction"> |  L<I'll get around to it|"Presentation | Introduction">
+L<Je trouverai le temps pour |"Presentation | Introduction"> |  L<I'll get around to it|"Presentation | Introduction">
 
 =back
 
@@ -122,7 +122,7 @@ Beaucoup de personnes aiment la bierre. Beaucoup de I<Perl Hackers> sont des gen
 
 Many people love beer. Many I<Perl hackers> are people. Thus what better way to begin this draft (no pun intended) than to describe the CPAN Drinking Game L<click here|https://github.com/perl6/mu/blob/master/docs/AES/S27draft.pod#___top>...
 
-=head2 Je le ferai | I'll get around to it
+=head2 Je trouverai le temps pour | I'll get around to it
 
 Cela vient d'un jeu de mot "I<I'll get around to it>" L<lire...|http://tech.groups.yahoo.com/group/libwww-perl/message/3387>
 
