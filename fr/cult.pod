@@ -120,13 +120,17 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Histoire de Perl | Perl history
 
-L'L<histoire|http://en.wikipedia.org/wiki/Perl> du langage Perl. | Perl language L<history|http://en.wikipedia.org/wiki/Perl>.  L<click here|https://github.com/perl6/mu/blob/master/docs/AES/S27draft.pod#___top>...
+L'L<histoire|http://en.wikipedia.org/wiki/Perl> du langage Perl. | Perl language L<history|http://en.wikipedia.org/wiki/Perl>.  
+
+L<Haut|"La culture et les ressources Perl 6"> 
 
 =head2 Le jeu de la boisson du CPAN | The CPAN drinking game
 
 Beaucoup de personnes aiment la bierre. Beaucoup de I<Perl Hackers> sont des gens. Alors quoi de mieux pour commencer cette ébauche (pas de jeux de mots voulu) que de décrire le jeu de la boisson du CPAN L<appuyez ici|https://github.com/perl6/mu/blob/master/docs/AES/S27draft.pod#___top> pour lire la suite en VO...
 
 Many people love beer. Many I<Perl hackers> are people. Thus what better way to begin this draft (no pun intended) than to describe the CPAN Drinking Game L<click here|https://github.com/perl6/mu/blob/master/docs/AES/S27draft.pod#___top>...
+
+L<Haut|"La culture et les ressources Perl 6"> 
 
 =head2 Je trouverai le temps pour le faire | I'll get around to it
 
