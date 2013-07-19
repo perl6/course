@@ -120,7 +120,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Histoire de Perl | Perl history
 
-L'L<histoire|http://en.wikipedia.org/wiki/Perl> du langage Perl. | Perl language L<history|http://en.wikipedia.org/wiki/Perl>.
+L'L<histoire|http://en.wikipedia.org/wiki/Perl> du langage Perl. | Perl language L<history|http://en.wikipedia.org/wiki/Perl>.  L<click here|https://github.com/perl6/mu/blob/master/docs/AES/S27draft.pod#___top>...
 
 =head2 Le jeu de la boisson du CPAN | The CPAN drinking game
 
