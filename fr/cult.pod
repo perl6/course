@@ -120,7 +120,9 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Histoire de Perl | Perl history
 
-L'L<histoire|http://en.wikipedia.org/wiki/Perl> du langage Perl. | Perl language L<history|http://en.wikipedia.org/wiki/Perl>.  
+L'histoire du langage Perl L<appuyez ici|http://en.wikipedia.org/wiki/Perl> pour lire la suite en VO...
+
+Perl language history L<click here|http://en.wikipedia.org/wiki/Perl>  ...
 
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
