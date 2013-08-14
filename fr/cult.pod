@@ -720,7 +720,9 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =item L<L'état de l'onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion> | L<The onion state|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>.
 
-=item L<Perl 6 RFC|http://www.perl6.org/archive/rfc/> | L<Perl 6 RFC|http://www.perl6.org/archive/rfc/>
+=item L<Perl 6 archives|http://www.perl6.org/archive/> | L<Perl 6 archives|http://www.perl6.org/archive/>
+
+=item L<La fondation Perl|http://www.perlfoundation.org/> | L<Perl 6 foundation|http://www.perlfoundation.org/>
 
 =back
 
