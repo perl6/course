@@ -722,8 +722,6 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =item L<Perl 6 archives|http://www.perl6.org/archive/> | L<Perl 6 archives|http://www.perl6.org/archive/>
 
-=item L<La fondation Perl|http://www.perlfoundation.org/> | L<Perl 6 foundation|http://www.perlfoundation.org/>
-
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
