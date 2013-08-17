@@ -4,7 +4,7 @@
 
 =over 4
 
-L<Preface|"Preface | Foreword"> | L<Foreword|"Preface | Foreword">
+L<Avant-propos|"Avant-propos | Foreword"> | L<Foreword|"Avant-propos | Foreword">
 
 L<Presentation|"Presentation | Introduction"> | L<Introduction|"Presentation | Introduction">
 
@@ -95,7 +95,7 @@ L<References|"References | References"> | L<References|"References | References"
 
 =back
 
-=head1 Preface | Foreword
+=head1 Avant-propos | Foreword
 
 Les talks de Larry Wall au tout début "L<State of the onion|http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion>" sont une bonne source d'information de base sur la culture et la façon de penser en Perl 6.
 
