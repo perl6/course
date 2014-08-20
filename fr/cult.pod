@@ -138,7 +138,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head2 Je trouverai le temps pour le faire | I'll get around to it
 
-Cela vient d'un jeu de mot "I<I'll get around to it>" L<lire|http://tech.groups.yahoo.com/group/libwww-perl/message/3387> la suite...
+Cela vient d'un jeu de mot "I<I'll get around to it>" pour L<lire|http://tech.groups.yahoo.com/group/libwww-perl/message/3387> la suite...
 
 It comes from a pun "I<I'll get around to it>" L<read...|http://tech.groups.yahoo.com/group/libwww-perl/message/3387>
 
