@@ -40,7 +40,7 @@ L<Les synopsis de 20 a 29|"Les synopsis de 20 a 29 | Synopsis from 20 to 29"> | 
 
 L<Les synopsis de 30 a 33|"Les synopsis de 30 a 33 | Synopsis from 30 to 33"> | L<Synopsis from 30 to 33|"Les synopsis de 30 a 33 | Synopsis from 30 to 33">
 
-L<Les synopsis 99, le fichier contenu |"Les synopsis 99, le fichier contenu | Synopsis 99, contents.pod file"> | L<Synopsis 99, contents.pod file |"Les synopsis 99, le fichier contenu | Synopsis 99, contents.pod file">
+L<Les synopsis 99, les fichiers content.pod, create_contents.p6 |"Les synopsis 99, les fichiers content.pod, create_contents.p6 | Synopsis 99, contents.pod, create_contents.p6 files"> | L<Synopsis 99, contents.pod, create_contents.p6 files |"Les synopsis 99, les fichiers content.pod, create_contents.p6 | Synopsis 99, contents.pod, create_contents.p6 files"> 
 
 =back
 
@@ -370,7 +370,7 @@ Synopsis 32 - Bibliothèque de réglage - Temporel L<lire|https://github.com/per
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 Les synopsis 99, le fichier contenu | Synopsis 99, contents.pod file
+=head2 Les synopsis 99, les fichiers content.pod, create_contents.p6 | Synopsis 99, contents.pod, create_contents.p6 files
 
 =over 4
 
@@ -380,6 +380,9 @@ Synopsys 99: Glossaire L<lire|https://github.com/perl6/specs/blob/master/S99-glo
 Contenu: content.pod L<lire|https://github.com/perl6/specs/blob/master/contents.pod>...
 | I<contents.pod> L<read|https://github.com/perl6/specs/blob/master/contents.pod>...
  
+Creer contenu: create_contents.p6 L<lire|https://github.com/perl6/specs/blob/master/create_contents.p6>...
+| create_contents.p6 file L<read|https://github.com/perl6/specs/blob/master/create_contents.p6>...
+
 =back
 
 L<Haut|"La culture et les ressources Perl 6"> 
