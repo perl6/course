@@ -40,6 +40,8 @@ L<Les synopsis de 20 a 29|"Les synopsis de 20 a 29 | Synopsis from 20 to 29"> | 
 
 L<Les synopsis de 30 a 33|"Les synopsis de 30 a 33 | Synopsis from 30 to 33"> | L<Synopsis from 30 to 33|"Les synopsis de 30 a 33 | Synopsis from 30 to 33">
 
+L<Les synopsis 99, le fichier contenu |"Les synopsis 99, le fichier contenu | Synopsis 99, contents.pod file"> | L<Synopsis 99, contents.pod file |"Les synopsis 99, le fichier contenu | Synopsis 99, contents.pod file">
+
 =back
 
 
@@ -363,8 +365,20 @@ Synopsis 32 - Bibliothèque de réglage - Temporel L<lire|https://github.com/per
 
 =back
 
-Synopsis 33 - Messages diagnostique I<Doit être fait>
-| I<Synopsis 33 - Diagnostic messages> I<TBD>
+=back
+
+L<Haut|"La culture et les ressources Perl 6"> 
+| L<Top|"La culture et les ressources Perl 6">
+
+=head2 Les synopsis 99, le fichier contenu | Synopsis 99, contents.pod file
+
+=over 4
+
+Synopsys 99: Glossaire L<lire|https://github.com/perl6/specs/blob/master/S99-glossary.pod>...
+| I<Synopsis 99: Glossary> L<read|https://github.com/perl6/specs/blob/master/S99-glossary.pod>...
+
+Contenu: content.pod L<lire|https://github.com/perl6/specs/blob/master/contents.pod>...
+| I<contents.pod> L<read|https://github.com/perl6/specs/blob/master/contents.pod>...
  
 =back
 
