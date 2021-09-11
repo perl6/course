@@ -4,7 +4,7 @@
 
 =over 4
 
-L< Avant-propos|"Avant-propos | Foreword"> | L<Foreword|"Avant-propos | Foreword">
+L<Avant-propos|"Avant-propos | Foreword"> | L<Foreword|"Avant-propos | Foreword">
 
 L<Presentation|"Presentation | Introduction"> | L<Introduction|"Presentation | Introduction">
 
