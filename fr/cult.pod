@@ -6,7 +6,7 @@
 
 L<Avant-propos|"Avant-propos | Foreword"> | L<Foreword|"Avant-propos | Foreword">
 
-L<Presentation|"Presentation | Introduction"> | L<Introduction|"Presentation | Introduction">
+L<Présentation|"Présentation | Introduction"> | L<Introduction|"Présentation | Introduction">
 
 =over 4
 
@@ -22,9 +22,9 @@ L<Idees directrices|"Idees directrices | Keynotes"> | L<Keynotes|"Idees directri
 
 =over 4
 
-L<L'etat de l'onion de 1997 a 1999|"L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999"> | L<The state of the onion from 1997 to 1999|"L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999">
+L<L'état de l'onion de 1997 a 1999|"L'état de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999"> | L<The state of the onion from 1997 to 1999|"L'état de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999">
 
-L<L'etat de l'onion de 2000 a 2009|"L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> | L<The state of the onion from 2000 to 2009|"L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> 
+L<L'état de l'onion de 2000 a 2009|"L'état de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> | L<The state of the onion from 2000 to 2009|"L'état de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009"> 
 
 =back
 
@@ -93,7 +93,7 @@ L<Annexe de 'a' a 'h'|"Annexe de 'a' a 'h' | Tablets from 'a' to 'h'"> | L<ablet
 
 L<Lectures|"Lectures | Readings"> | L<Readings|"Lectures | Readings">
 
-L<References|"References | References"> | L<References|"References | References">
+L<Références|"Références | References"> | L<References|"Références | References">
 
 =back
 
@@ -118,7 +118,7 @@ Larry Wall
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Presentation | Introduction
+=head1 Présentation | Introduction
 
 =head2 Histoire de Perl | Perl history
 
@@ -149,7 +149,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head1 Idees directrices | Keynotes
 
-=head2 L'etat de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999
+=head2 L'état de l'onion de 1997 a 1999 | The state of the onion from 1997 to 1999
 
 =over 4
 
@@ -167,7 +167,7 @@ L'état de l'onion 3 L<lire|http://www.wall.org/~larry/onion3/talk.html>... (199
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head2 L'etat de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009
+=head2 L'état de l'onion de 2000 a 2009 | The state of the onion from 2000 to 2009
 
 =over 4
 
@@ -741,7 +741,7 @@ Un livre à propos de NQP L<lire|https://github.com/perl6/nqpbook>... | A book a
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 References | References
+=head1 Références | References
 
 =over 4
 
