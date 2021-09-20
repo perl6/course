@@ -28,7 +28,7 @@ L<L'état de l'onion de 2000 à 2009|"L'état de l'onion de 2000 à 2009 | The s
 
 =back
 
-L<Les synopsis|"Les synopsis | Synopsis (Specification)"> (I<Specification>) | L<Synopsis|"Les synopsis | Synopsis (Specification)"> (I<Specification>)
+L<Les synopsis|"Les synopsis | Synopsis (Specification)"> (I<Spécification>) | L<Synopsis|"Les synopsis | Synopsis (Specification)"> (I<Specification>)
 
 =over 4
 
@@ -49,7 +49,7 @@ L<Les Apocalypses|"Les Apocalypses (Justification) | Apocalypses (Justification)
 
 =over 4
 
-L<Les Apocalypses de 1 a 7|"Les Apocalypses de 1 a 7 | Apocalypses from 1 to 7"> | L<Apocalypses from 1 to 7|"Les Apocalypses de 1 a 7 | Apocalypses from 1 to 7">
+L<Les Apocalypses de 1 à 7|"Les Apocalypses de 1 à 7 | Apocalypses from 1 to 7"> | L<Apocalypses from 1 to 7|"Les Apocalypses de 1 à 7 | Apocalypses from 1 to 7">
 
 L<L'Apocalypses 12|"L'Apocalypse 12 | Apocalypse 12"> | L<Apocalypses 12|"L'Apocalypse 12 | Apocalypse 12">
 
@@ -57,11 +57,11 @@ L<L'Apocalypses 20|"L'Apocalypse 20 | Apocalypse 20"> | L<Apocalypses 20|"L'Apoc
 
 =back
 
-L<Exegese|"Exegese (explication) | Exegesis (Explanation)"> (I<Explication>) | L<Exegesis|"Exegese (explication) | Exegesis (Explanation)"> (I<Explanation>)
+L<Exégèse|"Exégèse (explication) | Exegesis (Explanation)"> (I<Explication>) | L<Exegesis|"Exégèse (explication) | Exegesis (Explanation)"> (I<Explanation>)
 
 =over 4
 
-L<Exegese de 1 a 7|"Exegese de 1 a 7 | Exegesis from 1 to 7"> | L<Exegesis from 1 to 7|"Exegese de 1 a 7 | Exegesis from 1 to 7">
+L<Exégèse de 1 à 7|"Exégèse de 1 à 7 | Exegesis from 1 to 7"> | L<Exegesis from 1 to 7|"Exégèse de 1 à 7 | Exegesis from 1 to 7">
 
 =back
 
@@ -402,7 +402,7 @@ L<Haut|"La culture et les ressources Perl 6">
 
 =head1 Les Apocalypses (Justification) | Apocalypses (Justification)
 
-=head2 Les Apocalypses de 1 a 7 | Apocalypses from 1 to 7
+=head2 Les Apocalypses de 1 à 7 | Apocalypses from 1 to 7
 
 =over 4
 
@@ -455,28 +455,28 @@ Apocalypse 20 - Debogage L<lire|https://github.com/perl6/mu/blob/master/docs/AES
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Exegese (explication) | Exegesis (Explanation)
+=head1 Exégèse (explication) | Exegesis (Explanation)
 
-=head2 Exegese de 1 a 7 | Exegesis from 1 to 7
+=head2 Exégèse de 1 à 7 | Exegesis from 1 to 7
 
 =over 4
 
-Exegese 2 - Bits et Pieces L<lire|http://www.perl6.org/archive/doc/design/exe/E02.html>... 
+Exégèse 2 - Bits et Pieces L<lire|http://www.perl6.org/archive/doc/design/exe/E02.html>... 
 | I<Exegesis 2 - Bits and Pieces> L<read|http://www.perl6.org/archive/doc/design/exe/E02.html>...
 
-Exegese 3 - Operateurs L<lire|http://www.perl6.org/archive/doc/design/exe/E03.html>... 
+Exégèse 3 - Operateurs L<lire|http://www.perl6.org/archive/doc/design/exe/E03.html>... 
 | I<Exegesis 3 - Bits and Pieces> L<read|http://www.perl6.org/archive/doc/design/exe/E03.html>...
 
-Exegese 4 - Syntaxe L<lire|http://www.perl6.org/archive/doc/design/exe/E04.html>... 
+Exégèse 4 - Syntaxe L<lire|http://www.perl6.org/archive/doc/design/exe/E04.html>... 
 | I<Exegesis 4 - Syntax> L<read|http://www.perl6.org/archive/doc/design/exe/E04.html>...
 
-Exegese 5 - Le filtrage par motif L<lire|http://www.perl6.org/archive/doc/design/exe/E05.html>... 
+Exégèse 5 - Le filtrage par motif L<lire|http://www.perl6.org/archive/doc/design/exe/E05.html>... 
 | I<Exegesis 5 - Pattern matching> L<read|http://www.perl6.org/archive/doc/design/exe/E05.html>...
 
-Exegese 6 - Sous-programmes L<lire|http://www.perl6.org/archive/doc/design/exe/E06.html>... 
+Exégèse 6 - Sous-programmes L<lire|http://www.perl6.org/archive/doc/design/exe/E06.html>... 
 | I<Exegesis 6 - Subroutines> L<read|http://www.perl6.org/archive/doc/design/exe/E06.html>...
 
-Exegese 7 - Formats L<lire|http://www.perl6.org/archive/doc/design/exe/E07.pod>... 
+Exégèse 7 - Formats L<lire|http://www.perl6.org/archive/doc/design/exe/E07.pod>... 
 | I<Exegesis 7 - Formats> L<read|http://www.perl6.org/archive/doc/design/exe/E07.pod>...
 
 =back
