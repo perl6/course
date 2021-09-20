@@ -14,7 +14,7 @@ L<Histoire de Perl|"Histoire de Perl | Perl history"> | L<Perl history|"Histoire
 
 L<Le jeu de la boisson du CPAN |"Le jeu de la boisson du CPAN | The CPAN drinking game"> | L<The CPAN drinking game |"Le jeu de la boisson du CPAN | The CPAN drinking game">
 
-L<Je trouverai le temps pour le faire |"Presentation | Introduction"> |  L<I'll get around to it|"Presentation | Introduction">
+L<Je trouverai le temps pour le faire |"Je trouverai le temps pour le faire | I'll get around to it"> |  L<I'll get around to it|"Je trouverai le temps pour le faire | I'll get around to it">
 
 =back
 
