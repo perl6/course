@@ -65,11 +65,11 @@ L<Exegese de 1 a 7|"Exegese de 1 a 7 | Exegesis from 1 to 7"> | L<Exegesis from 
 
 =back
 
-L<Les comprimes|"Les Comprimes | Tablets"> | L<Tablets|"Les Comprimes | Tablets"> 
+L<Les comprimés|"Les Comprimés | Tablets"> | L<Tablets|"Les Comprimés | Tablets"> 
 
 =over 4
 
-L<Perl 6 Comprimes: introduction|"Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction">
+L<Perl 6 Comprimés: introduction|"Perl 6 Comprimés: introduction | Perl 6 Tablets: Introduction"> | L<Perl 6 Tablets: Introduction|"Perl 6 Comprimés: introduction | Perl 6 Tablets: Introduction">
 
 L<Les comprimes de 0 a 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9"> | L<Tablets from 0 to 9|"Les comprimes de 0 a 9 | Tablets from 0 to 9">
 
@@ -484,9 +484,9 @@ Exegese 7 - Formats L<lire|http://www.perl6.org/archive/doc/design/exe/E07.pod>.
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Les Comprimes | Tablets
+=head1 Les Comprimés | Tablets
 
-=head2 Perl 6 Comprimes: introduction | Perl 6 Tablets: Introduction
+=head2 Perl 6 Comprimés: introduction | Perl 6 Tablets: Introduction
 
 =over 4
 
