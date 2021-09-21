@@ -28,7 +28,7 @@ L<L'état de l'onion de 2000 à 2009|"L'état de l'onion de 2000 à 2009 | The s
 
 =back
 
-L<Les synopsis|"Les synopsis | Synopsis (Specification)"> (I<Spécification>) | L<Synopsis|"Les synopsis | Synopsis (Specification)"> (I<Specification>)
+L<Les synopsis|"Les synopsis (Spécification) | Synopsis (Specification)"> (I<Spécification>) | L<Synopsis|"Les synopsis (Spécification) | Synopsis (Specification)"> (I<Specification>)
 
 =over 4
 
@@ -206,7 +206,7 @@ L'état de l'onion 13 L<lire|http://www.perl.com/TBD>... (2009)
 L<Haut|"La culture et les ressources Perl 6"> 
 | L<Top|"La culture et les ressources Perl 6">
 
-=head1 Les synopsis | Synopsis (Specification)
+=head1 Les synopsis (Spécification) | Synopsis (Specification)
 
 =head2 Les synopsis de 1 a 9 | Synopsis from 1 to 9
 
